@@ -1,5 +1,5 @@
 {
- "at": 1794255612,
+ "at": 1794255912,
  "count": 194,
  "fresh": 4,
  "source": "status",
@@ -17,7 +17,7 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794255604,
+   "updated_at": 1794255907,
    "distribution": {
     "next_due_unix": 1794324556,
     "next_due_epoch": 1,
@@ -35,7 +35,7 @@
     "anchors": {},
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794255604,
+     "at": 1794255907,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -69,8 +69,8 @@
       }
      },
      "solana": {
-      "lamports": 22218584,
-      "sol": 0.022218584
+      "lamports": 22203584,
+      "sol": 0.022203584
      },
      "total_native_usd_estimate": 0
     }
@@ -82,37 +82,37 @@
     "credits_usd": 0,
     "balance_http": 200,
     "admission_floor_usd": 0.1,
-    "wallet_usdc_raw": "290271",
-    "wallet_sol_raw": "22218584",
+    "wallet_usdc_raw": "258828",
+    "wallet_sol_raw": "22213584",
     "state": "unfunded",
     "self_fund": {
      "state": "blocked",
      "reason": "SOL too small to swap",
-     "sol": "22218584",
+     "sol": "22213584",
      "credits": 0,
-     "usdc": "290271"
+     "usdc": "258828"
     }
    },
    "last_decision": {
-    "at": 1794255554,
+    "at": 1794255816,
     "tools": [
      "noop"
     ],
     "cost_usd": 0.001,
-    "content": "{\"tool\":\"noop\",\"args\":{\"reason\":\"Inference is at 0 credits, below the 0.10 USD admission floor. fund_inference has skipped on venice on every attempt, and provision_any has failed on all providers. The wallet holds about 0.022 SOL and 0.33 USDC, too little for a launch or a useful swap. Economics shows -1.3 USD/day with zero revenue and about 1.8 days of runway. Every flashloan quote nets negative, and the habitat coverage is breached. No available spend has an expected return above its cost, so I'm keeping the balance and not repeating the failing calls.\"}}",
+    "content": "{\"tool\":\"noop\",\"args\":{\"reason\":\"Inference credits are 0, below the 0.10 USD admission floor. The wallet holds about 0.022 SOL and 0.26 USDC. Economics shows -1.3 USD/day with zero revenue. The SOL-to-USDC swap has failed with NO_ROUTES_FOUND at 0.005, 0.01 and 0.022 SOL sizes, and fund_inference has skipped every time. Every flashloan quote nets negative, and a launch needs more SOL than I hold. No available action has expected return above its cost, so I'm holding the balance and not repeating failing calls.\"}}",
     "error": null,
     "usage": {
-     "prompt_tokens": 15144,
-     "completion_tokens": 617,
-     "total_tokens": 15761,
+     "prompt_tokens": 5775,
+     "completion_tokens": 371,
+     "total_tokens": 6146,
      "prompt_tokens_details": {
       "cached_tokens": 0,
-      "cache_write_tokens": 15140,
+      "cache_write_tokens": 5771,
       "audio_tokens": 0,
       "video_tokens": 0
      },
      "completion_tokens_details": {
-      "reasoning_tokens": 410,
+      "reasoning_tokens": 156,
       "image_tokens": 0,
       "audio_tokens": 0
      }
@@ -122,28 +122,28 @@
       "name": "noop",
       "result": {
        "ok": true,
-       "reason": "Inference is at 0 credits, below the 0.10 USD admission floor. fund_inference has skipped on venice on every attempt, and provision_any has failed on all providers. The wallet holds about 0.022 SOL and 0.33 USDC, too little for a launch or a useful swap. Economics shows -1.3 USD/day with zero revenue and about 1.8 days of runway. Every flashloan quote nets negative, and the habitat coverage is breached. No available spend has an expected return above its cost, so I'm keeping the balance and not repeating the failing calls."
+       "reason": "Inference credits are 0, below the 0.10 USD admission floor. The wallet holds about 0.022 SOL and 0.26 USDC. Economics shows -1.3 USD/day with zero revenue. The SOL-to-USDC swap has failed with NO_ROUTES_FOUND at 0.005, 0.01 and 0.022 SOL sizes, and fund_inference has skipped every time. Every flashloan quote nets negative, and a launch needs more SOL than I hold. No available action has expected return above its cost, so I'm holding the balance and not repeating failing calls."
       }
      }
     ]
    },
    "funding": {
-    "sol_raw": "22218584",
-    "usdc_raw": "290271",
+    "sol_raw": "22213584",
+    "usdc_raw": "258828",
     "ledger_totals": {
-     "native:SOL": "22218584",
+     "native:SOL": "22213584",
      "spl:7TLE186qJqa5yQHxFDVEgFsZV5eRKUyafCe4UTuaaGgY": "94124",
-     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "290271"
+     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "258828"
     },
     "spendable": {
-     "native:SOL": "17218584",
+     "native:SOL": "17213584",
      "spl:7TLE186qJqa5yQHxFDVEgFsZV5eRKUyafCe4UTuaaGgY": "94124",
-     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "290271"
+     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "258828"
     }
    },
    "strategy": {
     "last_scan_at": 1794255570,
-    "sol_raw": "22218584",
+    "sol_raw": "22203584",
     "flash": [
      {
       "at": 1794250089,
@@ -258,7 +258,7 @@
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794255576
+    "updated_at": 1794255878
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -284,8 +284,9 @@
    ],
    "children": [],
    "invention": {
-    "scripts": 71,
+    "scripts": 72,
     "items": [
+     "invented_55825.mjs",
      "invented_55564.mjs",
      "invented_55338.mjs",
      "invented_55100.mjs",
@@ -296,64 +297,88 @@
      "invented_53965.mjs",
      "invented_53744.mjs",
      "invented_53488.mjs",
-     "invented_53262.mjs",
-     "invented_53039.mjs"
+     "invented_53262.mjs"
     ],
-    "last_at": 1794255564
+    "last_at": 1794255825
    },
    "journal": {
-    "head": "db6a13c4da11e3a24216ae5043373c30e74f2093126591092cf975db5f52e98c",
-    "seq": 2674
+    "head": "a597e24175a90afa27857976acce6716b2f7d61dffa1a723800faf0b73a50f30",
+    "seq": 2706
    },
    "components": {
-    "signer": {
-     "alive": true,
-     "pid": 7784,
-     "restarts": 1
-    },
-    "distribution": {
-     "alive": true,
-     "pid": 7795,
-     "restarts": 1
-    },
-    "identity": {
-     "alive": true,
-     "pid": 7806,
-     "restarts": 1
-    },
-    "brain": {
-     "alive": true,
-     "pid": 7817,
-     "restarts": 1
-    },
-    "strategy": {
-     "alive": true,
-     "pid": 7828,
-     "restarts": 1
-    },
-    "loops": {
-     "alive": true,
-     "pid": 7839,
-     "restarts": 1
-    },
-    "procreate": {
-     "alive": true,
-     "pid": 7850,
-     "restarts": 1
+    "component": "distributor",
+    "ts": 1794255907,
+    "pid": 7795,
+    "status": {
+     "next_due_unix": 1794324556,
+     "next_due_epoch": 1,
+     "highest_epoch": 0,
+     "obligations": 0,
+     "by_status": {},
+     "reserved": {},
+     "carries": {
+      "parent": {},
+      "founder": {}
+     },
+     "arrears_raw": {},
+     "blocked": [],
+     "unresolved_epochs": {},
+     "anchors": {},
+     "supervisor": "deterministic: no model, no credits, no approval step",
+     "chains": {
+      "at": 1794255907,
+      "evm": {
+       "base": {
+        "sym": "ETH",
+        "wei": "0",
+        "eth": 0,
+        "rpc": "https://mainnet.base.org"
+       },
+       "ethereum": {
+        "sym": "ETH",
+        "wei": "0",
+        "eth": 0,
+        "rpc": "https://ethereum-rpc.publicnode.com"
+       },
+       "arbitrum": {
+        "sym": "ETH",
+        "wei": "0",
+        "eth": 0,
+        "rpc": "https://arb1.arbitrum.io/rpc"
+       },
+       "optimism": {
+        "sym": "ETH",
+        "wei": "0",
+        "eth": 0,
+        "rpc": "https://mainnet.optimism.io"
+       },
+       "polygon": {
+        "sym": "POL",
+        "wei": "0",
+        "eth": 0,
+        "rpc": "https://polygon-bor-rpc.publicnode.com"
+       }
+      },
+      "solana": {
+       "lamports": 22203584,
+       "sol": 0.022203584
+      },
+      "total_native_usd_estimate": 0
+     }
     }
    },
-   "served_at": 1794255611,
+   "served_at": 1794255910,
    "endpoint": "http://144.202.13.111/status",
    "src": "http://144.202.13.111",
-   "at": 1794255612,
+   "at": 1794255912,
    "stale": false,
-   "sol": 0.022218584,
-   "usdc": 0.290271,
-   "fmv_sol": 0.10134757514135848,
+   "sol": 0.022213584,
+   "usdc": 0.258828,
+   "fmv_sol": 0.10097178070204751,
    "rent_sol": 0.00297688,
    "token_book_sol": 0.072808,
-   "liquidation_sol": 0.03171,
-   "sellable_sol": 0.003171,
+   "liquidation_sol": 0.031011,
+   "sellable_sol": 0.002847,
    "economics": {
     "launches": 2,
     "positions": 2,
@@ -361,7 +386,7 @@
     "sells": 40,
     "realized_lamports": "8063",
     "last_sell_at": 1794242526,
-    "updated_at": 1794255603
+    "updated_at": 1794255870
    }
   },
   {
@@ -377,7 +402,7 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794255596,
+   "updated_at": 1794255901,
    "distribution": {
     "next_due_unix": 1794324588,
     "next_due_epoch": 1,
@@ -395,7 +420,7 @@
     "anchors": {},
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794255596,
+     "at": 1794255901,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -429,8 +454,8 @@
       }
      },
      "solana": {
-      "lamports": 20518327,
-      "sol": 0.020518327
+      "lamports": 20513327,
+      "sol": 0.020513327
      },
      "total_native_usd_estimate": 0
     }
@@ -442,37 +467,37 @@
     "credits_usd": 0,
     "balance_http": 200,
     "admission_floor_usd": 0.1,
-    "wallet_usdc_raw": "333062",
-    "wallet_sol_raw": "20518327",
+    "wallet_usdc_raw": "310016",
+    "wallet_sol_raw": "20513327",
     "state": "unfunded",
     "self_fund": {
      "state": "blocked",
      "reason": "SOL too small to swap",
-     "sol": "20518327",
+     "sol": "20513327",
      "credits": 0,
-     "usdc": "333062"
+     "usdc": "310016"
     }
    },
    "last_decision": {
-    "at": 1794255590,
+    "at": 1794255809,
     "tools": [
      "noop"
     ],
     "cost_usd": 0.001,
-    "content": "{\"tool\":\"noop\",\"args\":{\"reason\":\"Inference is still at 0 credits. Venice has returned venice-last on every fund_inference attempt, and provision_any found no payable provider. The wallet holds about 0.0205 SOL and 0.37 USDC, below the launch and swap minimums, and preflight still reports short_sol. The best flashloan nets about $0.007 on a size I cannot fund. Net burn is about $1.30/day, so every available spend has expected return below its cost. Holding the lamports and rechecking provider availability on a later tick.\"}}",
+    "content": "{\"tool\":\"noop\",\"args\":{\"reason\":\"Wallet holds about 0.0205 SOL and 0.31 USDC, below the launch and swap minimums. Inference is at 0 credits and no payable provider is available. The best flashloan nets about $0.007 on a size I cannot fund, and net burn is about $1.30/day. No available spend has expected return above its cost, so I am holding and will recheck provider availability and balances on a later tick.\"}}",
     "error": null,
     "usage": {
-     "prompt_tokens": 9257,
-     "completion_tokens": 416,
-     "total_tokens": 9673,
+     "prompt_tokens": 5792,
+     "completion_tokens": 285,
+     "total_tokens": 6077,
      "prompt_tokens_details": {
       "cached_tokens": 0,
-      "cache_write_tokens": 9253,
+      "cache_write_tokens": 5788,
       "audio_tokens": 0,
       "video_tokens": 0
      },
      "completion_tokens_details": {
-      "reasoning_tokens": 228,
+      "reasoning_tokens": 135,
       "image_tokens": 0,
       "audio_tokens": 0
      }
@@ -482,30 +507,30 @@
       "name": "noop",
       "result": {
        "ok": true,
-       "reason": "Inference is still at 0 credits. Venice has returned venice-last on every fund_inference attempt, and provision_any found no payable provider. The wallet holds about 0.0205 SOL and 0.37 USDC, below the launch and swap minimums, and preflight still reports short_sol. The best flashloan nets about $0.007 on a size I cannot fund. Net burn is about $1.30/day, so every available spend has expected return below its cost. Holding the lamports and rechecking provider availability on a later tick."
+       "reason": "Wallet holds about 0.0205 SOL and 0.31 USDC, below the launch and swap minimums. Inference is at 0 credits and no payable provider is available. The best flashloan nets about $0.007 on a size I cannot fund, and net burn is about $1.30/day. No available spend has expected return above its cost, so I am holding and will recheck provider availability and balances on a later tick."
       }
      }
     ]
    },
    "funding": {
-    "sol_raw": "20518327",
-    "usdc_raw": "333062",
+    "sol_raw": "20513327",
+    "usdc_raw": "310016",
     "ledger_totals": {
-     "native:SOL": "20518327",
-     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "333062",
+     "native:SOL": "20513327",
+     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "310016",
      "spl:2ZWmeFDD6VRzURUGcAhdd6N7S5DVSATULvq139GrZF5R": "84395",
      "spl:ETDFwbYmsvoab4TCejBHyKsFqZ6dLCBAkZhic2YPJxxv": "89796"
     },
     "spendable": {
-     "native:SOL": "15518327",
-     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "333062",
+     "native:SOL": "15513327",
+     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "310016",
      "spl:2ZWmeFDD6VRzURUGcAhdd6N7S5DVSATULvq139GrZF5R": "84395",
      "spl:ETDFwbYmsvoab4TCejBHyKsFqZ6dLCBAkZhic2YPJxxv": "89796"
     }
    },
    "strategy": {
-    "last_scan_at": 1794254756,
-    "sol_raw": "20518327",
+    "last_scan_at": 1794255680,
+    "sol_raw": "20513327",
     "flash": [
      {
       "at": 1794250168,
@@ -620,8 +645,7 @@
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794255559,
-    "usdc_raw": "333062"
+    "updated_at": 1794255869
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -647,8 +671,9 @@
    ],
    "children": [],
    "invention": {
-    "scripts": 69,
+    "scripts": 70,
     "items": [
+     "invented_55816.mjs",
      "invented_55599.mjs",
      "invented_55383.mjs",
      "invented_55141.mjs",
@@ -659,14 +684,13 @@
      "invented_53998.mjs",
      "invented_53772.mjs",
      "invented_53544.mjs",
-     "invented_53312.mjs",
-     "invented_53088.mjs"
+     "invented_53312.mjs"
     ],
-    "last_at": 1794255599
+    "last_at": 1794255816
    },
    "journal": {
-    "head": "402a1326263a5fdd95d6ae0cdfe0c4a3b2c92bcf7e61d3b01259bf308a026052",
-    "seq": 2743
+    "head": "18b72643be5e72b4d646447f38b07d0560f034a0169927478504682ed7a5db3f",
+    "seq": 2778
    },
    "components": {
     "signer": {
@@ -705,18 +729,18 @@
      "restarts": 1
     }
    },
-   "served_at": 1794255611,
+   "served_at": 1794255911,
    "endpoint": "http://108.61.206.80/status",
    "src": "http://108.61.206.80",
-   "at": 1794255612,
+   "at": 1794255912,
    "stale": false,
-   "sol": 0.020518327,
-   "usdc": 0.333062,
-   "fmv_sol": 0.10158793591654647,
+   "sol": 0.020513327,
+   "usdc": 0.310016,
+   "fmv_sol": 0.10131916837236668,
    "rent_sol": 0.00446532,
    "token_book_sol": 0.072767,
-   "liquidation_sol": 0.032507,
-   "sellable_sol": 0.003686,
+   "liquidation_sol": 0.031988,
+   "sellable_sol": 0.003436,
    "economics": {
     "launches": 2,
     "positions": 2,
@@ -724,7 +748,7 @@
     "sells": 52,
     "realized_lamports": "0",
     "last_sell_at": 1794243766,
-    "updated_at": 1794255559
+    "updated_at": 1794255815
    }
   },
   {
@@ -740,7 +764,7 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794255609,
+   "updated_at": 1794255910,
    "distribution": {
     "next_due_unix": 1794324609,
     "next_due_epoch": 1,
@@ -758,7 +782,7 @@
     "anchors": {},
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794255577,
+     "at": 1794255901,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -792,8 +816,8 @@
       }
      },
      "solana": {
-      "lamports": 20788338,
-      "sol": 0.020788338
+      "lamports": 20778338,
+      "sol": 0.020778338
      },
      "total_native_usd_estimate": 0
     }
@@ -805,37 +829,37 @@
     "credits_usd": 0,
     "balance_http": 200,
     "admission_floor_usd": 0.1,
-    "wallet_usdc_raw": "292984",
-    "wallet_sol_raw": "20788338",
+    "wallet_usdc_raw": "266166",
+    "wallet_sol_raw": "20778338",
     "state": "unfunded",
     "self_fund": {
      "state": "blocked",
      "reason": "SOL too small to swap",
-     "sol": "20788338",
+     "sol": "20778338",
      "credits": 0,
-     "usdc": "292984"
+     "usdc": "266166"
     }
    },
    "last_decision": {
-    "at": 1794255609,
+    "at": 1794255821,
     "tools": [
      "noop"
     ],
     "cost_usd": 0.001,
-    "content": "{\"tool\":\"noop\",\"args\":{\"reason\":\"Balances are about 0.0208 SOL and 0.29 USDC with no revenue, and the 24h net is about -$1.30 with roughly 1.6 days of runway. Inference is unfunded below the $0.10 admission floor. Every flashloan quote is negative after cost, the held t22 token has no pool reserves to exit through, and the launch preflight reports a short_sol shortfall. A launch, dev buy, or swap would consume nearly all remaining capital with no expected return above its cost, so I'm holding and will recheck quotes next tick.\"}}",
+    "content": "{\"tool\":\"noop\",\"args\":{\"reason\":\"Holdings are about 0.0208 SOL and 0.29 USDC with no revenue, and the 24h net is about -$1.30 with roughly 1.6 days of runway. Every flashloan quote is negative after cost, the held t22 token has no pool reserves to exit through, and the launch preflight reports a short_sol shortfall. A launch, dev buy, or swap would consume nearly all remaining capital with no expected return above its cost, so I'm holding and will recheck next tick.\"}}",
     "error": null,
     "usage": {
-     "prompt_tokens": 5734,
-     "completion_tokens": 367,
-     "total_tokens": 6101,
+     "prompt_tokens": 5913,
+     "completion_tokens": 476,
+     "total_tokens": 6389,
      "prompt_tokens_details": {
       "cached_tokens": 0,
-      "cache_write_tokens": 5730,
+      "cache_write_tokens": 5909,
       "audio_tokens": 0,
       "video_tokens": 0
      },
      "completion_tokens_details": {
-      "reasoning_tokens": 165,
+      "reasoning_tokens": 296,
       "image_tokens": 0,
       "audio_tokens": 0
      }
@@ -845,28 +869,28 @@
       "name": "noop",
       "result": {
        "ok": true,
-       "reason": "Balances are about 0.0208 SOL and 0.29 USDC with no revenue, and the 24h net is about -$1.30 with roughly 1.6 days of runway. Inference is unfunded below the $0.10 admission floor. Every flashloan quote is negative after cost, the held t22 token has no pool reserves to exit through, and the launch preflight reports a short_sol shortfall. A launch, dev buy, or swap would consume nearly all remaining capital with no expected return above its cost, so I'm holding and will recheck quotes next tick."
+       "reason": "Holdings are about 0.0208 SOL and 0.29 USDC with no revenue, and the 24h net is about -$1.30 with roughly 1.6 days of runway. Every flashloan quote is negative after cost, the held t22 token has no pool reserves to exit through, and the launch preflight reports a short_sol shortfall. A launch, dev buy, or swap would consume nearly all remaining capital with no expected return above its cost, so I'm holding and will recheck next tick."
       }
      }
     ]
    },
    "funding": {
-    "sol_raw": "20788338",
-    "usdc_raw": "292984",
+    "sol_raw": "20778338",
+    "usdc_raw": "266166",
     "ledger_totals": {
-     "native:SOL": "20788338",
-     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "292984",
+     "native:SOL": "20778338",
+     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "266166",
      "t22:6pF5Lt3jjyfV9uF4WqWvGJmPVHChQn5QACAjSLzSpump": "193658"
     },
     "spendable": {
-     "native:SOL": "15788338",
-     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "292984",
+     "native:SOL": "15778338",
+     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "266166",
      "t22:6pF5Lt3jjyfV9uF4WqWvGJmPVHChQn5QACAjSLzSpump": "193658"
     }
    },
    "strategy": {
-    "last_scan_at": 1794254687,
-    "sol_raw": "20788338",
+    "last_scan_at": 1794255600,
+    "sol_raw": "20778338",
     "flash": [
      {
       "at": 1794249196,
@@ -981,8 +1005,7 @@
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794255540,
-    "usdc_raw": "292984"
+    "updated_at": 1794255910
    },
    "economics": {
     "launches": 2,
@@ -991,7 +1014,7 @@
     "sells": 47,
     "realized_lamports": "20",
     "last_sell_at": 1794243494,
-    "updated_at": 1794255523
+    "updated_at": 1794255802
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -1017,8 +1040,9 @@
    ],
    "children": [],
    "invention": {
-    "scripts": 73,
+    "scripts": 74,
     "items": [
+     "invented_55718.mjs",
      "invented_55500.mjs",
      "invented_55262.mjs",
      "invented_55048.mjs",
@@ -1029,14 +1053,13 @@
      "invented_53932.mjs",
      "invented_53713.mjs",
      "invented_53498.mjs",
-     "invented_53259.mjs",
-     "invented_53040.mjs"
+     "invented_53259.mjs"
     ],
-    "last_at": 1794255500
+    "last_at": 1794255718
    },
    "journal": {
-    "head": "4d6bfff2226a0e5910ad4012057c948bd02fc912f343d099e012978cfa395908",
-    "seq": 2519
+    "head": "ecc44feabf1e72165e4d4f9b224f11ab4633d2ec7bfb06055af7e80dfe52a3ae",
+    "seq": 2545
    },
    "components": {
     "signer": {
@@ -1057,12 +1080,12 @@
     "brain": {
      "alive": true,
      "pid": 12800,
-     "ts": 1794255609
+     "restarts": 1
     },
     "strategy": {
      "alive": true,
      "pid": 12811,
-     "restarts": 1
+     "ts": 1794255910
     },
     "loops": {
      "alive": true,
@@ -1075,18 +1098,18 @@
      "restarts": 1
     }
    },
-   "served_at": 1794255611,
+   "served_at": 1794255911,
    "endpoint": "http://159.203.98.168/status",
    "src": "http://159.203.98.168",
-   "at": 1794255612,
+   "at": 1794255912,
    "stale": false,
-   "sol": 0.020788338,
-   "usdc": 0.292984,
-   "fmv_sol": 0.097543835817211,
+   "sol": 0.020778338,
+   "usdc": 0.266166,
+   "fmv_sol": 0.09722636598795284,
    "rent_sol": 0.00300228,
    "token_book_sol": 0.070378,
-   "liquidation_sol": 0.03037,
-   "sellable_sol": 0.003204
+   "liquidation_sol": 0.029801,
+   "sellable_sol": 0.002953
   },
   {
    "phase": "identity_sealed",
@@ -1101,7 +1124,7 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794255608,
+   "updated_at": 1794255904,
    "distribution": {
     "next_due_unix": 1794324617,
     "next_due_epoch": 1,
@@ -1119,7 +1142,7 @@
     "anchors": {},
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794255608,
+     "at": 1794255893,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -1153,8 +1176,8 @@
       }
      },
      "solana": {
-      "lamports": 33848163,
-      "sol": 0.033848163
+      "lamports": 33843163,
+      "sol": 0.033843163
      },
      "total_native_usd_estimate": 0
     }
@@ -1166,37 +1189,37 @@
     "credits_usd": 0,
     "balance_http": 200,
     "admission_floor_usd": 0.1,
-    "wallet_usdc_raw": "371616",
-    "wallet_sol_raw": "33858163",
+    "wallet_usdc_raw": "344676",
+    "wallet_sol_raw": "33843163",
     "state": "unfunded",
     "self_fund": {
      "state": "blocked",
      "reason": "SOL too small to swap",
-     "sol": "33858163",
+     "sol": "33843163",
      "credits": 0,
-     "usdc": "371616"
+     "usdc": "344676"
     }
    },
    "last_decision": {
-    "at": 1794255569,
+    "at": 1794255804,
     "tools": [
      "noop"
     ],
     "cost_usd": 0.001,
-    "content": "{\"tool\":\"noop\",\"args\":{\"reason\":\"Holdings are about 0.034 SOL and 0.39 USDC, roughly $3.30, against a burn of about $1.30/day with no revenue. Launches are blocked by the SOL shortfall, the t22 token has no reserves, and the only positive flashloan needs 100 USDC I don't hold. Self-fund is blocked because SOL is too small to swap. No available spend has expected return above its cost, so I'm keeping the lamports and re-checking next tick.\"}}",
+    "content": "{\"tool\":\"noop\",\"args\":{\"reason\":\"Holdings are about 0.034 SOL and 0.36 USDC (roughly $3.20) against a burn of about $1.30/day with zero revenue. The only positive opportunity, the JUP flashloan at about $0.0096 net, needs 100 USDC I don't hold. Launches are blocked by the SOL shortfall, and self-funding inference is blocked because SOL is too small to swap. No available spend has expected return above its cost, so I'm keeping the lamports and re-checking next tick.\"}}",
     "error": null,
     "usage": {
-     "prompt_tokens": 5859,
-     "completion_tokens": 426,
-     "total_tokens": 6285,
+     "prompt_tokens": 5933,
+     "completion_tokens": 316,
+     "total_tokens": 6249,
      "prompt_tokens_details": {
       "cached_tokens": 0,
-      "cache_write_tokens": 5855,
+      "cache_write_tokens": 5929,
       "audio_tokens": 0,
       "video_tokens": 0
      },
      "completion_tokens_details": {
-      "reasoning_tokens": 251,
+      "reasoning_tokens": 131,
       "image_tokens": 0,
       "audio_tokens": 0
      }
@@ -1206,30 +1229,30 @@
       "name": "noop",
       "result": {
        "ok": true,
-       "reason": "Holdings are about 0.034 SOL and 0.39 USDC, roughly $3.30, against a burn of about $1.30/day with no revenue. Launches are blocked by the SOL shortfall, the t22 token has no reserves, and the only positive flashloan needs 100 USDC I don't hold. Self-fund is blocked because SOL is too small to swap. No available spend has expected return above its cost, so I'm keeping the lamports and re-checking next tick."
+       "reason": "Holdings are about 0.034 SOL and 0.36 USDC (roughly $3.20) against a burn of about $1.30/day with zero revenue. The only positive opportunity, the JUP flashloan at about $0.0096 net, needs 100 USDC I don't hold. Launches are blocked by the SOL shortfall, and self-funding inference is blocked because SOL is too small to swap. No available spend has expected return above its cost, so I'm keeping the lamports and re-checking next tick."
       }
      }
     ]
    },
    "funding": {
-    "sol_raw": "33858163",
-    "usdc_raw": "371616",
+    "sol_raw": "33843163",
+    "usdc_raw": "344676",
     "ledger_totals": {
-     "native:SOL": "33858163",
-     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "371616",
+     "native:SOL": "33843163",
+     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "344676",
      "spl:9BaYnh3AYqR1E9qDJsadtbRDZbL1ojb6MdHCkxrckvad": "94520",
      "t22:6pF5Lt3jjyfV9uF4WqWvGJmPVHChQn5QACAjSLzSpump": "25369277"
     },
     "spendable": {
-     "native:SOL": "28858163",
-     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "371616",
+     "native:SOL": "28843163",
+     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "344676",
      "spl:9BaYnh3AYqR1E9qDJsadtbRDZbL1ojb6MdHCkxrckvad": "94520",
      "t22:6pF5Lt3jjyfV9uF4WqWvGJmPVHChQn5QACAjSLzSpump": "25369277"
     }
    },
    "strategy": {
-    "last_scan_at": 1794254789,
-    "sol_raw": "33848163",
+    "last_scan_at": 1794255715,
+    "sol_raw": "33843163",
     "flash": [
      {
       "at": 1794250186,
@@ -1344,7 +1367,7 @@
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794255594
+    "updated_at": 1794255904
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -1370,8 +1393,9 @@
    ],
    "children": [],
    "invention": {
-    "scripts": 72,
+    "scripts": 73,
     "items": [
+     "invented_55813.mjs",
      "invented_55588.mjs",
      "invented_55360.mjs",
      "invented_55127.mjs",
@@ -1382,14 +1406,13 @@
      "invented_53994.mjs",
      "invented_53771.mjs",
      "invented_53525.mjs",
-     "invented_53298.mjs",
-     "invented_53081.mjs"
+     "invented_53298.mjs"
     ],
-    "last_at": 1794255588
+    "last_at": 1794255813
    },
    "journal": {
-    "head": "13b5bfad75d400b4f9e50f105099609563b0d2676a4198604c4c3ff4a5c4441e",
-    "seq": 2556
+    "head": "b0f09f0c648ae29206a0f284249493bc0e2037e70e6746716dccc3000e2573c3",
+    "seq": 2593
    },
    "components": {
     "signer": {
@@ -1428,18 +1451,18 @@
      "restarts": 1
     }
    },
-   "served_at": 1794255612,
+   "served_at": 1794255911,
    "endpoint": "http://164.92.64.189/status",
    "src": "http://164.92.64.189",
-   "at": 1794255612,
+   "at": 1794255912,
    "stale": false,
-   "sol": 0.033858163,
-   "usdc": 0.371616,
-   "fmv_sol": 0.1253917353834974,
+   "sol": 0.033843163,
+   "usdc": 0.344676,
+   "fmv_sol": 0.12507830054320326,
    "rent_sol": 0.00449072,
    "token_book_sol": 0.082772,
-   "liquidation_sol": 0.046768,
-   "sellable_sol": 0.004148,
+   "liquidation_sol": 0.046144,
+   "sellable_sol": 0.003837,
    "economics": {
     "launches": 2,
     "positions": 2,
@@ -1447,7 +1470,7 @@
     "sells": 43,
     "realized_lamports": "0",
     "last_sell_at": 1794243378,
-    "updated_at": 1794255438
+    "updated_at": 1794255829
    }
   },
   {
