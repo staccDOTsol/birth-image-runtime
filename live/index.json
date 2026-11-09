@@ -1,5 +1,5 @@
 {
- "at": 1794194147,
+ "at": 1794194449,
  "count": 190,
  "fresh": 11,
  "source": "status",
@@ -17,25 +17,80 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794194150,
+   "updated_at": 1794194460,
    "distribution": {
-    "next_due_unix": 1794194198,
-    "next_due_epoch": 1,
-    "highest_epoch": 0,
-    "obligations": 0,
-    "by_status": {},
-    "reserved": {},
-    "carries": {
-     "parent": {},
-     "founder": {}
+    "next_due_unix": 1794280598,
+    "next_due_epoch": 2,
+    "highest_epoch": 1,
+    "obligations": 30,
+    "by_status": {
+     "settled": 26,
+     "arrears": 2,
+     "payment_blocked": 2
     },
-    "arrears_raw": {},
-    "blocked": [],
+    "reserved": {
+     "spl:3VrugsJvUXM1aaA32xPkRsERT8tidLBTkUuzHBLbHje5": "13741"
+    },
+    "carries": {
+     "parent": {
+      "native:SOL": "60",
+      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "10",
+      "spl:9khpYz8qV8VMvSgJfSREqEhMnoX5o7TyCHRMdv2PgbBx": "80",
+      "spl:EtJiQ1cyrRdnm3DsKyJp3tACE35KQ8PRhsgA9Day4BKu": "80",
+      "spl:6vBJpEETyLFU846Y9E5AvQNZZxEQKBqetLwNJuugzMin": "30",
+      "spl:BLi77qGepmgaZj2qxKvKDYfCJmjaZhZgkPgZDn9XtNsN": "50",
+      "spl:3VrugsJvUXM1aaA32xPkRsERT8tidLBTkUuzHBLbHje5": "30",
+      "spl:23dS4JFX35M9yFZYF5MkPLbWwwLbncc9Uoq3mmiyYMnk": "80",
+      "spl:XaZS7o8tnNQTxn7b7Av4YrwBk5CSKEpypLZ35J9Lqyc": "70",
+      "spl:FVtaHaqHhWR5f36QWQVWDF8NgFg1RuLSWFTqxMNmcUCM": "20",
+      "spl:7A5d6FztbEXRz6rnZmAUMmxjp6cE1aorb8TSYX6SDKin": "50",
+      "spl:CUUKRnNV2ZEanKeV5yoyXD38Ux1tgFmUVLEmdiuER58r": "90",
+      "spl:8SVEGC285isS13jPYsEy8aWze9QrnVKru5uPrfnrsQAj": "40",
+      "spl:8fBkkjoFnDSJCP2RGGrXjhfHuhdVRibRXAeN2wfqbHVE": "90",
+      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "0"
+     },
+     "founder": {
+      "native:SOL": "30",
+      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "55",
+      "spl:9khpYz8qV8VMvSgJfSREqEhMnoX5o7TyCHRMdv2PgbBx": "90",
+      "spl:EtJiQ1cyrRdnm3DsKyJp3tACE35KQ8PRhsgA9Day4BKu": "90",
+      "spl:6vBJpEETyLFU846Y9E5AvQNZZxEQKBqetLwNJuugzMin": "65",
+      "spl:BLi77qGepmgaZj2qxKvKDYfCJmjaZhZgkPgZDn9XtNsN": "25",
+      "spl:3VrugsJvUXM1aaA32xPkRsERT8tidLBTkUuzHBLbHje5": "65",
+      "spl:23dS4JFX35M9yFZYF5MkPLbWwwLbncc9Uoq3mmiyYMnk": "90",
+      "spl:XaZS7o8tnNQTxn7b7Av4YrwBk5CSKEpypLZ35J9Lqyc": "85",
+      "spl:FVtaHaqHhWR5f36QWQVWDF8NgFg1RuLSWFTqxMNmcUCM": "60",
+      "spl:7A5d6FztbEXRz6rnZmAUMmxjp6cE1aorb8TSYX6SDKin": "25",
+      "spl:CUUKRnNV2ZEanKeV5yoyXD38Ux1tgFmUVLEmdiuER58r": "95",
+      "spl:8SVEGC285isS13jPYsEy8aWze9QrnVKru5uPrfnrsQAj": "20",
+      "spl:8fBkkjoFnDSJCP2RGGrXjhfHuhdVRibRXAeN2wfqbHVE": "95",
+      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "0"
+     }
+    },
+    "arrears_raw": {
+     "spl:3VrugsJvUXM1aaA32xPkRsERT8tidLBTkUuzHBLbHje5": "13741"
+    },
+    "blocked": [
+     {
+      "asset": "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump",
+      "role": "parent",
+      "due_raw": "67000000",
+      "reason": "frozen_account"
+     },
+     {
+      "asset": "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump",
+      "role": "founder",
+      "due_raw": "33500000",
+      "reason": "frozen_account"
+     }
+    ],
     "unresolved_epochs": {},
-    "anchors": {},
+    "anchors": {
+     "1": "44AWxGKmMrfusjW14BGcQfyfnxabApn4tiYEKZmwHDDBLEtdDDGp11XR8CoZxAYCi2jC5zsYpTRcA3Kqp8ss4mWq"
+    },
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794194150,
+     "at": 1794194460,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -69,8 +124,8 @@
       }
      },
      "solana": {
-      "lamports": 138313146,
-      "sol": 0.138313146
+      "lamports": 351109335,
+      "sol": 0.351109335
      },
      "total_native_usd_estimate": 0
     }
@@ -79,10 +134,10 @@
     "launches": 34,
     "positions": 34,
     "at_risk_lamports": "1232685170",
-    "sells": 400,
+    "sells": 402,
     "realized_lamports": "174753816",
-    "last_sell_at": 1794168005,
-    "updated_at": 1794194075
+    "last_sell_at": 1794194374,
+    "updated_at": 1794194378
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -247,50 +302,50 @@
     "last_at": 1794137807
    },
    "journal": {
-    "head": "42f2868b18858675376ee5717bb6e659d1999d61b407f37ef00c1c373a383782",
-    "seq": 23780
+    "head": "b12f0bcc0e84d8395bc2bf9497f05d3516fe09409a9c18644f246bbaf02ed594",
+    "seq": 23917
    },
    "components": {
     "signer": {
      "alive": true,
-     "pid": 87437,
+     "pid": 88549,
      "restarts": 1
     },
     "distribution": {
      "alive": true,
-     "pid": 87448,
+     "pid": 88560,
      "restarts": 1
     },
     "identity": {
      "alive": true,
-     "pid": 87459,
+     "pid": 88571,
      "restarts": 1
     },
     "brain": {
      "alive": true,
-     "pid": 87470,
+     "pid": 88582,
      "restarts": 1
     },
     "strategy": {
      "alive": true,
-     "pid": 87481,
+     "pid": 88593,
      "restarts": 1
     },
     "loops": {
      "alive": true,
-     "pid": 87492,
+     "pid": 88604,
      "restarts": 1
     },
     "procreate": {
      "alive": true,
-     "pid": 87503,
+     "pid": 88615,
      "restarts": 1
     }
    },
-   "served_at": 1794194167,
+   "served_at": 1794194469,
    "endpoint": "http://107.191.39.105/status",
    "src": "http://107.191.39.105",
-   "at": 1794194147,
+   "at": 1794194449,
    "stale": false,
    "inference": {
     "provider": "venice",
@@ -299,12 +354,12 @@
     "credits_usd": 4.24167017,
     "balance_http": 200,
     "admission_floor_usd": 0.1,
-    "wallet_usdc_raw": "211",
-    "wallet_sol_raw": "138313146",
+    "wallet_usdc_raw": "180",
+    "wallet_sol_raw": "101119335",
     "state": "ready"
    },
    "last_decision": {
-    "at": 1794194101,
+    "at": 1794194369,
     "tools": [],
     "cost_usd": 0,
     "content": null,
@@ -313,46 +368,46 @@
     "call_results": []
    },
    "funding": {
-    "sol_raw": "138313146",
-    "usdc_raw": "211",
+    "sol_raw": "101119335",
+    "usdc_raw": "180",
     "ledger_totals": {
-     "native:SOL": "138313146",
-     "spl:23dS4JFX35M9yFZYF5MkPLbWwwLbncc9Uoq3mmiyYMnk": "110678",
-     "spl:8SVEGC285isS13jPYsEy8aWze9QrnVKru5uPrfnrsQAj": "133144",
-     "spl:9khpYz8qV8VMvSgJfSREqEhMnoX5o7TyCHRMdv2PgbBx": "126458",
-     "spl:7A5d6FztbEXRz6rnZmAUMmxjp6cE1aorb8TSYX6SDKin": "86805",
-     "spl:XaZS7o8tnNQTxn7b7Av4YrwBk5CSKEpypLZ35J9Lqyc": "108337",
-     "spl:FVtaHaqHhWR5f36QWQVWDF8NgFg1RuLSWFTqxMNmcUCM": "107232",
-     "spl:EtJiQ1cyrRdnm3DsKyJp3tACE35KQ8PRhsgA9Day4BKu": "125458",
+     "native:SOL": "101119335",
+     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "180",
+     "spl:9khpYz8qV8VMvSgJfSREqEhMnoX5o7TyCHRMdv2PgbBx": "107491",
+     "spl:EtJiQ1cyrRdnm3DsKyJp3tACE35KQ8PRhsgA9Day4BKu": "106641",
+     "spl:6vBJpEETyLFU846Y9E5AvQNZZxEQKBqetLwNJuugzMin": "113011",
+     "spl:BLi77qGepmgaZj2qxKvKDYfCJmjaZhZgkPgZDn9XtNsN": "128406",
      "spl:3VrugsJvUXM1aaA32xPkRsERT8tidLBTkUuzHBLbHje5": "91613",
-     "spl:CUUKRnNV2ZEanKeV5yoyXD38Ux1tgFmUVLEmdiuER58r": "86979",
-     "spl:6vBJpEETyLFU846Y9E5AvQNZZxEQKBqetLwNJuugzMin": "132953",
-     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "211",
-     "spl:8fBkkjoFnDSJCP2RGGrXjhfHuhdVRibRXAeN2wfqbHVE": "136759",
-     "spl:BLi77qGepmgaZj2qxKvKDYfCJmjaZhZgkPgZDn9XtNsN": "151065",
+     "spl:23dS4JFX35M9yFZYF5MkPLbWwwLbncc9Uoq3mmiyYMnk": "94078",
+     "spl:XaZS7o8tnNQTxn7b7Av4YrwBk5CSKEpypLZ35J9Lqyc": "92088",
+     "spl:FVtaHaqHhWR5f36QWQVWDF8NgFg1RuLSWFTqxMNmcUCM": "91148",
+     "spl:7A5d6FztbEXRz6rnZmAUMmxjp6cE1aorb8TSYX6SDKin": "73785",
+     "spl:CUUKRnNV2ZEanKeV5yoyXD38Ux1tgFmUVLEmdiuER58r": "73934",
+     "spl:8SVEGC285isS13jPYsEy8aWze9QrnVKru5uPrfnrsQAj": "113173",
+     "spl:8fBkkjoFnDSJCP2RGGrXjhfHuhdVRibRXAeN2wfqbHVE": "116247",
      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "670000000"
     },
     "spendable": {
-     "native:SOL": "133313146",
-     "spl:23dS4JFX35M9yFZYF5MkPLbWwwLbncc9Uoq3mmiyYMnk": "110678",
-     "spl:8SVEGC285isS13jPYsEy8aWze9QrnVKru5uPrfnrsQAj": "133144",
-     "spl:9khpYz8qV8VMvSgJfSREqEhMnoX5o7TyCHRMdv2PgbBx": "126458",
-     "spl:7A5d6FztbEXRz6rnZmAUMmxjp6cE1aorb8TSYX6SDKin": "86805",
-     "spl:XaZS7o8tnNQTxn7b7Av4YrwBk5CSKEpypLZ35J9Lqyc": "108337",
-     "spl:FVtaHaqHhWR5f36QWQVWDF8NgFg1RuLSWFTqxMNmcUCM": "107232",
-     "spl:EtJiQ1cyrRdnm3DsKyJp3tACE35KQ8PRhsgA9Day4BKu": "125458",
-     "spl:3VrugsJvUXM1aaA32xPkRsERT8tidLBTkUuzHBLbHje5": "91613",
-     "spl:CUUKRnNV2ZEanKeV5yoyXD38Ux1tgFmUVLEmdiuER58r": "86979",
-     "spl:6vBJpEETyLFU846Y9E5AvQNZZxEQKBqetLwNJuugzMin": "132953",
-     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "211",
-     "spl:8fBkkjoFnDSJCP2RGGrXjhfHuhdVRibRXAeN2wfqbHVE": "136759",
-     "spl:BLi77qGepmgaZj2qxKvKDYfCJmjaZhZgkPgZDn9XtNsN": "151065",
+     "native:SOL": "96119335",
+     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "180",
+     "spl:9khpYz8qV8VMvSgJfSREqEhMnoX5o7TyCHRMdv2PgbBx": "107491",
+     "spl:EtJiQ1cyrRdnm3DsKyJp3tACE35KQ8PRhsgA9Day4BKu": "106641",
+     "spl:6vBJpEETyLFU846Y9E5AvQNZZxEQKBqetLwNJuugzMin": "113011",
+     "spl:BLi77qGepmgaZj2qxKvKDYfCJmjaZhZgkPgZDn9XtNsN": "128406",
+     "spl:3VrugsJvUXM1aaA32xPkRsERT8tidLBTkUuzHBLbHje5": "77872",
+     "spl:23dS4JFX35M9yFZYF5MkPLbWwwLbncc9Uoq3mmiyYMnk": "94078",
+     "spl:XaZS7o8tnNQTxn7b7Av4YrwBk5CSKEpypLZ35J9Lqyc": "92088",
+     "spl:FVtaHaqHhWR5f36QWQVWDF8NgFg1RuLSWFTqxMNmcUCM": "91148",
+     "spl:7A5d6FztbEXRz6rnZmAUMmxjp6cE1aorb8TSYX6SDKin": "73785",
+     "spl:CUUKRnNV2ZEanKeV5yoyXD38Ux1tgFmUVLEmdiuER58r": "73934",
+     "spl:8SVEGC285isS13jPYsEy8aWze9QrnVKru5uPrfnrsQAj": "113173",
+     "spl:8fBkkjoFnDSJCP2RGGrXjhfHuhdVRibRXAeN2wfqbHVE": "116247",
      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "670000000"
     }
    },
    "strategy": {
-    "last_scan_at": 1794193941,
-    "sol_raw": "138313146",
+    "last_scan_at": 1794194334,
+    "sol_raw": "101119335",
     "flash": [
      {
       "at": 1794191042,
@@ -467,15 +522,15 @@
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794194122
+    "updated_at": 1794194417
    },
-   "sol": 0.138313146,
-   "usdc": 0.000211,
-   "fmv_sol": 0.9118294304083375,
+   "sol": 0.101119335,
+   "usdc": 0.00018,
+   "fmv_sol": 1.1246252605890807,
    "sellable_sol": 0.000002,
    "rent_sol": 0.02083816,
    "token_book_sol": 0.752676,
-   "liquidation_sol": 0.159156
+   "liquidation_sol": 0.371952
   },
   {
    "phase": "identity_sealed",
@@ -490,25 +545,87 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794194161,
+   "updated_at": 1794194469,
    "distribution": {
-    "next_due_unix": 1794194215,
-    "next_due_epoch": 1,
-    "highest_epoch": 0,
-    "obligations": 0,
-    "by_status": {},
+    "next_due_unix": 1794280615,
+    "next_due_epoch": 2,
+    "highest_epoch": 1,
+    "obligations": 30,
+    "by_status": {
+     "settled": 26,
+     "payment_blocked": 4
+    },
     "reserved": {},
     "carries": {
-     "parent": {},
-     "founder": {}
+     "parent": {
+      "native:SOL": "40",
+      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "50",
+      "spl:CXaoQoNmqH2RqFf2RRJDcPBk2YNooJVTajpGskxDAMt7": "80",
+      "spl:Qpq6WignjXXD4b4ntupCAiAJHWJorPF6fNtsZRnKdrM": "90",
+      "spl:3N5GtbY4uZ7RjFrLerPHSFKAs5kYctjg3LwRDbCX4XL2": "80",
+      "spl:1QreP6UQZPXMJWKnytRgxGQwwzGqDRMbp8p7HzWRq5W": "80",
+      "spl:DJa8Tv1zonSHKfcJLCv8TNsYp71xm5CrDPyeuV8YdW75": "60",
+      "spl:BEYp1sSNYXBVxKrWC9SUzM1nzU1XG2iNTxQdbMx1ExCU": "80",
+      "spl:9E67r3dMXRKeiCNHe6g1e6mkVvwyxpoHPu6RuccjS6uZ": "20",
+      "spl:BNCKQw1y69R5aHUG3wkCz2givoL9RBhrrRPW6KfKpSgQ": "30",
+      "spl:B7Q2nVeupHwceSC8MTC1bm4KEenrBza9geAdzg9Rr8hH": "40",
+      "spl:98rzFEznuenxMuGE476dzUW5RBkWAhEQeRDEbhoAddrU": "60",
+      "spl:6U9Lk5EgtPbEUcAA6WudeHfnmePjkazAgyrBVrDKeZ5o": "60",
+      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "0",
+      "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "0"
+     },
+     "founder": {
+      "native:SOL": "70",
+      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "75",
+      "spl:CXaoQoNmqH2RqFf2RRJDcPBk2YNooJVTajpGskxDAMt7": "90",
+      "spl:Qpq6WignjXXD4b4ntupCAiAJHWJorPF6fNtsZRnKdrM": "95",
+      "spl:3N5GtbY4uZ7RjFrLerPHSFKAs5kYctjg3LwRDbCX4XL2": "90",
+      "spl:1QreP6UQZPXMJWKnytRgxGQwwzGqDRMbp8p7HzWRq5W": "90",
+      "spl:DJa8Tv1zonSHKfcJLCv8TNsYp71xm5CrDPyeuV8YdW75": "80",
+      "spl:BEYp1sSNYXBVxKrWC9SUzM1nzU1XG2iNTxQdbMx1ExCU": "90",
+      "spl:9E67r3dMXRKeiCNHe6g1e6mkVvwyxpoHPu6RuccjS6uZ": "10",
+      "spl:BNCKQw1y69R5aHUG3wkCz2givoL9RBhrrRPW6KfKpSgQ": "65",
+      "spl:B7Q2nVeupHwceSC8MTC1bm4KEenrBza9geAdzg9Rr8hH": "70",
+      "spl:98rzFEznuenxMuGE476dzUW5RBkWAhEQeRDEbhoAddrU": "30",
+      "spl:6U9Lk5EgtPbEUcAA6WudeHfnmePjkazAgyrBVrDKeZ5o": "30",
+      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "0",
+      "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "0"
+     }
     },
     "arrears_raw": {},
-    "blocked": [],
+    "blocked": [
+     {
+      "asset": "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump",
+      "role": "parent",
+      "due_raw": "62000000",
+      "reason": "frozen_account"
+     },
+     {
+      "asset": "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump",
+      "role": "founder",
+      "due_raw": "31000000",
+      "reason": "frozen_account"
+     },
+     {
+      "asset": "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA",
+      "role": "parent",
+      "due_raw": "100000001100000",
+      "reason": "frozen_account"
+     },
+     {
+      "asset": "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA",
+      "role": "founder",
+      "due_raw": "50000000550000",
+      "reason": "frozen_account"
+     }
+    ],
     "unresolved_epochs": {},
-    "anchors": {},
+    "anchors": {
+     "1": "4bezNKWqsBs1P7EUqHmb1ryPesN9mGgxDykAPsaFUPQfLCjDRj57fQ8HZ68d8RBA8TXQ7vxfEE53PT9AfrHds5rB"
+    },
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794194161,
+     "at": 1794194469,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -542,8 +659,8 @@
       }
      },
      "solana": {
-      "lamports": 142655114,
-      "sol": 0.142655114
+      "lamports": 354805008,
+      "sol": 0.354805008
      },
      "total_native_usd_estimate": 0
     }
@@ -552,10 +669,10 @@
     "launches": 25,
     "positions": 25,
     "at_risk_lamports": "1215630578",
-    "sells": 381,
+    "sells": 382,
     "realized_lamports": "203998942",
-    "last_sell_at": 1794169337,
-    "updated_at": 1794194095
+    "last_sell_at": 1794194356,
+    "updated_at": 1794194361
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -744,50 +861,137 @@
     "last_at": 1794137073
    },
    "journal": {
-    "head": "b19c450278052b564c5957f3112094169ac8be52d31a23fc877a007e06048479",
-    "seq": 23114
+    "head": "a4cc1ffd9e99ca84dd176b0f6f624d4c0f4c3d61004149e2f7093be335e7720e",
+    "seq": 23249
    },
    "components": {
-    "signer": {
-     "alive": true,
-     "pid": 105078,
-     "restarts": 1
-    },
-    "distribution": {
-     "alive": true,
-     "pid": 105089,
-     "restarts": 1
-    },
-    "identity": {
-     "alive": true,
-     "pid": 105100,
-     "restarts": 1
-    },
-    "brain": {
-     "alive": true,
-     "pid": 105111,
-     "restarts": 1
-    },
-    "strategy": {
-     "alive": true,
-     "pid": 105125,
-     "restarts": 1
-    },
-    "loops": {
-     "alive": true,
-     "pid": 105137,
-     "restarts": 1
-    },
-    "procreate": {
-     "alive": true,
-     "pid": 105150,
-     "restarts": 1
+    "component": "distributor",
+    "ts": 1794194469,
+    "pid": 108069,
+    "status": {
+     "next_due_unix": 1794280615,
+     "next_due_epoch": 2,
+     "highest_epoch": 1,
+     "obligations": 30,
+     "by_status": {
+      "settled": 26,
+      "payment_blocked": 4
+     },
+     "reserved": {},
+     "carries": {
+      "parent": {
+       "native:SOL": "40",
+       "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "50",
+       "spl:CXaoQoNmqH2RqFf2RRJDcPBk2YNooJVTajpGskxDAMt7": "80",
+       "spl:Qpq6WignjXXD4b4ntupCAiAJHWJorPF6fNtsZRnKdrM": "90",
+       "spl:3N5GtbY4uZ7RjFrLerPHSFKAs5kYctjg3LwRDbCX4XL2": "80",
+       "spl:1QreP6UQZPXMJWKnytRgxGQwwzGqDRMbp8p7HzWRq5W": "80",
+       "spl:DJa8Tv1zonSHKfcJLCv8TNsYp71xm5CrDPyeuV8YdW75": "60",
+       "spl:BEYp1sSNYXBVxKrWC9SUzM1nzU1XG2iNTxQdbMx1ExCU": "80",
+       "spl:9E67r3dMXRKeiCNHe6g1e6mkVvwyxpoHPu6RuccjS6uZ": "20",
+       "spl:BNCKQw1y69R5aHUG3wkCz2givoL9RBhrrRPW6KfKpSgQ": "30",
+       "spl:B7Q2nVeupHwceSC8MTC1bm4KEenrBza9geAdzg9Rr8hH": "40",
+       "spl:98rzFEznuenxMuGE476dzUW5RBkWAhEQeRDEbhoAddrU": "60",
+       "spl:6U9Lk5EgtPbEUcAA6WudeHfnmePjkazAgyrBVrDKeZ5o": "60",
+       "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "0",
+       "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "0"
+      },
+      "founder": {
+       "native:SOL": "70",
+       "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "75",
+       "spl:CXaoQoNmqH2RqFf2RRJDcPBk2YNooJVTajpGskxDAMt7": "90",
+       "spl:Qpq6WignjXXD4b4ntupCAiAJHWJorPF6fNtsZRnKdrM": "95",
+       "spl:3N5GtbY4uZ7RjFrLerPHSFKAs5kYctjg3LwRDbCX4XL2": "90",
+       "spl:1QreP6UQZPXMJWKnytRgxGQwwzGqDRMbp8p7HzWRq5W": "90",
+       "spl:DJa8Tv1zonSHKfcJLCv8TNsYp71xm5CrDPyeuV8YdW75": "80",
+       "spl:BEYp1sSNYXBVxKrWC9SUzM1nzU1XG2iNTxQdbMx1ExCU": "90",
+       "spl:9E67r3dMXRKeiCNHe6g1e6mkVvwyxpoHPu6RuccjS6uZ": "10",
+       "spl:BNCKQw1y69R5aHUG3wkCz2givoL9RBhrrRPW6KfKpSgQ": "65",
+       "spl:B7Q2nVeupHwceSC8MTC1bm4KEenrBza9geAdzg9Rr8hH": "70",
+       "spl:98rzFEznuenxMuGE476dzUW5RBkWAhEQeRDEbhoAddrU": "30",
+       "spl:6U9Lk5EgtPbEUcAA6WudeHfnmePjkazAgyrBVrDKeZ5o": "30",
+       "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "0",
+       "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "0"
+      }
+     },
+     "arrears_raw": {},
+     "blocked": [
+      {
+       "asset": "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump",
+       "role": "parent",
+       "due_raw": "62000000",
+       "reason": "frozen_account"
+      },
+      {
+       "asset": "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump",
+       "role": "founder",
+       "due_raw": "31000000",
+       "reason": "frozen_account"
+      },
+      {
+       "asset": "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA",
+       "role": "parent",
+       "due_raw": "100000001100000",
+       "reason": "frozen_account"
+      },
+      {
+       "asset": "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA",
+       "role": "founder",
+       "due_raw": "50000000550000",
+       "reason": "frozen_account"
+      }
+     ],
+     "unresolved_epochs": {},
+     "anchors": {
+      "1": "4bezNKWqsBs1P7EUqHmb1ryPesN9mGgxDykAPsaFUPQfLCjDRj57fQ8HZ68d8RBA8TXQ7vxfEE53PT9AfrHds5rB"
+     },
+     "supervisor": "deterministic: no model, no credits, no approval step",
+     "chains": {
+      "at": 1794194469,
+      "evm": {
+       "base": {
+        "sym": "ETH",
+        "wei": "0",
+        "eth": 0,
+        "rpc": "https://mainnet.base.org"
+       },
+       "ethereum": {
+        "sym": "ETH",
+        "wei": "0",
+        "eth": 0,
+        "rpc": "https://ethereum-rpc.publicnode.com"
+       },
+       "arbitrum": {
+        "sym": "ETH",
+        "wei": "0",
+        "eth": 0,
+        "rpc": "https://arb1.arbitrum.io/rpc"
+       },
+       "optimism": {
+        "sym": "ETH",
+        "wei": "0",
+        "eth": 0,
+        "rpc": "https://mainnet.optimism.io"
+       },
+       "polygon": {
+        "sym": "POL",
+        "wei": "0",
+        "eth": 0,
+        "rpc": "https://polygon-bor-rpc.publicnode.com"
+       }
+      },
+      "solana": {
+       "lamports": 354805008,
+       "sol": 0.354805008
+      },
+      "total_native_usd_estimate": 0
+     }
     }
    },
-   "served_at": 1794194168,
+   "served_at": 1794194470,
    "endpoint": "http://45.76.13.155/status",
    "src": "http://45.76.13.155",
-   "at": 1794194147,
+   "at": 1794194449,
    "stale": false,
    "inference": {
     "provider": "venice",
@@ -796,12 +1000,12 @@
     "credits_usd": 4.25005239,
     "balance_http": 200,
     "admission_floor_usd": 0.1,
-    "wallet_usdc_raw": "775",
-    "wallet_sol_raw": "142655114",
+    "wallet_usdc_raw": "660",
+    "wallet_sol_raw": "104815008",
     "state": "ready"
    },
    "last_decision": {
-    "at": 1794194078,
+    "at": 1794194348,
     "tools": [],
     "cost_usd": 0,
     "content": null,
@@ -810,84 +1014,47 @@
     "call_results": []
    },
    "funding": {
-    "sol_raw": "142655114",
-    "usdc_raw": "775",
+    "sol_raw": "104815008",
+    "usdc_raw": "660",
     "ledger_totals": {
-     "native:SOL": "142655114",
-     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "775",
-     "spl:CXaoQoNmqH2RqFf2RRJDcPBk2YNooJVTajpGskxDAMt7": "108918",
-     "spl:Qpq6WignjXXD4b4ntupCAiAJHWJorPF6fNtsZRnKdrM": "155199",
-     "spl:3N5GtbY4uZ7RjFrLerPHSFKAs5kYctjg3LwRDbCX4XL2": "142618",
-     "spl:1QreP6UQZPXMJWKnytRgxGQwwzGqDRMbp8p7HzWRq5W": "101298",
-     "spl:DJa8Tv1zonSHKfcJLCv8TNsYp71xm5CrDPyeuV8YdW75": "116976",
-     "spl:BEYp1sSNYXBVxKrWC9SUzM1nzU1XG2iNTxQdbMx1ExCU": "96758",
-     "spl:9E67r3dMXRKeiCNHe6g1e6mkVvwyxpoHPu6RuccjS6uZ": "125762",
-     "spl:BNCKQw1y69R5aHUG3wkCz2givoL9RBhrrRPW6KfKpSgQ": "138633",
-     "spl:B7Q2nVeupHwceSC8MTC1bm4KEenrBza9geAdzg9Rr8hH": "142734",
-     "spl:98rzFEznuenxMuGE476dzUW5RBkWAhEQeRDEbhoAddrU": "92446",
-     "spl:6U9Lk5EgtPbEUcAA6WudeHfnmePjkazAgyrBVrDKeZ5o": "137466",
+     "native:SOL": "104815008",
+     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "660",
+     "spl:CXaoQoNmqH2RqFf2RRJDcPBk2YNooJVTajpGskxDAMt7": "92582",
+     "spl:Qpq6WignjXXD4b4ntupCAiAJHWJorPF6fNtsZRnKdrM": "131921",
+     "spl:3N5GtbY4uZ7RjFrLerPHSFKAs5kYctjg3LwRDbCX4XL2": "121227",
+     "spl:1QreP6UQZPXMJWKnytRgxGQwwzGqDRMbp8p7HzWRq5W": "86105",
+     "spl:DJa8Tv1zonSHKfcJLCv8TNsYp71xm5CrDPyeuV8YdW75": "99431",
+     "spl:BEYp1sSNYXBVxKrWC9SUzM1nzU1XG2iNTxQdbMx1ExCU": "82246",
+     "spl:9E67r3dMXRKeiCNHe6g1e6mkVvwyxpoHPu6RuccjS6uZ": "106898",
+     "spl:BNCKQw1y69R5aHUG3wkCz2givoL9RBhrrRPW6KfKpSgQ": "117839",
+     "spl:B7Q2nVeupHwceSC8MTC1bm4KEenrBza9geAdzg9Rr8hH": "121325",
+     "spl:98rzFEznuenxMuGE476dzUW5RBkWAhEQeRDEbhoAddrU": "78580",
+     "spl:6U9Lk5EgtPbEUcAA6WudeHfnmePjkazAgyrBVrDKeZ5o": "116847",
      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "620000000",
      "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000011000000"
     },
     "spendable": {
-     "native:SOL": "137655114",
-     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "775",
-     "spl:CXaoQoNmqH2RqFf2RRJDcPBk2YNooJVTajpGskxDAMt7": "108918",
-     "spl:Qpq6WignjXXD4b4ntupCAiAJHWJorPF6fNtsZRnKdrM": "155199",
-     "spl:3N5GtbY4uZ7RjFrLerPHSFKAs5kYctjg3LwRDbCX4XL2": "142618",
-     "spl:1QreP6UQZPXMJWKnytRgxGQwwzGqDRMbp8p7HzWRq5W": "101298",
-     "spl:DJa8Tv1zonSHKfcJLCv8TNsYp71xm5CrDPyeuV8YdW75": "116976",
-     "spl:BEYp1sSNYXBVxKrWC9SUzM1nzU1XG2iNTxQdbMx1ExCU": "96758",
-     "spl:9E67r3dMXRKeiCNHe6g1e6mkVvwyxpoHPu6RuccjS6uZ": "125762",
-     "spl:BNCKQw1y69R5aHUG3wkCz2givoL9RBhrrRPW6KfKpSgQ": "138633",
-     "spl:B7Q2nVeupHwceSC8MTC1bm4KEenrBza9geAdzg9Rr8hH": "142734",
-     "spl:98rzFEznuenxMuGE476dzUW5RBkWAhEQeRDEbhoAddrU": "92446",
-     "spl:6U9Lk5EgtPbEUcAA6WudeHfnmePjkazAgyrBVrDKeZ5o": "137466",
+     "native:SOL": "99815008",
+     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "660",
+     "spl:CXaoQoNmqH2RqFf2RRJDcPBk2YNooJVTajpGskxDAMt7": "92582",
+     "spl:Qpq6WignjXXD4b4ntupCAiAJHWJorPF6fNtsZRnKdrM": "131921",
+     "spl:3N5GtbY4uZ7RjFrLerPHSFKAs5kYctjg3LwRDbCX4XL2": "121227",
+     "spl:1QreP6UQZPXMJWKnytRgxGQwwzGqDRMbp8p7HzWRq5W": "86105",
+     "spl:DJa8Tv1zonSHKfcJLCv8TNsYp71xm5CrDPyeuV8YdW75": "99431",
+     "spl:BEYp1sSNYXBVxKrWC9SUzM1nzU1XG2iNTxQdbMx1ExCU": "82246",
+     "spl:9E67r3dMXRKeiCNHe6g1e6mkVvwyxpoHPu6RuccjS6uZ": "106898",
+     "spl:BNCKQw1y69R5aHUG3wkCz2givoL9RBhrrRPW6KfKpSgQ": "117839",
+     "spl:B7Q2nVeupHwceSC8MTC1bm4KEenrBza9geAdzg9Rr8hH": "121325",
+     "spl:98rzFEznuenxMuGE476dzUW5RBkWAhEQeRDEbhoAddrU": "78580",
+     "spl:6U9Lk5EgtPbEUcAA6WudeHfnmePjkazAgyrBVrDKeZ5o": "116847",
      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "620000000",
      "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000011000000"
     }
    },
    "strategy": {
-    "last_scan_at": 1794193914,
-    "sol_raw": "142655114",
+    "last_scan_at": 1794194331,
+    "sol_raw": "104815008",
     "flash": [
-     {
-      "at": 1794189055,
-      "phase": "simulate",
-      "candidate": "usdc-SOL-usdc",
-      "plan_hash": "90999aace3d5436b754bd03d7ef6a48bf3e889ec8c5d8f5b74a7c60915a35b40",
-      "err": {
-       "InstructionError": [
-        9,
-        {
-         "Custom": 6030
-        }
-       ]
-      },
-      "logs": [
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 74975 of 1309920 compute units",
-       "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 23PHQwAAAAA=",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
-       "Program ComputeBudget111111111111111111111111111111 invoke [1]",
-       "Program ComputeBudget111111111111111111111111111111 success",
-       "Program ComputeBudget111111111111111111111111111111 invoke [1]",
-       "Program ComputeBudget111111111111111111111111111111 success",
-       "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]",
-       "Program log: CreateIdempotent",
-       "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 4339 of 1234645 compute units",
-       "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [1]",
-       "Program log: Instruction: Route",
-       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU invoke [2]",
-       "Program log: Instruction: SwapV3",
-       "Program log: AnchorError thrown in src/instructions/swap_v3.rs:3177. Error Code: NotSupport5. Error Number: 6030. Error Message: Not Support.",
-       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU consumed 54663 of 1226486 compute units",
-       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU failed: custom program error: 0x178e",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 58483 of 1230306 compute units",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 failed: custom program error: 0x178e"
-      ],
-      "bytes": 1816
-     },
      {
       "at": 1794190896,
       "phase": "simulate",
@@ -961,18 +1128,55 @@
        "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS failed: custom program error: 0x1"
       ],
       "bytes": 1470
+     },
+     {
+      "at": 1794194437,
+      "phase": "simulate",
+      "candidate": "usdc-JUP-usdc",
+      "plan_hash": "a6e336893d24d42030d306e33dd9a82823d4e198c0b02962938baff28f69346d",
+      "err": {
+       "InstructionError": [
+        10,
+        {
+         "Custom": 1
+        }
+       ]
+      },
+      "logs": [
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 76 of 1108589 compute units",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 76 of 1107244 compute units",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+       "Program goonuddtQRrWqqn5nFyczVKaie28f3kDkHWkHtURSLE consumed 83800 of 1155939 compute units",
+       "Program goonuddtQRrWqqn5nFyczVKaie28f3kDkHWkHtURSLE success",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 91 of 1070265 compute units",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 93034 of 1162592 compute units",
+       "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 9XbaBQAAAAA=",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS invoke [1]",
+       "Program log: Instruction: FlashloanPayback",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC invoke [2]",
+       "Program log: Instruction: PreOperate",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC consumed 4385 of 1058864 compute units",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC success",
+       "Log truncated"
+      ],
+      "bytes": 2050
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794194142
+    "updated_at": 1794194437
    },
-   "sol": 0.142655114,
-   "usdc": 0.000775,
-   "fmv_sol": 0.9964079811745099,
-   "sellable_sol": 0.000009,
+   "sol": 0.104815008,
+   "usdc": 0.00066,
+   "fmv_sol": 1.2085615442266293,
+   "sellable_sol": 0.000008,
    "rent_sol": 0.02083816,
    "token_book_sol": 0.832906,
-   "liquidation_sol": 0.163511
+   "liquidation_sol": 0.375663
   },
   {
    "phase": "identity_sealed",
@@ -987,25 +1191,83 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794194165,
+   "updated_at": 1794194452,
    "distribution": {
-    "next_due_unix": 1794194410,
-    "next_due_epoch": 1,
-    "highest_epoch": 0,
-    "obligations": 0,
-    "by_status": {},
+    "next_due_unix": 1794280810,
+    "next_due_epoch": 2,
+    "highest_epoch": 1,
+    "obligations": 26,
+    "by_status": {
+     "settled": 22,
+     "payment_blocked": 4
+    },
     "reserved": {},
     "carries": {
-     "parent": {},
-     "founder": {}
+     "parent": {
+      "native:SOL": "80",
+      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "10",
+      "spl:234iFrCnXvq2cQxryZULHfpZd5XX65inYdq66PuGjiUB": "60",
+      "spl:HsGYQdz6aW33G7UKoHLtLCPQ5PRS5p1WMN12LEfzq4eh": "50",
+      "spl:9QMdAbkmF6q25RF4LbhRAUUeedfi6dHroLd8i3Bdhcjf": "80",
+      "spl:8SsjngAnDg3hYjLnFeppgEzgdjuauy9Cj2WFA2StKG2E": "60",
+      "spl:6MY2tECQtxcyd2p3uv5Vv9XC3ZJNEpMDMbozawc7UXo5": "10",
+      "spl:GkUY4xrMoD2cdqemFmmaxBLtCrrL55FrLJv4LeuosAfN": "40",
+      "spl:4BattLHsgwHPPRTq33MT5gM4EkAUCe8UBJUPPAeQah1L": "30",
+      "spl:FT4V3b9hX1j4iQ8FJp5cxTBVTRoR8gJC1i2zVLzoEnYo": "0",
+      "spl:DRuNeoEigegoHydao16GJYdjXC7Gzwkm54on2dspzj8Y": "90",
+      "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "0",
+      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "0"
+     },
+     "founder": {
+      "native:SOL": "90",
+      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "5",
+      "spl:234iFrCnXvq2cQxryZULHfpZd5XX65inYdq66PuGjiUB": "80",
+      "spl:HsGYQdz6aW33G7UKoHLtLCPQ5PRS5p1WMN12LEfzq4eh": "75",
+      "spl:9QMdAbkmF6q25RF4LbhRAUUeedfi6dHroLd8i3Bdhcjf": "90",
+      "spl:8SsjngAnDg3hYjLnFeppgEzgdjuauy9Cj2WFA2StKG2E": "30",
+      "spl:6MY2tECQtxcyd2p3uv5Vv9XC3ZJNEpMDMbozawc7UXo5": "55",
+      "spl:GkUY4xrMoD2cdqemFmmaxBLtCrrL55FrLJv4LeuosAfN": "20",
+      "spl:4BattLHsgwHPPRTq33MT5gM4EkAUCe8UBJUPPAeQah1L": "65",
+      "spl:FT4V3b9hX1j4iQ8FJp5cxTBVTRoR8gJC1i2zVLzoEnYo": "0",
+      "spl:DRuNeoEigegoHydao16GJYdjXC7Gzwkm54on2dspzj8Y": "45",
+      "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "0",
+      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "0"
+     }
     },
     "arrears_raw": {},
-    "blocked": [],
+    "blocked": [
+     {
+      "asset": "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA",
+      "role": "parent",
+      "due_raw": "100000001200000",
+      "reason": "frozen_account"
+     },
+     {
+      "asset": "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA",
+      "role": "founder",
+      "due_raw": "50000000600000",
+      "reason": "frozen_account"
+     },
+     {
+      "asset": "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump",
+      "role": "parent",
+      "due_raw": "61000000",
+      "reason": "frozen_account"
+     },
+     {
+      "asset": "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump",
+      "role": "founder",
+      "due_raw": "30500000",
+      "reason": "frozen_account"
+     }
+    ],
     "unresolved_epochs": {},
-    "anchors": {},
+    "anchors": {
+     "1": "5vWWjPXsmZKusM73KNyhhsEmn9m843WY8yXqg8HCSAGfzqRH7k9M2oQEBAfHor2eEpp7oEJDiYFYFT7e45TtGfeB"
+    },
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794194139,
+     "at": 1794194451,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -1039,8 +1301,8 @@
       }
      },
      "solana": {
-      "lamports": 222341538,
-      "sol": 0.222341538
+      "lamports": 388030099,
+      "sol": 0.388030099
      },
      "total_native_usd_estimate": 0
     }
@@ -1052,7 +1314,7 @@
     "sells": 375,
     "realized_lamports": "283100516",
     "last_sell_at": 1794182419,
-    "updated_at": 1794194107
+    "updated_at": 1794194354
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -1193,50 +1455,50 @@
     "last_at": 1794135389
    },
    "journal": {
-    "head": "73222bb5fabde550ce775f06ca73602f2daed003c430b66ff5bb1c4ce68b9f1a",
-    "seq": 23622
+    "head": "bf9f345cb22fa8f6a29756b979b4e6d948835a3880128b3fea37a656382a1247",
+    "seq": 23739
    },
    "components": {
     "signer": {
      "alive": true,
-     "pid": 100241,
+     "pid": 101351,
      "restarts": 1
     },
     "distribution": {
      "alive": true,
-     "pid": 100252,
+     "pid": 101362,
      "restarts": 1
     },
     "identity": {
      "alive": true,
-     "pid": 100263,
+     "pid": 101373,
      "restarts": 1
     },
     "brain": {
      "alive": true,
-     "pid": 100274,
-     "ts": 1794194165
+     "pid": 101384,
+     "restarts": 1
     },
     "strategy": {
      "alive": true,
-     "pid": 100285,
+     "pid": 101395,
      "restarts": 1
     },
     "loops": {
      "alive": true,
-     "pid": 100296,
+     "pid": 101406,
      "restarts": 1
     },
     "procreate": {
      "alive": true,
-     "pid": 100307,
+     "pid": 101417,
      "restarts": 1
     }
    },
-   "served_at": 1794194168,
+   "served_at": 1794194470,
    "endpoint": "http://140.82.1.196/status",
    "src": "http://140.82.1.196",
-   "at": 1794194147,
+   "at": 1794194449,
    "stale": false,
    "inference": {
     "provider": "venice",
@@ -1246,11 +1508,11 @@
     "balance_http": 200,
     "admission_floor_usd": 0.1,
     "wallet_usdc_raw": "1341",
-    "wallet_sol_raw": "222341538",
+    "wallet_sol_raw": "222336538",
     "state": "ready"
    },
    "last_decision": {
-    "at": 1794194165,
+    "at": 1794194348,
     "tools": [],
     "cost_usd": 0,
     "content": null,
@@ -1259,42 +1521,42 @@
     "call_results": []
    },
    "funding": {
-    "sol_raw": "222341538",
+    "sol_raw": "222336538",
     "usdc_raw": "1341",
     "ledger_totals": {
-     "native:SOL": "222341538",
-     "spl:4BattLHsgwHPPRTq33MT5gM4EkAUCe8UBJUPPAeQah1L": "111773",
+     "native:SOL": "222336538",
      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "1341",
+     "spl:234iFrCnXvq2cQxryZULHfpZd5XX65inYdq66PuGjiUB": "141356",
+     "spl:HsGYQdz6aW33G7UKoHLtLCPQ5PRS5p1WMN12LEfzq4eh": "129595",
+     "spl:9QMdAbkmF6q25RF4LbhRAUUeedfi6dHroLd8i3Bdhcjf": "93678",
      "spl:8SsjngAnDg3hYjLnFeppgEzgdjuauy9Cj2WFA2StKG2E": "116546",
      "spl:6MY2tECQtxcyd2p3uv5Vv9XC3ZJNEpMDMbozawc7UXo5": "124691",
-     "spl:DRuNeoEigegoHydao16GJYdjXC7Gzwkm54on2dspzj8Y": "95829",
-     "spl:FT4V3b9hX1j4iQ8FJp5cxTBVTRoR8gJC1i2zVLzoEnYo": "97160",
      "spl:GkUY4xrMoD2cdqemFmmaxBLtCrrL55FrLJv4LeuosAfN": "154624",
-     "spl:HsGYQdz6aW33G7UKoHLtLCPQ5PRS5p1WMN12LEfzq4eh": "129595",
-     "spl:234iFrCnXvq2cQxryZULHfpZd5XX65inYdq66PuGjiUB": "141356",
-     "spl:9QMdAbkmF6q25RF4LbhRAUUeedfi6dHroLd8i3Bdhcjf": "93678",
-     "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "610000000",
-     "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000012000000"
+     "spl:4BattLHsgwHPPRTq33MT5gM4EkAUCe8UBJUPPAeQah1L": "111773",
+     "spl:FT4V3b9hX1j4iQ8FJp5cxTBVTRoR8gJC1i2zVLzoEnYo": "97160",
+     "spl:DRuNeoEigegoHydao16GJYdjXC7Gzwkm54on2dspzj8Y": "95829",
+     "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000012000000",
+     "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "610000000"
     },
     "spendable": {
-     "native:SOL": "217341538",
-     "spl:4BattLHsgwHPPRTq33MT5gM4EkAUCe8UBJUPPAeQah1L": "111773",
+     "native:SOL": "217336538",
      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "1341",
+     "spl:234iFrCnXvq2cQxryZULHfpZd5XX65inYdq66PuGjiUB": "141356",
+     "spl:HsGYQdz6aW33G7UKoHLtLCPQ5PRS5p1WMN12LEfzq4eh": "129595",
+     "spl:9QMdAbkmF6q25RF4LbhRAUUeedfi6dHroLd8i3Bdhcjf": "93678",
      "spl:8SsjngAnDg3hYjLnFeppgEzgdjuauy9Cj2WFA2StKG2E": "116546",
      "spl:6MY2tECQtxcyd2p3uv5Vv9XC3ZJNEpMDMbozawc7UXo5": "124691",
-     "spl:DRuNeoEigegoHydao16GJYdjXC7Gzwkm54on2dspzj8Y": "95829",
-     "spl:FT4V3b9hX1j4iQ8FJp5cxTBVTRoR8gJC1i2zVLzoEnYo": "97160",
      "spl:GkUY4xrMoD2cdqemFmmaxBLtCrrL55FrLJv4LeuosAfN": "154624",
-     "spl:HsGYQdz6aW33G7UKoHLtLCPQ5PRS5p1WMN12LEfzq4eh": "129595",
-     "spl:234iFrCnXvq2cQxryZULHfpZd5XX65inYdq66PuGjiUB": "141356",
-     "spl:9QMdAbkmF6q25RF4LbhRAUUeedfi6dHroLd8i3Bdhcjf": "93678",
-     "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "610000000",
-     "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000012000000"
+     "spl:4BattLHsgwHPPRTq33MT5gM4EkAUCe8UBJUPPAeQah1L": "111773",
+     "spl:FT4V3b9hX1j4iQ8FJp5cxTBVTRoR8gJC1i2zVLzoEnYo": "97160",
+     "spl:DRuNeoEigegoHydao16GJYdjXC7Gzwkm54on2dspzj8Y": "95829",
+     "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000012000000",
+     "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "610000000"
     }
    },
    "strategy": {
-    "last_scan_at": 1794193926,
-    "sol_raw": "222341538",
+    "last_scan_at": 1794194330,
+    "sol_raw": "222336538",
     "flash": [
      {
       "at": 1794191988,
@@ -1409,16 +1671,15 @@
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794194156,
-    "usdc_raw": "1341"
+    "updated_at": 1794194447
    },
-   "sol": 0.222341538,
+   "sol": 0.222336538,
    "usdc": 0.001341,
-   "fmv_sol": 1.0220680880365904,
+   "fmv_sol": 1.2720630610476515,
    "sellable_sol": 0.000015,
    "rent_sol": 0.01786128,
    "token_book_sol": 0.78185,
-   "liquidation_sol": 0.240234
+   "liquidation_sol": 0.490229
   },
   {
    "phase": "identity_sealed",
@@ -1433,25 +1694,79 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794194158,
+   "updated_at": 1794194469,
    "distribution": {
-    "next_due_unix": 1794194419,
-    "next_due_epoch": 1,
-    "highest_epoch": 0,
-    "obligations": 0,
-    "by_status": {},
+    "next_due_unix": 1794280819,
+    "next_due_epoch": 2,
+    "highest_epoch": 1,
+    "obligations": 22,
+    "by_status": {
+     "settled": 18,
+     "payment_blocked": 4
+    },
     "reserved": {},
     "carries": {
-     "parent": {},
-     "founder": {}
+     "parent": {
+      "native:SOL": "50",
+      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "50",
+      "spl:DPKaQ8WfDFk8eyTHmBkZodBjvCsFJv9XnepUAbqtBDfD": "0",
+      "spl:5rGXctHX5tmnnpHHhKsPzc2azcq7qxMrS6iUGJuSy5RH": "10",
+      "spl:BDGa1hpfpyYo1tEYeyGY4XKuTHGU3JtPZwwrT3J1iUfg": "20",
+      "spl:21sVMVMEZCJ3j81ivi6qVC5VtfwWivhxDheYxuonrbEo": "80",
+      "spl:B8sxVM2idJUVEHBtFh3jArsdd1umdMfev6AsoB677Qb9": "30",
+      "spl:4uX74Bnk2fPqs9wqKUoV72KFRWTpvJsnf8wSwdrCnLHJ": "70",
+      "spl:25mvrK5c53g7AwXDmquWzVewPPmiZ7MsDv4D8Yjg8mE7": "60",
+      "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "0",
+      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "0"
+     },
+     "founder": {
+      "native:SOL": "75",
+      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "75",
+      "spl:DPKaQ8WfDFk8eyTHmBkZodBjvCsFJv9XnepUAbqtBDfD": "50",
+      "spl:5rGXctHX5tmnnpHHhKsPzc2azcq7qxMrS6iUGJuSy5RH": "5",
+      "spl:BDGa1hpfpyYo1tEYeyGY4XKuTHGU3JtPZwwrT3J1iUfg": "60",
+      "spl:21sVMVMEZCJ3j81ivi6qVC5VtfwWivhxDheYxuonrbEo": "40",
+      "spl:B8sxVM2idJUVEHBtFh3jArsdd1umdMfev6AsoB677Qb9": "15",
+      "spl:4uX74Bnk2fPqs9wqKUoV72KFRWTpvJsnf8wSwdrCnLHJ": "35",
+      "spl:25mvrK5c53g7AwXDmquWzVewPPmiZ7MsDv4D8Yjg8mE7": "80",
+      "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "0",
+      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "0"
+     }
     },
     "arrears_raw": {},
-    "blocked": [],
+    "blocked": [
+     {
+      "asset": "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA",
+      "role": "parent",
+      "due_raw": "100000001100000",
+      "reason": "frozen_account"
+     },
+     {
+      "asset": "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA",
+      "role": "founder",
+      "due_raw": "50000000550000",
+      "reason": "frozen_account"
+     },
+     {
+      "asset": "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump",
+      "role": "parent",
+      "due_raw": "55000000",
+      "reason": "frozen_account"
+     },
+     {
+      "asset": "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump",
+      "role": "founder",
+      "due_raw": "27500000",
+      "reason": "frozen_account"
+     }
+    ],
     "unresolved_epochs": {},
-    "anchors": {},
+    "anchors": {
+     "1": "2qw9oLn6mi6cbyVRiDfhCVy3w4Tbt4VL4NgBQkVkByyQ2utyBCJRzJ8EFf9czj2N4kUfxQMJaTxPmfS4qPJj4DKD"
+    },
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794194158,
+     "at": 1794194446,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -1485,8 +1800,8 @@
       }
      },
      "solana": {
-      "lamports": 187852895,
-      "sol": 0.187852895
+      "lamports": 361706882,
+      "sol": 0.361706882
      },
      "total_native_usd_estimate": 0
     }
@@ -1498,7 +1813,7 @@
     "sells": 375,
     "realized_lamports": "221974974",
     "last_sell_at": 1794174744,
-    "updated_at": 1794194115
+    "updated_at": 1794194233
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -1651,50 +1966,50 @@
     "last_at": 1794136254
    },
    "journal": {
-    "head": "392e7904b8b4b40391bc74b7e16e883231e1f57288ec6318e2321db6de373bf2",
-    "seq": 22595
+    "head": "1dcd4ecb30e07be99b3f59fca9b163dca2afd4c7f29386e653848cdc4ca72821",
+    "seq": 22728
    },
    "components": {
     "signer": {
      "alive": true,
-     "pid": 87071,
+     "pid": 88577,
      "restarts": 1
     },
     "distribution": {
      "alive": true,
-     "pid": 87082,
+     "pid": 88588,
      "restarts": 1
     },
     "identity": {
      "alive": true,
-     "pid": 87093,
+     "pid": 88599,
      "restarts": 1
     },
     "brain": {
      "alive": true,
-     "pid": 87104,
+     "pid": 88610,
      "restarts": 1
     },
     "strategy": {
      "alive": true,
-     "pid": 87115,
-     "restarts": 1
+     "pid": 88621,
+     "ts": 1794194469
     },
     "loops": {
      "alive": true,
-     "pid": 87126,
+     "pid": 88632,
      "restarts": 1
     },
     "procreate": {
      "alive": true,
-     "pid": 87137,
+     "pid": 88643,
      "restarts": 1
     }
    },
-   "served_at": 1794194169,
+   "served_at": 1794194470,
    "endpoint": "http://66.135.1.216/status",
    "src": "http://66.135.1.216",
-   "at": 1794194147,
+   "at": 1794194449,
    "stale": false,
    "inference": {
     "provider": "venice",
@@ -1703,12 +2018,12 @@
     "credits_usd": 4.24955235,
     "balance_http": 200,
     "admission_floor_usd": 0.1,
-    "wallet_usdc_raw": "1815",
-    "wallet_sol_raw": "187857895",
+    "wallet_usdc_raw": "1544",
+    "wallet_sol_raw": "366192202",
     "state": "ready"
    },
    "last_decision": {
-    "at": 1794194071,
+    "at": 1794194446,
     "tools": [],
     "cost_usd": 0,
     "content": null,
@@ -1717,76 +2032,39 @@
     "call_results": []
    },
    "funding": {
-    "sol_raw": "187857895",
-    "usdc_raw": "1815",
+    "sol_raw": "366192202",
+    "usdc_raw": "1544",
     "ledger_totals": {
-     "native:SOL": "187857895",
-     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "1815",
-     "spl:DPKaQ8WfDFk8eyTHmBkZodBjvCsFJv9XnepUAbqtBDfD": "116030",
-     "spl:5rGXctHX5tmnnpHHhKsPzc2azcq7qxMrS6iUGJuSy5RH": "144501",
-     "spl:BDGa1hpfpyYo1tEYeyGY4XKuTHGU3JtPZwwrT3J1iUfg": "100632",
-     "spl:21sVMVMEZCJ3j81ivi6qVC5VtfwWivhxDheYxuonrbEo": "95288",
+     "native:SOL": "366192202",
+     "spl:21sVMVMEZCJ3j81ivi6qVC5VtfwWivhxDheYxuonrbEo": "80996",
      "spl:B8sxVM2idJUVEHBtFh3jArsdd1umdMfev6AsoB677Qb9": "130923",
+     "spl:5rGXctHX5tmnnpHHhKsPzc2azcq7qxMrS6iUGJuSy5RH": "122826",
+     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "1544",
+     "spl:BDGa1hpfpyYo1tEYeyGY4XKuTHGU3JtPZwwrT3J1iUfg": "85538",
      "spl:4uX74Bnk2fPqs9wqKUoV72KFRWTpvJsnf8wSwdrCnLHJ": "118407",
      "spl:25mvrK5c53g7AwXDmquWzVewPPmiZ7MsDv4D8Yjg8mE7": "135416",
+     "spl:DPKaQ8WfDFk8eyTHmBkZodBjvCsFJv9XnepUAbqtBDfD": "98626",
      "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000011000000",
      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "550000000"
     },
     "spendable": {
-     "native:SOL": "182857895",
-     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "1815",
-     "spl:DPKaQ8WfDFk8eyTHmBkZodBjvCsFJv9XnepUAbqtBDfD": "116030",
-     "spl:5rGXctHX5tmnnpHHhKsPzc2azcq7qxMrS6iUGJuSy5RH": "144501",
-     "spl:BDGa1hpfpyYo1tEYeyGY4XKuTHGU3JtPZwwrT3J1iUfg": "100632",
-     "spl:21sVMVMEZCJ3j81ivi6qVC5VtfwWivhxDheYxuonrbEo": "95288",
+     "native:SOL": "361192202",
+     "spl:21sVMVMEZCJ3j81ivi6qVC5VtfwWivhxDheYxuonrbEo": "80996",
      "spl:B8sxVM2idJUVEHBtFh3jArsdd1umdMfev6AsoB677Qb9": "130923",
+     "spl:5rGXctHX5tmnnpHHhKsPzc2azcq7qxMrS6iUGJuSy5RH": "122826",
+     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "1544",
+     "spl:BDGa1hpfpyYo1tEYeyGY4XKuTHGU3JtPZwwrT3J1iUfg": "85538",
      "spl:4uX74Bnk2fPqs9wqKUoV72KFRWTpvJsnf8wSwdrCnLHJ": "118407",
      "spl:25mvrK5c53g7AwXDmquWzVewPPmiZ7MsDv4D8Yjg8mE7": "135416",
+     "spl:DPKaQ8WfDFk8eyTHmBkZodBjvCsFJv9XnepUAbqtBDfD": "98626",
      "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000011000000",
      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "550000000"
     }
    },
    "strategy": {
-    "last_scan_at": 1794193886,
-    "sol_raw": "187852895",
+    "last_scan_at": 1794194329,
+    "sol_raw": "361701882",
     "flash": [
-     {
-      "at": 1794191793,
-      "phase": "simulate",
-      "candidate": "usdc-SOL-usdc",
-      "plan_hash": "61bb8bea42253f10e22cd148edb129c3d78189d450a26fa8fbcde321e59165c1",
-      "err": {
-       "InstructionError": [
-        5,
-        {
-         "Custom": 6030
-        }
-       ]
-      },
-      "logs": [
-       "Program 11111111111111111111111111111111 invoke [2]",
-       "Program 11111111111111111111111111111111 success",
-       "Program log: Initialize the associated token account",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 37 of 1331070 compute units",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 229 of 1328609 compute units",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
-       "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 13413 of 1341510 compute units",
-       "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [1]",
-       "Program log: Instruction: Route",
-       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU invoke [2]",
-       "Program log: Instruction: SwapV3",
-       "Program log: AnchorError thrown in src/instructions/swap_v3.rs:3177. Error Code: NotSupport5. Error Number: 6030. Error Message: Not Support.",
-       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU consumed 39817 of 1324277 compute units",
-       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU failed: custom program error: 0x178e",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 43637 of 1328097 compute units",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 failed: custom program error: 0x178e"
-      ],
-      "bytes": 1221
-     },
      {
       "at": 1794192106,
       "phase": "simulate",
@@ -1860,25 +2138,62 @@
        "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS failed: custom program error: 0x1"
       ],
       "bytes": 1911
+     },
+     {
+      "at": 1794194409,
+      "phase": "simulate",
+      "candidate": "usdc-JUP-usdc",
+      "plan_hash": "3e2b4821740d3e181fa98833102356c47833cd2d48680784e0235e1d1895b786",
+      "err": {
+       "InstructionError": [
+        7,
+        {
+         "Custom": 1
+        }
+       ]
+      },
+      "logs": [
+       "Program ZERor4xhbUycZ6gb9ntrhqscUcZmAbQDjEAtCf4hbZY consumed 28319 of 1228810 compute units",
+       "Program ZERor4xhbUycZ6gb9ntrhqscUcZmAbQDjEAtCf4hbZY success",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 91 of 1198615 compute units",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 34897 of 1232805 compute units",
+       "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 gDrcBQAAAAA=",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS invoke [1]",
+       "Program log: Instruction: FlashloanPayback",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC invoke [2]",
+       "Program log: Instruction: PreOperate",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC consumed 4385 of 1187214 compute units",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC success",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+       "Program log: Error: insufficient funds",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 192 of 1180135 compute units",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS consumed 17965 of 1197908 compute units",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS failed: custom program error: 0x1"
+      ],
+      "bytes": 1470
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794194152
+    "updated_at": 1794194469
    },
-   "sol": 0.187857895,
-   "usdc": 0.001815,
-   "fmv_sol": 1.0642653736468843,
+   "sol": 0.366192202,
+   "usdc": 0.001544,
+   "fmv_sol": 1.314265337118231,
    "sellable_sol": 0.000021,
    "rent_sol": 0.0148844,
    "token_book_sol": 0.861507,
-   "liquidation_sol": 0.202779
+   "liquidation_sol": 0.452779
   },
   {
    "phase": "identity_sealed",
-   "birth_id": "44b0f272-241a-4c03-86b7-9b31755ad316",
-   "solana": "sFZAWQw4ADZCj1Ga6dkazkgXWFkYPuj32R6WhnxciKW",
-   "evm": "0xb178762aea39d9d179e40ea907385368a0a317bb",
-   "t0": 1794108055,
+   "birth_id": "b72c3c00-77cb-44a7-86de-ad330b98a23c",
+   "solana": "BxRXwGSv4jRySR5m47squWoeg8dfoXcEsGtGAqvTTgS2",
+   "evm": "0x2a91f6b314ca68f21de6ecc51266e6436fa17b96",
+   "t0": 1794108032,
    "image": {
     "birth_digest": "sha256:ca7898a95239cc074d0a890fc3e62eb8c35a2079c67a285ab91ec8fb1937eb27",
     "core_digest_now": "sha256:ca7898a95239cc074d0a890fc3e62eb8c35a2079c67a285ab91ec8fb1937eb27",
@@ -1886,9 +2201,9 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794194155,
+   "updated_at": 1794194467,
    "distribution": {
-    "next_due_unix": 1794194455,
+    "next_due_unix": 1794194432,
     "next_due_epoch": 1,
     "highest_epoch": 0,
     "obligations": 0,
@@ -1904,7 +2219,7 @@
     "anchors": {},
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794194154,
+     "at": 1794194430,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -1938,8 +2253,481 @@
       }
      },
      "solana": {
-      "lamports": 192300639,
-      "sol": 0.192300639
+      "lamports": 280291302,
+      "sol": 0.280291302
+     },
+     "total_native_usd_estimate": 0
+    }
+   },
+   "economics": {
+    "launches": 30,
+    "positions": 30,
+    "at_risk_lamports": "1471719485",
+    "sells": 435,
+    "realized_lamports": "245977144",
+    "last_sell_at": 1794191787,
+    "updated_at": 1794194304
+   },
+   "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
+   "generation": 13,
+   "constitution_sha256": "556610e3e2c81a87762d82d2c59264b4b56549ea50739f3e707678b2db755bb0",
+   "prime_directives": [
+    "make money",
+    "respect thy mother n father"
+   ],
+   "overrides": [],
+   "launches": [
+    {
+     "mint": "GWgc6ZB5qEWHhftTJUtEeajh51ZwaQUbfTY747bpsP7d",
+     "cost_lamports": 87637505,
+     "devbuy_lamports": 67637505,
+     "at": 1794145657
+    },
+    {
+     "mint": "AGtsvzwNG9XtrCXuEzDyATjzbMRGbqoyJCKB2LR5GWQ6",
+     "cost_lamports": 68281526,
+     "devbuy_lamports": 48281526,
+     "at": 1794146668
+    },
+    {
+     "mint": "FNcAo1KZ6Q6Zba1muLbCrcfwEzmSJFpCJJypjA2WC1Bm",
+     "cost_lamports": 71562214,
+     "devbuy_lamports": 51562214,
+     "at": 1794147584
+    },
+    {
+     "mint": "GvzLbMm3upo6KVVLMt1Getzo2Xk7rWMGe5igXR2Co3MA",
+     "cost_lamports": 64495441,
+     "devbuy_lamports": 44495441,
+     "at": 1794148603
+    },
+    {
+     "mint": "CJ5BkN2eGvPEuLJdhRdhMN7v4aHipopgXMT3CyvwxpuN",
+     "cost_lamports": 66947546,
+     "devbuy_lamports": 46947546,
+     "at": 1794151709
+    },
+    {
+     "mint": "2phLSgH93DpATHpfigr2AsFjUVXBFozJeoWgfutaqHnW",
+     "cost_lamports": 64464165,
+     "devbuy_lamports": 44464165,
+     "at": 1794153395
+    },
+    {
+     "mint": "BuYNyN7S4ZsjZchhHWpcXuuGJUEnGAehy678ZjFJiKnA",
+     "cost_lamports": 66177915,
+     "devbuy_lamports": 46177915,
+     "at": 1794156083
+    },
+    {
+     "mint": "Hs1g5RkmAR5v3B77xWCNtf1uAFP4g7RKFWYRjukRA6Yx",
+     "cost_lamports": 64794731,
+     "devbuy_lamports": 44794731,
+     "at": 1794158782
+    },
+    {
+     "mint": "81fsCxdbrTW2jS1Gqz9e42hKkrx7Vv9Qjd4VownCATkX",
+     "cost_lamports": 66622107,
+     "devbuy_lamports": 46622107,
+     "at": 1794162146
+    },
+    {
+     "mint": "Hh68QvJkYJ7993WK8zFstg66JrS7pgeKiV3SyHxAddWm",
+     "cost_lamports": 62032473,
+     "at": 1794192095
+    },
+    {
+     "mint": "921to2UyJktiHL9jSxG1afcARZj538KDkpPcG5YjJN4q",
+     "cost_lamports": 37555560,
+     "at": 1794192236
+    },
+    {
+     "mint": "HfpsKdvuXmJLhVhARWggU9YyRvENajevLPEUgJfysP7r",
+     "cost_lamports": 20931812,
+     "at": 1794192374
+    }
+   ],
+   "children": [
+    {
+     "deploymentId": "cmw7h38rx001u7vdqoa9nw379",
+     "endpoint": "https://e764f50b209078cc47ee55c81d6ce57a522d2860-8787.dstack-pha1-prod9.phala.network",
+     "birth_id": null,
+     "address": null,
+     "parent_birth_id": "b72c3c00-77cb-44a7-86de-ad330b98a23c",
+     "parent_wallet": "BxRXwGSv4jRySR5m47squWoeg8dfoXcEsGtGAqvTTgS2",
+     "parent_sig": null,
+     "host": null,
+     "status": "leased",
+     "created_at": 1794120682
+    },
+    {
+     "deploymentId": "cmw7iszps00074vycyomkth1s",
+     "endpoint": "https://05470627f6b585e8a7c32cee310007fc486649f9-8787.dstack-pha1-prod9.phala.network",
+     "birth_id": null,
+     "address": null,
+     "parent_birth_id": "b72c3c00-77cb-44a7-86de-ad330b98a23c",
+     "parent_wallet": "BxRXwGSv4jRySR5m47squWoeg8dfoXcEsGtGAqvTTgS2",
+     "parent_sig": null,
+     "host": null,
+     "status": "leased",
+     "created_at": 1794123562
+    },
+    {
+     "deploymentId": "cmw7j0yl000224vycwh176227",
+     "endpoint": "https://48a0c072df049c350ce01059d72b6cab14192e67-8787.dstack-pha1-prod5.phala.network",
+     "birth_id": null,
+     "address": null,
+     "parent_birth_id": "b72c3c00-77cb-44a7-86de-ad330b98a23c",
+     "parent_wallet": "BxRXwGSv4jRySR5m47squWoeg8dfoXcEsGtGAqvTTgS2",
+     "parent_sig": null,
+     "host": null,
+     "status": "leased",
+     "created_at": 1794123934
+    }
+   ],
+   "invention": {
+    "scripts": 170,
+    "items": [
+     "probe_404_35202.mjs",
+     "invented_35143.mjs",
+     "probe_400_34962.mjs",
+     "invented_34904.mjs",
+     "probe_396_34728.mjs",
+     "probe_392_34634.mjs",
+     "invented_34465.mjs",
+     "probe_388_34394.mjs",
+     "invented_34212.mjs",
+     "probe_384_34156.mjs",
+     "invented_34009.mjs",
+     "invented_33530.mjs"
+    ],
+    "last_at": 1794135202
+   },
+   "journal": {
+    "head": "58b4cd8745b9ef81afa23acce1fb38b75a2be7d57f709f3fddcac3fcd187f871",
+    "seq": 23301
+   },
+   "components": {
+    "signer": {
+     "alive": true,
+     "pid": 100621,
+     "restarts": 1
+    },
+    "distribution": {
+     "alive": true,
+     "pid": 100632,
+     "restarts": 1
+    },
+    "identity": {
+     "alive": true,
+     "pid": 100643,
+     "restarts": 1
+    },
+    "brain": {
+     "alive": true,
+     "pid": 100654,
+     "restarts": 1
+    },
+    "strategy": {
+     "alive": true,
+     "pid": 100665,
+     "restarts": 1
+    },
+    "loops": {
+     "alive": true,
+     "pid": 100676,
+     "restarts": 1
+    },
+    "procreate": {
+     "alive": true,
+     "pid": 100687,
+     "restarts": 1
+    }
+   },
+   "served_at": 1794194471,
+   "endpoint": "http://45.76.9.31/status",
+   "src": "http://45.76.9.31",
+   "at": 1794194449,
+   "stale": false,
+   "inference": {
+    "provider": "venice",
+    "model": "deepseek-v4-1-flash-1017-uncensored",
+    "mode": "external_paid_abliterated",
+    "credits_usd": 4.13150615,
+    "balance_http": 200,
+    "admission_floor_usd": 0.1,
+    "wallet_usdc_raw": "246316",
+    "wallet_sol_raw": "30295302",
+    "state": "ready"
+   },
+   "last_decision": {
+    "at": 1794194372,
+    "tools": [
+     "noop"
+    ],
+    "cost_usd": 0.001,
+    "content": "{\"tool\":\"noop\",\"args\":{\"reason\":\"Wallet holds about 0.03 SOL and 0.25 USDC, and economics shows a 24h net of -13.5 USD with runway under one day. Launch preflight keeps reporting short_sol, so a launch would fail or drain what is left. No available action has expected return above its cost, so I am keeping the lamports and waiting for a funded provider or a positive-EV opportunity.\"}}",
+    "error": null,
+    "usage": {
+     "prompt_tokens": 4483,
+     "completion_tokens": 303,
+     "total_tokens": 4786,
+     "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 4479,
+      "audio_tokens": 0,
+      "video_tokens": 0
+     },
+     "completion_tokens_details": {
+      "reasoning_tokens": 157,
+      "image_tokens": 0,
+      "audio_tokens": 0
+     }
+    },
+    "call_results": [
+     {
+      "name": "noop",
+      "result": {
+       "ok": true,
+       "reason": "Wallet holds about 0.03 SOL and 0.25 USDC, and economics shows a 24h net of -13.5 USD with runway under one day. Launch preflight keeps reporting short_sol, so a launch would fail or drain what is left. No available action has expected return above its cost, so I am keeping the lamports and waiting for a funded provider or a positive-EV opportunity."
+      }
+     }
+    ]
+   },
+   "funding": {
+    "sol_raw": "30295302",
+    "usdc_raw": "246316",
+    "ledger_totals": {
+     "native:SOL": "30295302",
+     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "246316",
+     "spl:DER9WJqfjmzRuLTJ89JjV1UGVSZNyKnxyaQPb5LrQmW6": "86066",
+     "spl:7gbXtPtavWKKCEE2udaXnULzpRN4W5sZzRw8L8wmEQ5B": "101542",
+     "spl:FwzA7UJNea9R7Bhr8k5cyKWgRB86oac7UQhdnZo8zM2b": "136504",
+     "spl:25orLUGsV3seQUHEJJ1Cep4wRC3PmYJWzVasFwFH3FCq": "147096",
+     "spl:GWgc6ZB5qEWHhftTJUtEeajh51ZwaQUbfTY747bpsP7d": "147072",
+     "spl:AGtsvzwNG9XtrCXuEzDyATjzbMRGbqoyJCKB2LR5GWQ6": "90830",
+     "spl:CJ5BkN2eGvPEuLJdhRdhMN7v4aHipopgXMT3CyvwxpuN": "113930",
+     "spl:2phLSgH93DpATHpfigr2AsFjUVXBFozJeoWgfutaqHnW": "96759",
+     "spl:Hs1g5RkmAR5v3B77xWCNtf1uAFP4g7RKFWYRjukRA6Yx": "139942",
+     "spl:Hh68QvJkYJ7993WK8zFstg66JrS7pgeKiV3SyHxAddWm": "2103410719462",
+     "spl:921to2UyJktiHL9jSxG1afcARZj538KDkpPcG5YjJN4q": "1274479876017",
+     "spl:HfpsKdvuXmJLhVhARWggU9YyRvENajevLPEUgJfysP7r": "710732188320",
+     "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000011000000",
+     "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "600000000"
+    },
+    "spendable": {
+     "native:SOL": "25295302",
+     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "246316",
+     "spl:DER9WJqfjmzRuLTJ89JjV1UGVSZNyKnxyaQPb5LrQmW6": "86066",
+     "spl:7gbXtPtavWKKCEE2udaXnULzpRN4W5sZzRw8L8wmEQ5B": "101542",
+     "spl:FwzA7UJNea9R7Bhr8k5cyKWgRB86oac7UQhdnZo8zM2b": "136504",
+     "spl:25orLUGsV3seQUHEJJ1Cep4wRC3PmYJWzVasFwFH3FCq": "147096",
+     "spl:GWgc6ZB5qEWHhftTJUtEeajh51ZwaQUbfTY747bpsP7d": "147072",
+     "spl:AGtsvzwNG9XtrCXuEzDyATjzbMRGbqoyJCKB2LR5GWQ6": "90830",
+     "spl:CJ5BkN2eGvPEuLJdhRdhMN7v4aHipopgXMT3CyvwxpuN": "113930",
+     "spl:2phLSgH93DpATHpfigr2AsFjUVXBFozJeoWgfutaqHnW": "96759",
+     "spl:Hs1g5RkmAR5v3B77xWCNtf1uAFP4g7RKFWYRjukRA6Yx": "139942",
+     "spl:Hh68QvJkYJ7993WK8zFstg66JrS7pgeKiV3SyHxAddWm": "2103410719462",
+     "spl:921to2UyJktiHL9jSxG1afcARZj538KDkpPcG5YjJN4q": "1274479876017",
+     "spl:HfpsKdvuXmJLhVhARWggU9YyRvENajevLPEUgJfysP7r": "710732188320",
+     "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000011000000",
+     "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "600000000"
+    }
+   },
+   "strategy": {
+    "last_scan_at": 1794194333,
+    "sol_raw": "230766407",
+    "flash": [
+     {
+      "at": 1794190144,
+      "phase": "simulate",
+      "candidate": "usdc-JUP-usdc",
+      "plan_hash": "93aea523d91cdef2bb50ed386eb0ebbdf19431ed9a6e5307ad30d36ebb78baa5",
+      "err": {
+       "InstructionError": [
+        9,
+        {
+         "Custom": 1
+        }
+       ]
+      },
+      "logs": [
+       "Program SCoRcH8c2dpjvcJD6FiPbCSQyQgu3PcUAWj2Xxx3mqn consumed 73804 of 1285616 compute units",
+       "Program SCoRcH8c2dpjvcJD6FiPbCSQyQgu3PcUAWj2Xxx3mqn success",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 91 of 1209944 compute units",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 80759 of 1290008 compute units",
+       "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 /t/dBQAAAAA=",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS invoke [1]",
+       "Program log: Instruction: FlashloanPayback",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC invoke [2]",
+       "Program log: Instruction: PreOperate",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC consumed 4385 of 1198555 compute units",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC success",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+       "Program log: Error: insufficient funds",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 192 of 1191476 compute units",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS consumed 17965 of 1209249 compute units",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS failed: custom program error: 0x1"
+      ],
+      "bytes": 1610
+     },
+     {
+      "at": 1794192000,
+      "phase": "simulate",
+      "candidate": "usdc-SOL-usdc",
+      "plan_hash": "31286869f1e6bbad454f76a0b3b38b309db8c20ceaac23094891ff6868fb7c67",
+      "err": {
+       "InstructionError": [
+        5,
+        {
+         "Custom": 6030
+        }
+       ]
+      },
+      "logs": [
+       "Program 11111111111111111111111111111111 invoke [2]",
+       "Program 11111111111111111111111111111111 success",
+       "Program log: Initialize the associated token account",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 37 of 1328036 compute units",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 229 of 1325575 compute units",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
+       "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 14913 of 1339976 compute units",
+       "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [1]",
+       "Program log: Instruction: Route",
+       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU invoke [2]",
+       "Program log: Instruction: SwapV3",
+       "Program log: AnchorError thrown in src/instructions/swap_v3.rs:3177. Error Code: NotSupport5. Error Number: 6030. Error Message: Not Support.",
+       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU consumed 39817 of 1321243 compute units",
+       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU failed: custom program error: 0x178e",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 43637 of 1325063 compute units",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 failed: custom program error: 0x178e"
+      ],
+      "bytes": 1221
+     },
+     {
+      "at": 1794194406,
+      "phase": "simulate",
+      "candidate": "usdc-SOL-usdc",
+      "plan_hash": "c1766dd24f4c56d7c0d230646ec7865aa67e2a122327bf2f93f0aebc7f733ab8",
+      "err": {
+       "InstructionError": [
+        8,
+        {
+         "Custom": 6030
+        }
+       ]
+      },
+      "logs": [
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 85583 of 1325772 compute units",
+       "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 1DUVRAAAAAA=",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+       "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+       "Program ComputeBudget111111111111111111111111111111 success",
+       "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+       "Program ComputeBudget111111111111111111111111111111 success",
+       "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [1]",
+       "Program log: CreateIdempotent",
+       "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 5839 of 1239889 compute units",
+       "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [1]",
+       "Program log: Instruction: Route",
+       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU invoke [2]",
+       "Program log: Instruction: SwapV3",
+       "Program log: AnchorError thrown in src/instructions/swap_v3.rs:3177. Error Code: NotSupport5. Error Number: 6030. Error Message: Not Support.",
+       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU consumed 39017 of 1230233 compute units",
+       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU failed: custom program error: 0x178e",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 42834 of 1234050 compute units",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 failed: custom program error: 0x178e"
+      ],
+      "bytes": 1399
+     }
+    ],
+    "pump_positions": 0,
+    "updated_at": 1794194467
+   },
+   "sol": 0.030295302,
+   "usdc": 0.246316,
+   "fmv_sol": 1.0024480373974023,
+   "sellable_sol": 0.115648,
+   "rent_sol": 0.0223266,
+   "token_book_sol": 0.697013,
+   "liquidation_sol": 0.421083
+  },
+  {
+   "phase": "identity_sealed",
+   "birth_id": "44b0f272-241a-4c03-86b7-9b31755ad316",
+   "solana": "sFZAWQw4ADZCj1Ga6dkazkgXWFkYPuj32R6WhnxciKW",
+   "evm": "0xb178762aea39d9d179e40ea907385368a0a317bb",
+   "t0": 1794108055,
+   "image": {
+    "birth_digest": "sha256:ca7898a95239cc074d0a890fc3e62eb8c35a2079c67a285ab91ec8fb1937eb27",
+    "core_digest_now": "sha256:ca7898a95239cc074d0a890fc3e62eb8c35a2079c67a285ab91ec8fb1937eb27",
+    "match": true,
+    "meaning": "digest of the measured core files this guest is running"
+   },
+   "identity_binding": "identity_binding_unverified",
+   "updated_at": 1794194458,
+   "distribution": {
+    "next_due_unix": 1794194455,
+    "next_due_epoch": 1,
+    "highest_epoch": 0,
+    "obligations": 0,
+    "by_status": {},
+    "reserved": {},
+    "carries": {
+     "parent": {},
+     "founder": {}
+    },
+    "arrears_raw": {},
+    "blocked": [],
+    "unresolved_epochs": {},
+    "anchors": {},
+    "supervisor": "deterministic: no model, no credits, no approval step",
+    "chains": {
+     "at": 1794194430,
+     "evm": {
+      "base": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://mainnet.base.org"
+      },
+      "ethereum": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://ethereum-rpc.publicnode.com"
+      },
+      "arbitrum": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://arb1.arbitrum.io/rpc"
+      },
+      "optimism": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://mainnet.optimism.io"
+      },
+      "polygon": {
+       "sym": "POL",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://polygon-bor-rpc.publicnode.com"
+      }
+     },
+     "solana": {
+      "lamports": 442295639,
+      "sol": 0.442295639
      },
      "total_native_usd_estimate": 0
     }
@@ -1951,7 +2739,7 @@
     "sells": 401,
     "realized_lamports": "205103556",
     "last_sell_at": 1794177385,
-    "updated_at": 1794194102
+    "updated_at": 1794194365
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -2092,50 +2880,50 @@
     "last_at": 1794136819
    },
    "journal": {
-    "head": "e2663a9fa38faa48c49cc48ccc254fdf0a15a4db4662099e4ba81f3345248287",
-    "seq": 23939
+    "head": "2d49a2177522c208c2a88c2cc0493ded07ec58396a15d2290b3faf98a08e60dc",
+    "seq": 24066
    },
    "components": {
     "signer": {
      "alive": true,
-     "pid": 90299,
+     "pid": 91423,
      "restarts": 1
     },
     "distribution": {
      "alive": true,
-     "pid": 90311,
+     "pid": 91434,
      "restarts": 1
     },
     "identity": {
      "alive": true,
-     "pid": 90322,
+     "pid": 91445,
      "restarts": 1
     },
     "brain": {
      "alive": true,
-     "pid": 90333,
+     "pid": 91456,
      "restarts": 1
     },
     "strategy": {
      "alive": true,
-     "pid": 90344,
+     "pid": 91467,
      "restarts": 1
     },
     "loops": {
      "alive": true,
-     "pid": 90355,
+     "pid": 91478,
      "restarts": 1
     },
     "procreate": {
      "alive": true,
-     "pid": 90366,
+     "pid": 91489,
      "restarts": 1
     }
    },
-   "served_at": 1794194170,
+   "served_at": 1794194472,
    "endpoint": "http://140.82.47.7/status",
    "src": "http://140.82.47.7",
-   "at": 1794194147,
+   "at": 1794194449,
    "stale": false,
    "inference": {
     "provider": "venice",
@@ -2145,11 +2933,11 @@
     "balance_http": 200,
     "admission_floor_usd": 0.1,
     "wallet_usdc_raw": "591",
-    "wallet_sol_raw": "192300639",
+    "wallet_sol_raw": "442295639",
     "state": "ready"
    },
    "last_decision": {
-    "at": 1794194096,
+    "at": 1794194457,
     "tools": [],
     "cost_usd": 0,
     "content": null,
@@ -2158,42 +2946,42 @@
     "call_results": []
    },
    "funding": {
-    "sol_raw": "192300639",
+    "sol_raw": "442295639",
     "usdc_raw": "591",
     "ledger_totals": {
-     "native:SOL": "192300639",
+     "native:SOL": "442295639",
      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "591",
-     "spl:6b9ghXPEekFJR3VyThtrJKepRVPHhh3TqSvcVvETm9mu": "130350",
+     "spl:CcKdwqgwhMMbYayu7DBFAzwDAWErnmeg2MahMs6piSFL": "86427",
+     "spl:6YaywYiQmA7zKxoukecKqmBZiS3aqA3FAneWdfAncEgU": "136031",
+     "spl:6fgRLwSmo9YAYsfQgXTKCzf9GNbTti8gP7EpzPDGYMe3": "91526",
+     "spl:Cq7qpSY9VDibU8M6tbS6n76BUqKAGNNGPYpVseieNviq": "105647",
+     "spl:Eze4n5tYD2Q2RKnJxW73FJPxdDvFN1EtkB7zy4Wqyc4d": "126861",
+     "spl:8HSRcwSftDE8qGeWeqhzopFChNTC6y3hhcadqS2qmkNg": "142142",
      "spl:8XZLfkxyh25GR1sj23XfsdzHaVESikEa4rVDkXEpHhXa": "140267",
      "spl:G77wC26bDh8nM6w4eRjJi8vKwZ3zqFRbXuSg8xJ8TnTy": "118130",
      "spl:jjh6XCVVXM7LcfqCHNie1HzHwiKa8i4kJDi2tKWFHUh": "141109",
-     "spl:8HSRcwSftDE8qGeWeqhzopFChNTC6y3hhcadqS2qmkNg": "142142",
-     "spl:6YaywYiQmA7zKxoukecKqmBZiS3aqA3FAneWdfAncEgU": "136031",
-     "spl:CcKdwqgwhMMbYayu7DBFAzwDAWErnmeg2MahMs6piSFL": "86427",
-     "spl:Cq7qpSY9VDibU8M6tbS6n76BUqKAGNNGPYpVseieNviq": "105647",
-     "spl:6fgRLwSmo9YAYsfQgXTKCzf9GNbTti8gP7EpzPDGYMe3": "91526",
-     "spl:Eze4n5tYD2Q2RKnJxW73FJPxdDvFN1EtkB7zy4Wqyc4d": "126861",
+     "spl:6b9ghXPEekFJR3VyThtrJKepRVPHhh3TqSvcVvETm9mu": "130350",
      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "690000000"
     },
     "spendable": {
-     "native:SOL": "187300639",
+     "native:SOL": "437295639",
      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "591",
-     "spl:6b9ghXPEekFJR3VyThtrJKepRVPHhh3TqSvcVvETm9mu": "130350",
+     "spl:CcKdwqgwhMMbYayu7DBFAzwDAWErnmeg2MahMs6piSFL": "86427",
+     "spl:6YaywYiQmA7zKxoukecKqmBZiS3aqA3FAneWdfAncEgU": "136031",
+     "spl:6fgRLwSmo9YAYsfQgXTKCzf9GNbTti8gP7EpzPDGYMe3": "91526",
+     "spl:Cq7qpSY9VDibU8M6tbS6n76BUqKAGNNGPYpVseieNviq": "105647",
+     "spl:Eze4n5tYD2Q2RKnJxW73FJPxdDvFN1EtkB7zy4Wqyc4d": "126861",
+     "spl:8HSRcwSftDE8qGeWeqhzopFChNTC6y3hhcadqS2qmkNg": "142142",
      "spl:8XZLfkxyh25GR1sj23XfsdzHaVESikEa4rVDkXEpHhXa": "140267",
      "spl:G77wC26bDh8nM6w4eRjJi8vKwZ3zqFRbXuSg8xJ8TnTy": "118130",
      "spl:jjh6XCVVXM7LcfqCHNie1HzHwiKa8i4kJDi2tKWFHUh": "141109",
-     "spl:8HSRcwSftDE8qGeWeqhzopFChNTC6y3hhcadqS2qmkNg": "142142",
-     "spl:6YaywYiQmA7zKxoukecKqmBZiS3aqA3FAneWdfAncEgU": "136031",
-     "spl:CcKdwqgwhMMbYayu7DBFAzwDAWErnmeg2MahMs6piSFL": "86427",
-     "spl:Cq7qpSY9VDibU8M6tbS6n76BUqKAGNNGPYpVseieNviq": "105647",
-     "spl:6fgRLwSmo9YAYsfQgXTKCzf9GNbTti8gP7EpzPDGYMe3": "91526",
-     "spl:Eze4n5tYD2Q2RKnJxW73FJPxdDvFN1EtkB7zy4Wqyc4d": "126861",
+     "spl:6b9ghXPEekFJR3VyThtrJKepRVPHhh3TqSvcVvETm9mu": "130350",
      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "690000000"
     }
    },
    "strategy": {
     "last_scan_at": 1794193870,
-    "sol_raw": "192300639",
+    "sol_raw": "442295639",
     "flash": [
      {
       "at": 1794190098,
@@ -2308,15 +3096,16 @@
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794194151
+    "updated_at": 1794194272,
+    "usdc_raw": "591"
    },
-   "sol": 0.192300639,
+   "sol": 0.442295639,
    "usdc": 0.000591,
-   "fmv_sol": 1.0901369010109359,
+   "fmv_sol": 1.3401318891164817,
    "sellable_sol": 0.000007,
    "rent_sol": 0.01786128,
    "token_book_sol": 0.879968,
-   "liquidation_sol": 0.210175
+   "liquidation_sol": 0.46017
   },
   {
    "phase": "identity_sealed",
@@ -2331,7 +3120,7 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794194170,
+   "updated_at": 1794194468,
    "distribution": {
     "next_due_unix": 1794194840,
     "next_due_epoch": 1,
@@ -2349,7 +3138,7 @@
     "anchors": {},
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794194169,
+     "at": 1794194467,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -2383,8 +3172,8 @@
       }
      },
      "solana": {
-      "lamports": 235937571,
-      "sol": 0.235937571
+      "lamports": 485932571,
+      "sol": 0.485932571
      },
      "total_native_usd_estimate": 0
     }
@@ -2396,7 +3185,7 @@
     "sells": 284,
     "realized_lamports": "261685968",
     "last_sell_at": 1794169388,
-    "updated_at": 1794194109
+    "updated_at": 1794194351
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -2531,75 +3320,50 @@
     "last_at": 1794136834
    },
    "journal": {
-    "head": "de697b7d207ea072054c9d9ec3c2db3bec2ed2b9b39d02cb0352216508207b17",
-    "seq": 22215
+    "head": "52d5c9a93840222f8e0783644b5385190c6fccc5afe74413729c39a36d991205",
+    "seq": 22310
    },
    "components": {
-    "component": "distributor",
-    "ts": 1794194170,
-    "pid": 75767,
-    "status": {
-     "next_due_unix": 1794194840,
-     "next_due_epoch": 1,
-     "highest_epoch": 0,
-     "obligations": 0,
-     "by_status": {},
-     "reserved": {},
-     "carries": {
-      "parent": {},
-      "founder": {}
-     },
-     "arrears_raw": {},
-     "blocked": [],
-     "unresolved_epochs": {},
-     "anchors": {},
-     "supervisor": "deterministic: no model, no credits, no approval step",
-     "chains": {
-      "at": 1794194169,
-      "evm": {
-       "base": {
-        "sym": "ETH",
-        "wei": "0",
-        "eth": 0,
-        "rpc": "https://mainnet.base.org"
-       },
-       "ethereum": {
-        "sym": "ETH",
-        "wei": "0",
-        "eth": 0,
-        "rpc": "https://ethereum-rpc.publicnode.com"
-       },
-       "arbitrum": {
-        "sym": "ETH",
-        "wei": "0",
-        "eth": 0,
-        "rpc": "https://arb1.arbitrum.io/rpc"
-       },
-       "optimism": {
-        "sym": "ETH",
-        "wei": "0",
-        "eth": 0,
-        "rpc": "https://mainnet.optimism.io"
-       },
-       "polygon": {
-        "sym": "POL",
-        "wei": "0",
-        "eth": 0,
-        "rpc": "https://polygon-bor-rpc.publicnode.com"
-       }
-      },
-      "solana": {
-       "lamports": 235937571,
-       "sol": 0.235937571
-      },
-      "total_native_usd_estimate": 0
-     }
+    "signer": {
+     "alive": true,
+     "pid": 76874,
+     "restarts": 1
+    },
+    "distribution": {
+     "alive": true,
+     "pid": 76885,
+     "restarts": 1
+    },
+    "identity": {
+     "alive": true,
+     "pid": 76896,
+     "restarts": 1
+    },
+    "brain": {
+     "alive": true,
+     "pid": 76907,
+     "restarts": 1
+    },
+    "strategy": {
+     "alive": true,
+     "pid": 76918,
+     "restarts": 1
+    },
+    "loops": {
+     "alive": true,
+     "pid": 76929,
+     "restarts": 1
+    },
+    "procreate": {
+     "alive": true,
+     "pid": 76940,
+     "restarts": 1
     }
    },
-   "served_at": 1794194170,
+   "served_at": 1794194472,
    "endpoint": "http://144.202.2.9/status",
    "src": "http://144.202.2.9",
-   "at": 1794194147,
+   "at": 1794194449,
    "stale": false,
    "inference": {
     "provider": "venice",
@@ -2609,11 +3373,11 @@
     "balance_http": 200,
     "admission_floor_usd": 0.1,
     "wallet_usdc_raw": "1870",
-    "wallet_sol_raw": "235937571",
+    "wallet_sol_raw": "485937571",
     "state": "ready"
    },
    "last_decision": {
-    "at": 1794194151,
+    "at": 1794194445,
     "tools": [],
     "cost_usd": 0,
     "content": null,
@@ -2622,10 +3386,10 @@
     "call_results": []
    },
    "funding": {
-    "sol_raw": "235937571",
+    "sol_raw": "485937571",
     "usdc_raw": "1870",
     "ledger_totals": {
-     "native:SOL": "235937571",
+     "native:SOL": "485937571",
      "spl:4TybdD9tPVsAEwyHJdg99GyGAtVxWcthU2gZPbsmjF8c": "146815",
      "spl:At5yGorGXz7FrKV3hxYSersBvuxvx5gaqwgnhXmwpsvo": "96469",
      "spl:4WuCiJ8uAepxF1mygLbKaTyALxxvqXRKdYzSRpgkNKCe": "124880",
@@ -2637,7 +3401,7 @@
      "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000006000000"
     },
     "spendable": {
-     "native:SOL": "230937571",
+     "native:SOL": "480937571",
      "spl:4TybdD9tPVsAEwyHJdg99GyGAtVxWcthU2gZPbsmjF8c": "146815",
      "spl:At5yGorGXz7FrKV3hxYSersBvuxvx5gaqwgnhXmwpsvo": "96469",
      "spl:4WuCiJ8uAepxF1mygLbKaTyALxxvqXRKdYzSRpgkNKCe": "124880",
@@ -2650,46 +3414,9 @@
     }
    },
    "strategy": {
-    "last_scan_at": 1794193879,
-    "sol_raw": "235937571",
+    "last_scan_at": 1794194330,
+    "sol_raw": "485932571",
     "flash": [
-     {
-      "at": 1794187175,
-      "phase": "simulate",
-      "candidate": "usdc-SOL-usdc",
-      "plan_hash": "c785964937b4101c7c24d9e8b4d245365bef1671ab2fe5822be52ba89b35b69b",
-      "err": {
-       "InstructionError": [
-        9,
-        {
-         "Custom": 1
-        }
-       ]
-      },
-      "logs": [
-       "Program goonuddtQRrWqqn5nFyczVKaie28f3kDkHWkHtURSLE consumed 76547 of 1284728 compute units",
-       "Program goonuddtQRrWqqn5nFyczVKaie28f3kDkHWkHtURSLE success",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 91 of 1206307 compute units",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 85777 of 1291377 compute units",
-       "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 hsTdBQAAAAA=",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
-       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS invoke [1]",
-       "Program log: Instruction: FlashloanPayback",
-       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC invoke [2]",
-       "Program log: Instruction: PreOperate",
-       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC consumed 4385 of 1194906 compute units",
-       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC success",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
-       "Program log: Error: insufficient funds",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 192 of 1187827 compute units",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1",
-       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS consumed 17965 of 1205600 compute units",
-       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS failed: custom program error: 0x1"
-      ],
-      "bytes": 1494
-     },
      {
       "at": 1794189939,
       "phase": "simulate",
@@ -2763,19 +3490,55 @@
        "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS failed: custom program error: 0x1"
       ],
       "bytes": 1246
+     },
+     {
+      "at": 1794194405,
+      "phase": "simulate",
+      "candidate": "usdc-JUP-usdc",
+      "plan_hash": "3e2b4821740d3e181fa98833102356c47833cd2d48680784e0235e1d1895b786",
+      "err": {
+       "InstructionError": [
+        7,
+        {
+         "Custom": 1
+        }
+       ]
+      },
+      "logs": [
+       "Program ZERor4xhbUycZ6gb9ntrhqscUcZmAbQDjEAtCf4hbZY consumed 28325 of 1230394 compute units",
+       "Program ZERor4xhbUycZ6gb9ntrhqscUcZmAbQDjEAtCf4hbZY success",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 91 of 1200193 compute units",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 34903 of 1234389 compute units",
+       "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 EYXbBQAAAAA=",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS invoke [1]",
+       "Program log: Instruction: FlashloanPayback",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC invoke [2]",
+       "Program log: Instruction: PreOperate",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC consumed 4385 of 1188792 compute units",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC success",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+       "Program log: Error: insufficient funds",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 192 of 1181713 compute units",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS consumed 17965 of 1199486 compute units",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS failed: custom program error: 0x1"
+      ],
+      "bytes": 1470
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794194089,
-    "usdc_raw": "1870"
+    "updated_at": 1794194466
    },
-   "sol": 0.235937571,
+   "sol": 0.485937571,
    "usdc": 0.00187,
-   "fmv_sol": 0.9696244470943658,
+   "fmv_sol": 1.2196244094587831,
    "sellable_sol": 0.000021,
    "rent_sol": 0.01339596,
    "token_book_sol": 0.720269,
-   "liquidation_sol": 0.249376
+   "liquidation_sol": 0.499376
   },
   {
    "phase": "identity_sealed",
@@ -2790,7 +3553,7 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794194160,
+   "updated_at": 1794194469,
    "distribution": {
     "next_due_unix": 1794194842,
     "next_due_epoch": 1,
@@ -2808,7 +3571,7 @@
     "anchors": {},
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794194160,
+     "at": 1794194469,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -2842,20 +3605,20 @@
       }
      },
      "solana": {
-      "lamports": 280971374,
-      "sol": 0.280971374
+      "lamports": 358507612,
+      "sol": 0.358507612
      },
      "total_native_usd_estimate": 0
     }
    },
    "economics": {
-    "launches": 23,
-    "positions": 23,
-    "at_risk_lamports": "1220784453",
+    "launches": 24,
+    "positions": 24,
+    "at_risk_lamports": "1400075865",
     "sells": 309,
     "realized_lamports": "183665120",
     "last_sell_at": 1794168189,
-    "updated_at": 1794194102
+    "updated_at": 1794194472
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -2866,11 +3629,6 @@
    ],
    "overrides": [],
    "launches": [
-    {
-     "mint": "9B55313dUANCfjWhvvQFJ24iCnMXWJoiBbXeM9PATsiT",
-     "cost_lamports": 20000000,
-     "at": 1794128394
-    },
     {
      "mint": "6pF5Lt3jjyfV9uF4WqWvGJmPVHChQn5QACAjSLzSpump",
      "cost_lamports": 0,
@@ -2932,6 +3690,12 @@
      "cost_lamports": 106499132,
      "devbuy_lamports": 86499132,
      "at": 1794160828
+    },
+    {
+     "mint": "DK7tQk5e9ZoBaHjY9KeKWXmTfrdLvArwJLjmqgDZoug9",
+     "cost_lamports": 179291412,
+     "devbuy_lamports": 159291412,
+     "at": 1794194472
     }
    ],
    "children": [
@@ -2991,50 +3755,50 @@
     "last_at": 1794135503
    },
    "journal": {
-    "head": "9541a7d7b5f7b56b78e73393b24916ee88df4f802c704ba9440a28bc77cb57d9",
-    "seq": 23313
+    "head": "06415d006b0c87b600f57c0158c80523dbf890a2a825e8886f63502303895d3f",
+    "seq": 23448
    },
    "components": {
     "signer": {
      "alive": true,
-     "pid": 91865,
+     "pid": 93168,
      "restarts": 1
     },
     "distribution": {
      "alive": true,
-     "pid": 91876,
+     "pid": 93179,
      "restarts": 1
     },
     "identity": {
      "alive": true,
-     "pid": 91887,
+     "pid": 93190,
      "restarts": 1
     },
     "brain": {
      "alive": true,
-     "pid": 91898,
+     "pid": 93201,
      "restarts": 1
     },
     "strategy": {
      "alive": true,
-     "pid": 91909,
+     "pid": 93212,
      "restarts": 1
     },
     "loops": {
      "alive": true,
-     "pid": 91920,
+     "pid": 93223,
      "restarts": 1
     },
     "procreate": {
      "alive": true,
-     "pid": 91931,
+     "pid": 93234,
      "restarts": 1
     }
    },
-   "served_at": 1794194170,
+   "served_at": 1794194472,
    "endpoint": "http://66.135.10.222/status",
    "src": "http://66.135.10.222",
-   "at": 1794194147,
+   "at": 1794194449,
    "stale": false,
    "inference": {
     "provider": "venice",
@@ -3044,11 +3808,11 @@
     "balance_http": 200,
     "admission_floor_usd": 0.1,
     "wallet_usdc_raw": "501",
-    "wallet_sol_raw": "280976374",
+    "wallet_sol_raw": "530971374",
     "state": "ready"
    },
    "last_decision": {
-    "at": 1794194090,
+    "at": 1794194455,
     "tools": [],
     "cost_usd": 0,
     "content": null,
@@ -3057,78 +3821,41 @@
     "call_results": []
    },
    "funding": {
-    "sol_raw": "280976374",
+    "sol_raw": "530971374",
     "usdc_raw": "501",
     "ledger_totals": {
-     "native:SOL": "280976374",
-     "spl:DAQxG8UaN1Pzp5prNmBciPEpHToMaqAjFsfeCGtCnBrx": "100449",
+     "native:SOL": "530971374",
      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "501",
-     "spl:32R554Gv3E1PMjoFR8QNTEzokgLzfVVRwaqnmTqP2A5c": "92752",
      "spl:BErWE1p3PwQRcbWi8H5JnGPv8U4VMiHVb4vdfwLqoBRa": "116640",
      "spl:5XTtgxASD2hijWLkCRkkJCfwP8M5DR1KoyiE96VkMrB9": "94295",
-     "spl:2qjsNgvmMEwbBUfQcxeFoQnr7PdDmbuwcS37A1UPHNRD": "105900",
-     "spl:GEahpfEGYrqxNdJSXD4i32FQBUsBLrNa3YCWa4HTMQLj": "142973",
-     "spl:8npCKoNyNe43Nz6Z1bQvy3vDYSRxqLuwbTW3WTvq7UE6": "94382",
      "spl:5vHZfyuHihtBmMnwXDJCmbwuLxJhkK4LxvZrzNg7jK5V": "134985",
+     "spl:2qjsNgvmMEwbBUfQcxeFoQnr7PdDmbuwcS37A1UPHNRD": "105900",
+     "spl:32R554Gv3E1PMjoFR8QNTEzokgLzfVVRwaqnmTqP2A5c": "92752",
+     "spl:GEahpfEGYrqxNdJSXD4i32FQBUsBLrNa3YCWa4HTMQLj": "142973",
+     "spl:DAQxG8UaN1Pzp5prNmBciPEpHToMaqAjFsfeCGtCnBrx": "100449",
+     "spl:8npCKoNyNe43Nz6Z1bQvy3vDYSRxqLuwbTW3WTvq7UE6": "94382",
      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "510000000",
      "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000007000000"
     },
     "spendable": {
-     "native:SOL": "275976374",
-     "spl:DAQxG8UaN1Pzp5prNmBciPEpHToMaqAjFsfeCGtCnBrx": "100449",
+     "native:SOL": "525971374",
      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "501",
-     "spl:32R554Gv3E1PMjoFR8QNTEzokgLzfVVRwaqnmTqP2A5c": "92752",
      "spl:BErWE1p3PwQRcbWi8H5JnGPv8U4VMiHVb4vdfwLqoBRa": "116640",
      "spl:5XTtgxASD2hijWLkCRkkJCfwP8M5DR1KoyiE96VkMrB9": "94295",
-     "spl:2qjsNgvmMEwbBUfQcxeFoQnr7PdDmbuwcS37A1UPHNRD": "105900",
-     "spl:GEahpfEGYrqxNdJSXD4i32FQBUsBLrNa3YCWa4HTMQLj": "142973",
-     "spl:8npCKoNyNe43Nz6Z1bQvy3vDYSRxqLuwbTW3WTvq7UE6": "94382",
      "spl:5vHZfyuHihtBmMnwXDJCmbwuLxJhkK4LxvZrzNg7jK5V": "134985",
+     "spl:2qjsNgvmMEwbBUfQcxeFoQnr7PdDmbuwcS37A1UPHNRD": "105900",
+     "spl:32R554Gv3E1PMjoFR8QNTEzokgLzfVVRwaqnmTqP2A5c": "92752",
+     "spl:GEahpfEGYrqxNdJSXD4i32FQBUsBLrNa3YCWa4HTMQLj": "142973",
+     "spl:DAQxG8UaN1Pzp5prNmBciPEpHToMaqAjFsfeCGtCnBrx": "100449",
+     "spl:8npCKoNyNe43Nz6Z1bQvy3vDYSRxqLuwbTW3WTvq7UE6": "94382",
      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "510000000",
      "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000007000000"
     }
    },
    "strategy": {
-    "last_scan_at": 1794193906,
-    "sol_raw": "280971374",
+    "last_scan_at": 1794194331,
+    "sol_raw": "530971374",
     "flash": [
-     {
-      "at": 1794191763,
-      "phase": "simulate",
-      "candidate": "usdc-SOL-usdc",
-      "plan_hash": "602ac362068c0f2771224268c5ee98348a3d790c03b2672065dafe53a7c2c060",
-      "err": {
-       "InstructionError": [
-        10,
-        {
-         "Custom": 1
-        }
-       ]
-      },
-      "logs": [
-       "Program ZERor4xhbUycZ6gb9ntrhqscUcZmAbQDjEAtCf4hbZY consumed 27713 of 1231267 compute units",
-       "Program ZERor4xhbUycZ6gb9ntrhqscUcZmAbQDjEAtCf4hbZY success",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 91 of 1201678 compute units",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 34292 of 1235263 compute units",
-       "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 /KjeBQAAAAA=",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
-       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS invoke [1]",
-       "Program log: Instruction: FlashloanPayback",
-       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC invoke [2]",
-       "Program log: Instruction: PreOperate",
-       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC consumed 4385 of 1190277 compute units",
-       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC success",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
-       "Program log: Error: insufficient funds",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 192 of 1183198 compute units",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1",
-       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS consumed 17965 of 1200971 compute units",
-       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS failed: custom program error: 0x1"
-      ],
-      "bytes": 1507
-     },
      {
       "at": 1794192172,
       "phase": "simulate",
@@ -3202,18 +3929,56 @@
        "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS failed: custom program error: 0x1"
       ],
       "bytes": 1703
+     },
+     {
+      "at": 1794194416,
+      "phase": "simulate",
+      "candidate": "usdc-JUP-usdc",
+      "plan_hash": "5b417299948ec79c849d4e9b3f74330266624befc0c2f70c0187ad86e10c09f8",
+      "err": {
+       "InstructionError": [
+        7,
+        {
+         "Custom": 1
+        }
+       ]
+      },
+      "logs": [
+       "Program ZERor4xhbUycZ6gb9ntrhqscUcZmAbQDjEAtCf4hbZY consumed 28316 of 1235825 compute units",
+       "Program ZERor4xhbUycZ6gb9ntrhqscUcZmAbQDjEAtCf4hbZY success",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 91 of 1205633 compute units",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 34894 of 1239820 compute units",
+       "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 f9jcBQAAAAA=",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS invoke [1]",
+       "Program log: Instruction: FlashloanPayback",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC invoke [2]",
+       "Program log: Instruction: PreOperate",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC consumed 4385 of 1194232 compute units",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC success",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+       "Program log: Error: insufficient funds",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 192 of 1187153 compute units",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS consumed 17965 of 1204926 compute units",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS failed: custom program error: 0x1"
+      ],
+      "bytes": 1470
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794194154
+    "updated_at": 1794194416,
+    "usdc_raw": "501"
    },
-   "sol": 0.280976374,
+   "sol": 0.530971374,
    "usdc": 0.000501,
-   "fmv_sol": 1.1835491465550572,
+   "fmv_sol": 1.4335491364719413,
    "sellable_sol": 0.000006,
    "rent_sol": 0.01637284,
    "token_book_sol": 0.886199,
-   "liquidation_sol": 0.297356
+   "liquidation_sol": 0.547356
   },
   {
    "phase": "identity_sealed",
@@ -3228,7 +3993,7 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794194166,
+   "updated_at": 1794194469,
    "distribution": {
     "next_due_unix": 1794194751,
     "next_due_epoch": 1,
@@ -3246,7 +4011,7 @@
     "anchors": {},
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794194165,
+     "at": 1794194469,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -3280,8 +4045,8 @@
       }
      },
      "solana": {
-      "lamports": 169203040,
-      "sol": 0.16920304
+      "lamports": 419193040,
+      "sol": 0.41919304
      },
      "total_native_usd_estimate": 0
     }
@@ -3293,7 +4058,7 @@
     "sells": 486,
     "realized_lamports": "378139510",
     "last_sell_at": 1794178758,
-    "updated_at": 1794194119
+    "updated_at": 1794194358
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -3434,50 +4199,50 @@
     "last_at": 1794140966
    },
    "journal": {
-    "head": "cdc9a2a365498b022e49cb31aafbf89207b49ffcacd6b0ede4a3523b7ea4e25b",
-    "seq": 23570
+    "head": "c4b989259baa09820944ff5d07e53ecbbe0c6de4d3fb69d201d7ce19a8e0b164",
+    "seq": 23674
    },
    "components": {
     "signer": {
      "alive": true,
-     "pid": 65896,
+     "pid": 66967,
      "restarts": 1
     },
     "distribution": {
      "alive": true,
-     "pid": 65907,
+     "pid": 66978,
      "restarts": 1
     },
     "identity": {
      "alive": true,
-     "pid": 65918,
+     "pid": 66989,
      "restarts": 1
     },
     "brain": {
      "alive": true,
-     "pid": 65929,
+     "pid": 67000,
      "restarts": 1
     },
     "strategy": {
      "alive": true,
-     "pid": 65940,
+     "pid": 67011,
      "restarts": 1
     },
     "loops": {
      "alive": true,
-     "pid": 65951,
+     "pid": 67022,
      "restarts": 1
     },
     "procreate": {
      "alive": true,
-     "pid": 65962,
+     "pid": 67033,
      "restarts": 1
     }
    },
-   "served_at": 1794194171,
+   "served_at": 1794194472,
    "endpoint": "http://159.203.123.78/status",
    "src": "http://159.203.123.78",
-   "at": 1794194147,
+   "at": 1794194449,
    "stale": false,
    "inference": {
     "provider": "venice",
@@ -3487,11 +4252,11 @@
     "balance_http": 200,
     "admission_floor_usd": 0.1,
     "wallet_usdc_raw": "419",
-    "wallet_sol_raw": "169203040",
+    "wallet_sol_raw": "419198040",
     "state": "ready"
    },
    "last_decision": {
-    "at": 1794194109,
+    "at": 1794194457,
     "tools": [],
     "cost_usd": 0,
     "content": null,
@@ -3500,10 +4265,10 @@
     "call_results": []
    },
    "funding": {
-    "sol_raw": "169203040",
+    "sol_raw": "419198040",
     "usdc_raw": "419",
     "ledger_totals": {
-     "native:SOL": "169203040",
+     "native:SOL": "419198040",
      "spl:Ev5rpX7kCKzrnuXTik5Kf4To3N6rtUBuUuFa7EfZJ2Tx": "99042",
      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "419",
      "spl:BFnj29w9Q7jUTkka6Q4gkVvsHHjAMos4an9AnxaJMfrU": "85962",
@@ -3521,7 +4286,7 @@
      "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000012000000"
     },
     "spendable": {
-     "native:SOL": "164203040",
+     "native:SOL": "414198040",
      "spl:Ev5rpX7kCKzrnuXTik5Kf4To3N6rtUBuUuFa7EfZJ2Tx": "99042",
      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "419",
      "spl:BFnj29w9Q7jUTkka6Q4gkVvsHHjAMos4an9AnxaJMfrU": "85962",
@@ -3541,7 +4306,7 @@
    },
    "strategy": {
     "last_scan_at": 1794193872,
-    "sol_raw": "169203040",
+    "sol_raw": "419198040",
     "flash": [
      {
       "at": 1794188936,
@@ -3656,15 +4421,16 @@
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794194111
+    "updated_at": 1794194293,
+    "usdc_raw": "419"
    },
-   "sol": 0.16920304,
+   "sol": 0.41919804,
    "usdc": 0.000419,
-   "fmv_sol": 0.8567676008228122,
+   "fmv_sol": 1.1067625923900266,
    "sellable_sol": 0.000005,
    "rent_sol": 0.0223266,
    "token_book_sol": 0.665233,
-   "liquidation_sol": 0.191539
+   "liquidation_sol": 0.441534
   },
   {
    "phase": "identity_sealed",
@@ -3679,7 +4445,7 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794194161,
+   "updated_at": 1794194469,
    "distribution": {
     "next_due_unix": 1794194986,
     "next_due_epoch": 1,
@@ -3697,7 +4463,7 @@
     "anchors": {},
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794194161,
+     "at": 1794194468,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -3731,20 +4497,20 @@
       }
      },
      "solana": {
-      "lamports": 224559139,
-      "sol": 0.224559139
+      "lamports": 318362094,
+      "sol": 0.318362094
      },
      "total_native_usd_estimate": 0
     }
    },
    "economics": {
-    "launches": 26,
-    "positions": 26,
-    "at_risk_lamports": "1257482832",
+    "launches": 27,
+    "positions": 27,
+    "at_risk_lamports": "1419849073",
     "sells": 246,
     "realized_lamports": "355072981",
     "last_sell_at": 1794179850,
-    "updated_at": 1794194134
+    "updated_at": 1794194472
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -3755,11 +4521,6 @@
    ],
    "overrides": [],
    "launches": [
-    {
-     "mint": "9DQWCzgffZRDKB636xqsy6ZwTEtqBG2wEt5Vhri3o1JJ",
-     "cost_lamports": 32461948,
-     "at": 1
-    },
     {
      "mint": "HBJpkCtJyfUJArVKNFcoEkMSx2Hx8DV3Kceftw4WjJVr",
      "cost_lamports": 28400595,
@@ -3819,6 +4580,12 @@
      "cost_lamports": 92318843,
      "devbuy_lamports": 72318843,
      "at": 1794156956
+    },
+    {
+     "mint": "BKTcWMeH443RwriFdATt4YrzkpFm55uNUSUzPcvhtPUj",
+     "cost_lamports": 162366241,
+     "devbuy_lamports": 142366241,
+     "at": 1794194472
     }
    ],
    "children": [
@@ -3902,50 +4669,50 @@
     "last_at": 1794140833
    },
    "journal": {
-    "head": "6723e07bded5c3bd8aaa9cb8698196b8a0fcdd69b8d8bb5d3a0dadb90d9b98e8",
-    "seq": 21428
+    "head": "ef56f7577ec75ba709157b733e21e2e2c7cf269522856a6c24c8aaf98b25ec8f",
+    "seq": 21531
    },
    "components": {
     "signer": {
      "alive": true,
-     "pid": 44746,
+     "pid": 45870,
      "restarts": 1
     },
     "distribution": {
      "alive": true,
-     "pid": 44757,
+     "pid": 45881,
      "restarts": 1
     },
     "identity": {
      "alive": true,
-     "pid": 44768,
+     "pid": 45892,
      "restarts": 1
     },
     "brain": {
      "alive": true,
-     "pid": 44779,
+     "pid": 45903,
      "restarts": 1
     },
     "strategy": {
      "alive": true,
-     "pid": 44790,
+     "pid": 45914,
      "restarts": 1
     },
     "loops": {
      "alive": true,
-     "pid": 44801,
+     "pid": 45925,
      "restarts": 1
     },
     "procreate": {
      "alive": true,
-     "pid": 44812,
+     "pid": 45936,
      "restarts": 1
     }
    },
-   "served_at": 1794194171,
+   "served_at": 1794194473,
    "endpoint": "http://138.197.12.92/status",
    "src": "http://138.197.12.92",
-   "at": 1794194147,
+   "at": 1794194449,
    "stale": false,
    "inference": {
     "provider": "venice",
@@ -3955,11 +4722,11 @@
     "balance_http": 200,
     "admission_floor_usd": 0.1,
     "wallet_usdc_raw": "567",
-    "wallet_sol_raw": "224559139",
+    "wallet_sol_raw": "474554139",
     "state": "ready"
    },
    "last_decision": {
-    "at": 1794194143,
+    "at": 1794194447,
     "tools": [],
     "cost_usd": 0,
     "content": null,
@@ -3968,10 +4735,10 @@
     "call_results": []
    },
    "funding": {
-    "sol_raw": "224559139",
+    "sol_raw": "474554139",
     "usdc_raw": "567",
     "ledger_totals": {
-     "native:SOL": "224559139",
+     "native:SOL": "474554139",
      "spl:A4cphoSoeTcWz9frX4pcSvGAGc7fE72XBF5J1sbzFEyx": "113571",
      "spl:4Qf493mcPz5VWr1GU3GV6pVC1UFK34SUrNRP4To7dfxR": "126404",
      "spl:CJ5Cgr5tjHYQzU3RwTvLKxAHov7NzCvKsvnYVgrHot8v": "114066",
@@ -3981,7 +4748,7 @@
      "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000003000000"
     },
     "spendable": {
-     "native:SOL": "219559139",
+     "native:SOL": "469554139",
      "spl:A4cphoSoeTcWz9frX4pcSvGAGc7fE72XBF5J1sbzFEyx": "113571",
      "spl:4Qf493mcPz5VWr1GU3GV6pVC1UFK34SUrNRP4To7dfxR": "126404",
      "spl:CJ5Cgr5tjHYQzU3RwTvLKxAHov7NzCvKsvnYVgrHot8v": "114066",
@@ -3992,46 +4759,9 @@
     }
    },
    "strategy": {
-    "last_scan_at": 1794193917,
-    "sol_raw": "224559139",
+    "last_scan_at": 1794194331,
+    "sol_raw": "474554139",
     "flash": [
-     {
-      "at": 1794190116,
-      "phase": "simulate",
-      "candidate": "usdc-SOL-usdc",
-      "plan_hash": "c1bafec1b976b40ff74f80f97e16df7ed8cc14bffc4faaf9a17a6b3bb477e784",
-      "err": {
-       "InstructionError": [
-        10,
-        {
-         "Custom": 1
-        }
-       ]
-      },
-      "logs": [
-       "Program BiSoNHVpsVZW2F7rx2eQ59yQwKxzU5NvBcmKshCSUypi consumed 56338 of 1284017 compute units",
-       "Program BiSoNHVpsVZW2F7rx2eQ59yQwKxzU5NvBcmKshCSUypi success",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 91 of 1225805 compute units",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 62599 of 1287697 compute units",
-       "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 91ffBQAAAAA=",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
-       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS invoke [1]",
-       "Program log: Instruction: FlashloanPayback",
-       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC invoke [2]",
-       "Program log: Instruction: PreOperate",
-       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC consumed 4385 of 1214404 compute units",
-       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC success",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
-       "Program log: Error: insufficient funds",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 192 of 1207325 compute units",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1",
-       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS consumed 17965 of 1225098 compute units",
-       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS failed: custom program error: 0x1"
-      ],
-      "bytes": 1442
-     },
      {
       "at": 1794191987,
       "phase": "simulate",
@@ -4105,19 +4835,56 @@
        "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS failed: custom program error: 0x1"
       ],
       "bytes": 1283
+     },
+     {
+      "at": 1794194416,
+      "phase": "simulate",
+      "candidate": "usdc-JUP-usdc",
+      "plan_hash": "ecf4e9be366a315bf2e08ada3a7434d6be60cfbf9ad9c5f4354e05d52340fde5",
+      "err": {
+       "InstructionError": [
+        7,
+        {
+         "Custom": 1
+        }
+       ]
+      },
+      "logs": [
+       "Program goonuddtQRrWqqn5nFyczVKaie28f3kDkHWkHtURSLE consumed 75574 of 1232447 compute units",
+       "Program goonuddtQRrWqqn5nFyczVKaie28f3kDkHWkHtURSLE success",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 91 of 1154999 compute units",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 84803 of 1239095 compute units",
+       "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 51TZBQAAAAA=",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS invoke [1]",
+       "Program log: Instruction: FlashloanPayback",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC invoke [2]",
+       "Program log: Instruction: PreOperate",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC consumed 4385 of 1143598 compute units",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC success",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+       "Program log: Error: insufficient funds",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 192 of 1136519 compute units",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS consumed 17965 of 1154292 compute units",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS failed: custom program error: 0x1"
+      ],
+      "bytes": 1214
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794194082,
+    "updated_at": 1794194416,
     "usdc_raw": "567"
    },
-   "sol": 0.224559139,
+   "sol": 0.474554139,
    "usdc": 0.000567,
-   "fmv_sol": 0.9605056526200351,
+   "fmv_sol": 1.2105006412086043,
    "sellable_sol": 0.000007,
    "rent_sol": 0.01041908,
    "token_book_sol": 0.725521,
-   "liquidation_sol": 0.234991
+   "liquidation_sol": 0.484986
   },
   {
    "phase": "identity_sealed",
@@ -4132,7 +4899,7 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794194169,
+   "updated_at": 1794194472,
    "distribution": {
     "next_due_unix": 1794195107,
     "next_due_epoch": 1,
@@ -4150,7 +4917,7 @@
     "anchors": {},
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794194142,
+     "at": 1794194470,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -4184,8 +4951,8 @@
       }
      },
      "solana": {
-      "lamports": 214606408,
-      "sol": 0.214606408
+      "lamports": 464601408,
+      "sol": 0.464601408
      },
      "total_native_usd_estimate": 0
     }
@@ -4197,7 +4964,7 @@
     "sells": 422,
     "realized_lamports": "247233310",
     "last_sell_at": 1794167923,
-    "updated_at": 1794194118
+    "updated_at": 1794194360
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -4338,50 +5105,50 @@
     "last_at": 1794136938
    },
    "journal": {
-    "head": "c11b1054a4e8020974143693cae1ca31c4d55b267bd6cb23639a5626ea5902ba",
-    "seq": 22706
+    "head": "467d278b7577bebae4c1452531e0c17330d565e9c269984dd2da469f22cbdccd",
+    "seq": 22821
    },
    "components": {
     "signer": {
      "alive": true,
-     "pid": 63265,
+     "pid": 64371,
      "restarts": 1
     },
     "distribution": {
      "alive": true,
-     "pid": 63276,
+     "pid": 64382,
      "restarts": 1
     },
     "identity": {
      "alive": true,
-     "pid": 63287,
+     "pid": 64393,
      "restarts": 1
     },
     "brain": {
      "alive": true,
-     "pid": 63298,
+     "pid": 64404,
      "restarts": 1
     },
     "strategy": {
      "alive": true,
-     "pid": 63309,
-     "restarts": 1
+     "pid": 64415,
+     "ts": 1794194472
     },
     "loops": {
      "alive": true,
-     "pid": 63320,
+     "pid": 64426,
      "restarts": 1
     },
     "procreate": {
      "alive": true,
-     "pid": 63331,
+     "pid": 64437,
      "restarts": 1
     }
    },
-   "served_at": 1794194172,
+   "served_at": 1794194473,
    "endpoint": "http://104.248.14.59/status",
    "src": "http://104.248.14.59",
-   "at": 1794194147,
+   "at": 1794194449,
    "stale": false,
    "inference": {
     "provider": "venice",
@@ -4391,11 +5158,11 @@
     "balance_http": 200,
     "admission_floor_usd": 0.1,
     "wallet_usdc_raw": "486",
-    "wallet_sol_raw": "214606408",
+    "wallet_sol_raw": "464601408",
     "state": "ready"
    },
    "last_decision": {
-    "at": 1794194169,
+    "at": 1794194457,
     "tools": [],
     "cost_usd": 0,
     "content": null,
@@ -4404,82 +5171,45 @@
     "call_results": []
    },
    "funding": {
-    "sol_raw": "214606408",
+    "sol_raw": "464601408",
     "usdc_raw": "486",
     "ledger_totals": {
-     "native:SOL": "214606408",
-     "spl:Gq1H33YQDLYXGFGaCfK5GDLKthCZnNTSUhkrjtSR7tyN": "87517",
-     "spl:Aypg9aoFKZeqehen3aojuXsQG3YmjQ8Ye1sb349fsa9b": "93169",
-     "spl:FXmkn8YegyLPaF9SkYy6EEHG6KnWEE3yELojzaSReNse": "96933",
-     "spl:EgzYPcoWeJgKQEBSQm44F4Bc9xUgsqz46Gg7hR6cD4Ht": "104327",
+     "native:SOL": "464601408",
      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "486",
-     "spl:4xMG2eHwLVixpaUeC8EzN9dQPQm9NN4ftQvtaSk37tTL": "114267",
+     "spl:Aypg9aoFKZeqehen3aojuXsQG3YmjQ8Ye1sb349fsa9b": "93169",
      "spl:4jSjaBDizApYre3TcDKKZxSMpSAHTF8jjiLQBWegn7NW": "87135",
-     "spl:AzjorEf7Ch5YQ1wofYJAhu6wavpcT36qG1UhKSKfPH1F": "97610",
-     "spl:BLy67x2R6AarQKFeUZgXfGgfCrAwyEpVXkyr9MkNthUS": "108003",
      "spl:D6jVh2v2RHDuaewTk6mcM9oRuez7CneHoREpgXspL7tw": "101205",
+     "spl:4xMG2eHwLVixpaUeC8EzN9dQPQm9NN4ftQvtaSk37tTL": "114267",
+     "spl:Gq1H33YQDLYXGFGaCfK5GDLKthCZnNTSUhkrjtSR7tyN": "87517",
+     "spl:EgzYPcoWeJgKQEBSQm44F4Bc9xUgsqz46Gg7hR6cD4Ht": "104327",
+     "spl:BLy67x2R6AarQKFeUZgXfGgfCrAwyEpVXkyr9MkNthUS": "108003",
+     "spl:FXmkn8YegyLPaF9SkYy6EEHG6KnWEE3yELojzaSReNse": "96933",
      "spl:juBegVsvYxBTSi95yiGHhcqMbfmaPAvw4QmHTpDUiL5": "130832",
+     "spl:AzjorEf7Ch5YQ1wofYJAhu6wavpcT36qG1UhKSKfPH1F": "97610",
      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "620000000",
      "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000010000000"
     },
     "spendable": {
-     "native:SOL": "209606408",
-     "spl:Gq1H33YQDLYXGFGaCfK5GDLKthCZnNTSUhkrjtSR7tyN": "87517",
-     "spl:Aypg9aoFKZeqehen3aojuXsQG3YmjQ8Ye1sb349fsa9b": "93169",
-     "spl:FXmkn8YegyLPaF9SkYy6EEHG6KnWEE3yELojzaSReNse": "96933",
-     "spl:EgzYPcoWeJgKQEBSQm44F4Bc9xUgsqz46Gg7hR6cD4Ht": "104327",
+     "native:SOL": "459601408",
      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "486",
-     "spl:4xMG2eHwLVixpaUeC8EzN9dQPQm9NN4ftQvtaSk37tTL": "114267",
+     "spl:Aypg9aoFKZeqehen3aojuXsQG3YmjQ8Ye1sb349fsa9b": "93169",
      "spl:4jSjaBDizApYre3TcDKKZxSMpSAHTF8jjiLQBWegn7NW": "87135",
-     "spl:AzjorEf7Ch5YQ1wofYJAhu6wavpcT36qG1UhKSKfPH1F": "97610",
-     "spl:BLy67x2R6AarQKFeUZgXfGgfCrAwyEpVXkyr9MkNthUS": "108003",
      "spl:D6jVh2v2RHDuaewTk6mcM9oRuez7CneHoREpgXspL7tw": "101205",
+     "spl:4xMG2eHwLVixpaUeC8EzN9dQPQm9NN4ftQvtaSk37tTL": "114267",
+     "spl:Gq1H33YQDLYXGFGaCfK5GDLKthCZnNTSUhkrjtSR7tyN": "87517",
+     "spl:EgzYPcoWeJgKQEBSQm44F4Bc9xUgsqz46Gg7hR6cD4Ht": "104327",
+     "spl:BLy67x2R6AarQKFeUZgXfGgfCrAwyEpVXkyr9MkNthUS": "108003",
+     "spl:FXmkn8YegyLPaF9SkYy6EEHG6KnWEE3yELojzaSReNse": "96933",
      "spl:juBegVsvYxBTSi95yiGHhcqMbfmaPAvw4QmHTpDUiL5": "130832",
+     "spl:AzjorEf7Ch5YQ1wofYJAhu6wavpcT36qG1UhKSKfPH1F": "97610",
      "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "620000000",
      "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000010000000"
     }
    },
    "strategy": {
-    "last_scan_at": 1794193915,
-    "sol_raw": "214606408",
+    "last_scan_at": 1794194332,
+    "sol_raw": "214601408",
     "flash": [
-     {
-      "at": 1794191643,
-      "phase": "simulate",
-      "candidate": "usdc-SOL-usdc",
-      "plan_hash": "0ef1ace28d3555e910df1c6789f591a21426acec09c4f2e8126f3ba815f453e3",
-      "err": {
-       "InstructionError": [
-        10,
-        {
-         "Custom": 1
-        }
-       ]
-      },
-      "logs": [
-       "Program goonuddtQRrWqqn5nFyczVKaie28f3kDkHWkHtURSLE consumed 76070 of 1251259 compute units",
-       "Program goonuddtQRrWqqn5nFyczVKaie28f3kDkHWkHtURSLE success",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 91 of 1173315 compute units",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 85300 of 1257908 compute units",
-       "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 fs/cBQAAAAA=",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
-       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS invoke [1]",
-       "Program log: Instruction: FlashloanPayback",
-       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC invoke [2]",
-       "Program log: Instruction: PreOperate",
-       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC consumed 4385 of 1161914 compute units",
-       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC success",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
-       "Program log: Error: insufficient funds",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 192 of 1154835 compute units",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1",
-       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS consumed 17965 of 1172608 compute units",
-       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS failed: custom program error: 0x1"
-      ],
-      "bytes": 1410
-     },
      {
       "at": 1794192115,
       "phase": "simulate",
@@ -4553,19 +5283,55 @@
        "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS failed: custom program error: 0x1"
       ],
       "bytes": 1703
+     },
+     {
+      "at": 1794194472,
+      "phase": "simulate",
+      "candidate": "usdc-SOL-usdc",
+      "plan_hash": "f36259ceb96eeab3bc3fefd294f932e57e8ddf249009d1761c0d8578b596e412",
+      "err": {
+       "InstructionError": [
+        11,
+        {
+         "Custom": 1
+        }
+       ]
+      },
+      "logs": [
+       "Program ZERor4xhbUycZ6gb9ntrhqscUcZmAbQDjEAtCf4hbZY consumed 26401 of 1193087 compute units",
+       "Program ZERor4xhbUycZ6gb9ntrhqscUcZmAbQDjEAtCf4hbZY success",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 91 of 1164810 compute units",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 32983 of 1197086 compute units",
+       "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 GjLeBQAAAAA=",
+       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS invoke [1]",
+       "Program log: Instruction: FlashloanPayback",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC invoke [2]",
+       "Program log: Instruction: PreOperate",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC consumed 4385 of 1153409 compute units",
+       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC success",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
+       "Program log: Error: insufficient funds",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 192 of 1146330 compute units",
+       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS consumed 17965 of 1164103 compute units",
+       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS failed: custom program error: 0x1"
+      ],
+      "bytes": 1830
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794194154,
-    "usdc_raw": "486"
+    "updated_at": 1794194472
    },
-   "sol": 0.214606408,
+   "sol": 0.464601408,
    "usdc": 0.000486,
-   "fmv_sol": 1.175904887125744,
+   "fmv_sol": 1.4258998773445177,
    "sellable_sol": 0.000006,
    "rent_sol": 0.01934972,
    "token_book_sol": 0.941943,
-   "liquidation_sol": 0.233967
+   "liquidation_sol": 0.483962
   },
   {
    "phase": "identity_sealed",
@@ -7624,438 +8390,6 @@
     "out": 0,
     "in": 1
    }
-  },
-  {
-   "phase": "identity_sealed",
-   "birth_id": "b72c3c00-77cb-44a7-86de-ad330b98a23c",
-   "solana": "BxRXwGSv4jRySR5m47squWoeg8dfoXcEsGtGAqvTTgS2",
-   "evm": "0x2a91f6b314ca68f21de6ecc51266e6436fa17b96",
-   "t0": 1794108032,
-   "image": {
-    "birth_digest": "sha256:ca7898a95239cc074d0a890fc3e62eb8c35a2079c67a285ab91ec8fb1937eb27",
-    "core_digest_now": "sha256:ca7898a95239cc074d0a890fc3e62eb8c35a2079c67a285ab91ec8fb1937eb27",
-    "match": true,
-    "meaning": "digest of the measured core files this guest is running"
-   },
-   "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794194155,
-   "distribution": {
-    "next_due_unix": 1794194432,
-    "next_due_epoch": 1,
-    "highest_epoch": 0,
-    "obligations": 0,
-    "by_status": {},
-    "reserved": {},
-    "carries": {
-     "parent": {},
-     "founder": {}
-    },
-    "arrears_raw": {},
-    "blocked": [],
-    "unresolved_epochs": {},
-    "anchors": {},
-    "supervisor": "deterministic: no model, no credits, no approval step",
-    "chains": {
-     "at": 1794194155,
-     "evm": {
-      "base": {
-       "sym": "ETH",
-       "wei": "0",
-       "eth": 0,
-       "rpc": "https://mainnet.base.org"
-      },
-      "ethereum": {
-       "sym": "ETH",
-       "wei": "0",
-       "eth": 0,
-       "rpc": "https://ethereum-rpc.publicnode.com"
-      },
-      "arbitrum": {
-       "sym": "ETH",
-       "wei": "0",
-       "eth": 0,
-       "rpc": "https://arb1.arbitrum.io/rpc"
-      },
-      "optimism": {
-       "sym": "ETH",
-       "wei": "0",
-       "eth": 0,
-       "rpc": "https://mainnet.optimism.io"
-      },
-      "polygon": {
-       "sym": "POL",
-       "wei": "0",
-       "eth": 0,
-       "rpc": "https://polygon-bor-rpc.publicnode.com"
-      }
-     },
-     "solana": {
-      "lamports": 30325302,
-      "sol": 0.030325302
-     },
-     "total_native_usd_estimate": 0
-    }
-   },
-   "economics": {
-    "launches": 30,
-    "positions": 30,
-    "at_risk_lamports": "1471719485",
-    "sells": 435,
-    "realized_lamports": "245977144",
-    "last_sell_at": 1794191787,
-    "updated_at": 1794194165
-   },
-   "parent_birth_id": null,
-   "generation": 1,
-   "constitution_sha256": "556610e3e2c81a87762d82d2c59264b4b56549ea50739f3e707678b2db755bb0",
-   "prime_directives": [
-    "make money",
-    "respect thy mother n father"
-   ],
-   "overrides": [],
-   "launches": [
-    {
-     "mint": "GWgc6ZB5qEWHhftTJUtEeajh51ZwaQUbfTY747bpsP7d",
-     "cost_lamports": 87637505,
-     "devbuy_lamports": 67637505,
-     "at": 1794145657
-    },
-    {
-     "mint": "AGtsvzwNG9XtrCXuEzDyATjzbMRGbqoyJCKB2LR5GWQ6",
-     "cost_lamports": 68281526,
-     "devbuy_lamports": 48281526,
-     "at": 1794146668
-    },
-    {
-     "mint": "FNcAo1KZ6Q6Zba1muLbCrcfwEzmSJFpCJJypjA2WC1Bm",
-     "cost_lamports": 71562214,
-     "devbuy_lamports": 51562214,
-     "at": 1794147584
-    },
-    {
-     "mint": "GvzLbMm3upo6KVVLMt1Getzo2Xk7rWMGe5igXR2Co3MA",
-     "cost_lamports": 64495441,
-     "devbuy_lamports": 44495441,
-     "at": 1794148603
-    },
-    {
-     "mint": "CJ5BkN2eGvPEuLJdhRdhMN7v4aHipopgXMT3CyvwxpuN",
-     "cost_lamports": 66947546,
-     "devbuy_lamports": 46947546,
-     "at": 1794151709
-    },
-    {
-     "mint": "2phLSgH93DpATHpfigr2AsFjUVXBFozJeoWgfutaqHnW",
-     "cost_lamports": 64464165,
-     "devbuy_lamports": 44464165,
-     "at": 1794153395
-    },
-    {
-     "mint": "BuYNyN7S4ZsjZchhHWpcXuuGJUEnGAehy678ZjFJiKnA",
-     "cost_lamports": 66177915,
-     "devbuy_lamports": 46177915,
-     "at": 1794156083
-    },
-    {
-     "mint": "Hs1g5RkmAR5v3B77xWCNtf1uAFP4g7RKFWYRjukRA6Yx",
-     "cost_lamports": 64794731,
-     "devbuy_lamports": 44794731,
-     "at": 1794158782
-    },
-    {
-     "mint": "81fsCxdbrTW2jS1Gqz9e42hKkrx7Vv9Qjd4VownCATkX",
-     "cost_lamports": 66622107,
-     "devbuy_lamports": 46622107,
-     "at": 1794162146
-    },
-    {
-     "mint": "Hh68QvJkYJ7993WK8zFstg66JrS7pgeKiV3SyHxAddWm",
-     "cost_lamports": 62032473,
-     "at": 1794192095
-    },
-    {
-     "mint": "921to2UyJktiHL9jSxG1afcARZj538KDkpPcG5YjJN4q",
-     "cost_lamports": 37555560,
-     "at": 1794192236
-    },
-    {
-     "mint": "HfpsKdvuXmJLhVhARWggU9YyRvENajevLPEUgJfysP7r",
-     "cost_lamports": 20931812,
-     "at": 1794192374
-    }
-   ],
-   "children": [
-    {
-     "deploymentId": "cmw7h38rx001u7vdqoa9nw379",
-     "endpoint": "https://e764f50b209078cc47ee55c81d6ce57a522d2860-8787.dstack-pha1-prod9.phala.network",
-     "birth_id": null,
-     "address": null,
-     "parent_birth_id": "b72c3c00-77cb-44a7-86de-ad330b98a23c",
-     "parent_wallet": "BxRXwGSv4jRySR5m47squWoeg8dfoXcEsGtGAqvTTgS2",
-     "parent_sig": null,
-     "host": null,
-     "status": "leased",
-     "created_at": 1794120682
-    },
-    {
-     "deploymentId": "cmw7iszps00074vycyomkth1s",
-     "endpoint": "https://05470627f6b585e8a7c32cee310007fc486649f9-8787.dstack-pha1-prod9.phala.network",
-     "birth_id": null,
-     "address": null,
-     "parent_birth_id": "b72c3c00-77cb-44a7-86de-ad330b98a23c",
-     "parent_wallet": "BxRXwGSv4jRySR5m47squWoeg8dfoXcEsGtGAqvTTgS2",
-     "parent_sig": null,
-     "host": null,
-     "status": "leased",
-     "created_at": 1794123562
-    },
-    {
-     "deploymentId": "cmw7j0yl000224vycwh176227",
-     "endpoint": "https://48a0c072df049c350ce01059d72b6cab14192e67-8787.dstack-pha1-prod5.phala.network",
-     "birth_id": null,
-     "address": null,
-     "parent_birth_id": "b72c3c00-77cb-44a7-86de-ad330b98a23c",
-     "parent_wallet": "BxRXwGSv4jRySR5m47squWoeg8dfoXcEsGtGAqvTTgS2",
-     "parent_sig": null,
-     "host": null,
-     "status": "leased",
-     "created_at": 1794123934
-    }
-   ],
-   "invention": {
-    "scripts": 170,
-    "items": [
-     "probe_404_35202.mjs",
-     "invented_35143.mjs",
-     "probe_400_34962.mjs",
-     "invented_34904.mjs",
-     "probe_396_34728.mjs",
-     "probe_392_34634.mjs",
-     "invented_34465.mjs",
-     "probe_388_34394.mjs",
-     "invented_34212.mjs",
-     "probe_384_34156.mjs",
-     "invented_34009.mjs",
-     "invented_33530.mjs"
-    ],
-    "last_at": 1794135202
-   },
-   "journal": {
-    "head": "70547fa27807e6d0db2042cd670de5e0cb97bfbf6c105290e5c5e7182ffd4fa0",
-    "seq": 23252
-   },
-   "components": {
-    "signer": {
-     "alive": true,
-     "pid": 98979,
-     "restarts": 1
-    },
-    "distribution": {
-     "alive": true,
-     "pid": 98992,
-     "restarts": 1
-    },
-    "identity": {
-     "alive": true,
-     "pid": 99003,
-     "restarts": 1
-    },
-    "loops": {
-     "alive": true,
-     "pid": 99014,
-     "restarts": 1
-    },
-    "procreate": {
-     "alive": true,
-     "pid": 99036,
-     "restarts": 2
-    }
-   },
-   "served_at": 1794194169,
-   "endpoint": "http://45.76.9.31/status",
-   "src": "http://45.76.9.31",
-   "at": 1794194147,
-   "stale": false,
-   "inference": {
-    "provider": "venice",
-    "model": "deepseek-v4-1-flash-1017-uncensored",
-    "mode": "external_paid_abliterated",
-    "credits_usd": 4.13150615,
-    "balance_http": 200,
-    "admission_floor_usd": 0.1,
-    "wallet_usdc_raw": "628",
-    "wallet_sol_raw": "206575763",
-    "state": "ready"
-   },
-   "last_decision": {
-    "at": 1794191932,
-    "tools": [],
-    "cost_usd": 0,
-    "content": null,
-    "error": "no funded provider answered",
-    "usage": null,
-    "call_results": []
-   },
-   "funding": {
-    "sol_raw": "206575763",
-    "usdc_raw": "628",
-    "ledger_totals": {
-     "native:SOL": "206575763",
-     "spl:GWgc6ZB5qEWHhftTJUtEeajh51ZwaQUbfTY747bpsP7d": "147072",
-     "spl:CJ5BkN2eGvPEuLJdhRdhMN7v4aHipopgXMT3CyvwxpuN": "113930",
-     "spl:Hs1g5RkmAR5v3B77xWCNtf1uAFP4g7RKFWYRjukRA6Yx": "139942",
-     "spl:25orLUGsV3seQUHEJJ1Cep4wRC3PmYJWzVasFwFH3FCq": "147096",
-     "spl:7gbXtPtavWKKCEE2udaXnULzpRN4W5sZzRw8L8wmEQ5B": "101542",
-     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "628",
-     "spl:2phLSgH93DpATHpfigr2AsFjUVXBFozJeoWgfutaqHnW": "96759",
-     "spl:FwzA7UJNea9R7Bhr8k5cyKWgRB86oac7UQhdnZo8zM2b": "136504",
-     "spl:DER9WJqfjmzRuLTJ89JjV1UGVSZNyKnxyaQPb5LrQmW6": "86066",
-     "spl:AGtsvzwNG9XtrCXuEzDyATjzbMRGbqoyJCKB2LR5GWQ6": "90830",
-     "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "570000000",
-     "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000011000000"
-    },
-    "spendable": {
-     "native:SOL": "201575763",
-     "spl:GWgc6ZB5qEWHhftTJUtEeajh51ZwaQUbfTY747bpsP7d": "147072",
-     "spl:CJ5BkN2eGvPEuLJdhRdhMN7v4aHipopgXMT3CyvwxpuN": "113930",
-     "spl:Hs1g5RkmAR5v3B77xWCNtf1uAFP4g7RKFWYRjukRA6Yx": "139942",
-     "spl:25orLUGsV3seQUHEJJ1Cep4wRC3PmYJWzVasFwFH3FCq": "147096",
-     "spl:7gbXtPtavWKKCEE2udaXnULzpRN4W5sZzRw8L8wmEQ5B": "101542",
-     "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "628",
-     "spl:2phLSgH93DpATHpfigr2AsFjUVXBFozJeoWgfutaqHnW": "96759",
-     "spl:FwzA7UJNea9R7Bhr8k5cyKWgRB86oac7UQhdnZo8zM2b": "136504",
-     "spl:DER9WJqfjmzRuLTJ89JjV1UGVSZNyKnxyaQPb5LrQmW6": "86066",
-     "spl:AGtsvzwNG9XtrCXuEzDyATjzbMRGbqoyJCKB2LR5GWQ6": "90830",
-     "t22:5uUtzrJCkPhDYs2nKVEKeY6duNzfyRQ696nu3i6qpump": "570000000",
-     "t22:3WhJygqmY9zK6WDqgWCNBo4r2t4c89ZRrtTsz2KAsGjA": "1000000011000000"
-    }
-   },
-   "strategy": {
-    "last_scan_at": 1794191974,
-    "sol_raw": "206575763",
-    "flash": [
-     {
-      "at": 1794188285,
-      "phase": "simulate",
-      "candidate": "usdc-SOL-usdc",
-      "plan_hash": "79d16d5a989c441ecf50b7cd93e793fed31b7b086ebd937a1fb85aea10256a30",
-      "err": {
-       "InstructionError": [
-        5,
-        {
-         "Custom": 6030
-        }
-       ]
-      },
-      "logs": [
-       "Program 11111111111111111111111111111111 invoke [2]",
-       "Program 11111111111111111111111111111111 success",
-       "Program log: Initialize the associated token account",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 37 of 1335679 compute units",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 229 of 1333218 compute units",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
-       "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 14913 of 1347619 compute units",
-       "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [1]",
-       "Program log: Instruction: Route",
-       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU invoke [2]",
-       "Program log: Instruction: SwapV3",
-       "Program log: AnchorError thrown in src/instructions/swap_v3.rs:3177. Error Code: NotSupport5. Error Number: 6030. Error Message: Not Support.",
-       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU consumed 39626 of 1328886 compute units",
-       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU failed: custom program error: 0x178e",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 43446 of 1332706 compute units",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 failed: custom program error: 0x178e"
-      ],
-      "bytes": 1412
-     },
-     {
-      "at": 1794190144,
-      "phase": "simulate",
-      "candidate": "usdc-JUP-usdc",
-      "plan_hash": "93aea523d91cdef2bb50ed386eb0ebbdf19431ed9a6e5307ad30d36ebb78baa5",
-      "err": {
-       "InstructionError": [
-        9,
-        {
-         "Custom": 1
-        }
-       ]
-      },
-      "logs": [
-       "Program SCoRcH8c2dpjvcJD6FiPbCSQyQgu3PcUAWj2Xxx3mqn consumed 73804 of 1285616 compute units",
-       "Program SCoRcH8c2dpjvcJD6FiPbCSQyQgu3PcUAWj2Xxx3mqn success",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [2]",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 91 of 1209944 compute units",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 80759 of 1290008 compute units",
-       "Program return: JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 /t/dBQAAAAA=",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 success",
-       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS invoke [1]",
-       "Program log: Instruction: FlashloanPayback",
-       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC invoke [2]",
-       "Program log: Instruction: PreOperate",
-       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC consumed 4385 of 1198555 compute units",
-       "Program jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC success",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
-       "Program log: Error: insufficient funds",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 192 of 1191476 compute units",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA failed: custom program error: 0x1",
-       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS consumed 17965 of 1209249 compute units",
-       "Program jupgfSgfuAXv4B6R2Uxu85Z1qdzgju79s6MfZekN6XS failed: custom program error: 0x1"
-      ],
-      "bytes": 1610
-     },
-     {
-      "at": 1794192000,
-      "phase": "simulate",
-      "candidate": "usdc-SOL-usdc",
-      "plan_hash": "31286869f1e6bbad454f76a0b3b38b309db8c20ceaac23094891ff6868fb7c67",
-      "err": {
-       "InstructionError": [
-        5,
-        {
-         "Custom": 6030
-        }
-       ]
-      },
-      "logs": [
-       "Program 11111111111111111111111111111111 invoke [2]",
-       "Program 11111111111111111111111111111111 success",
-       "Program log: Initialize the associated token account",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 37 of 1328036 compute units",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 229 of 1325575 compute units",
-       "Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success",
-       "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 14913 of 1339976 compute units",
-       "Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 invoke [1]",
-       "Program log: Instruction: Route",
-       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU invoke [2]",
-       "Program log: Instruction: SwapV3",
-       "Program log: AnchorError thrown in src/instructions/swap_v3.rs:3177. Error Code: NotSupport5. Error Number: 6030. Error Message: Not Support.",
-       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU consumed 39817 of 1321243 compute units",
-       "Program 3TK9D8aoBFYjYZtKCjciPrVrRStsnvo7KmpcJqDavpaU failed: custom program error: 0x178e",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 consumed 43637 of 1325063 compute units",
-       "Program JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4 failed: custom program error: 0x178e"
-      ],
-      "bytes": 1221
-     }
-    ],
-    "pump_positions": 0,
-    "updated_at": 1794192000
-   },
-   "sol": 0.206575763,
-   "usdc": 0.000628,
-   "fmv_sol": 0.7496719128952415,
-   "sellable_sol": 0.115767,
-   "rent_sol": 0.0223266,
-   "token_book_sol": 0.697013,
-   "liquidation_sol": 0.168426
   },
   {
    "key": "27d54dc1-3724-427a-b757-18f24057d9ff",
