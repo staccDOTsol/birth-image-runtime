@@ -1,9 +1,746 @@
 {
- "at": 1794237998,
- "count": 190,
- "fresh": 0,
+ "at": 1794238510,
+ "count": 194,
+ "fresh": 4,
  "source": "status",
  "agents": [
+  {
+   "phase": "identity_sealed",
+   "birth_id": "b2fb0227-e809-49dc-9023-5b71a6aa9b50",
+   "solana": "J8NZmCZA7g8JAnfjmF5YaUSz6wnMiNVGcBYsjDUmgx8z",
+   "evm": "0xae5be5552802ea52dd4d4125c5377a755b269d5b",
+   "t0": 1794238156,
+   "image": {
+    "birth_digest": "sha256:b41fea1a2a72e4286b95b10d4f7be3265caaa3a4ce197b4145c0b4a56a35c785",
+    "core_digest_now": "sha256:b41fea1a2a72e4286b95b10d4f7be3265caaa3a4ce197b4145c0b4a56a35c785",
+    "match": true,
+    "meaning": "digest of the measured core files this guest is running"
+   },
+   "identity_binding": "identity_binding_unverified",
+   "updated_at": 1794238499,
+   "distribution": {
+    "next_due_unix": 1794324556,
+    "next_due_epoch": 1,
+    "highest_epoch": 0,
+    "obligations": 0,
+    "by_status": {},
+    "reserved": {},
+    "carries": {
+     "parent": {},
+     "founder": {}
+    },
+    "arrears_raw": {},
+    "blocked": [],
+    "unresolved_epochs": {},
+    "anchors": {},
+    "supervisor": "deterministic: no model, no credits, no approval step",
+    "chains": {
+     "at": 1794238499,
+     "evm": {
+      "base": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://mainnet.base.org"
+      },
+      "ethereum": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://ethereum-rpc.publicnode.com"
+      },
+      "arbitrum": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://arb1.arbitrum.io/rpc"
+      },
+      "optimism": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://mainnet.optimism.io"
+      },
+      "polygon": {
+       "sym": "POL",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://polygon-bor-rpc.publicnode.com"
+      }
+     },
+     "solana": {
+      "lamports": 0,
+      "sol": 0
+     },
+     "total_native_usd_estimate": 0
+    }
+   },
+   "inference": {
+    "provider": "venice",
+    "model": "deepseek-v4-1-flash-1017-uncensored",
+    "mode": "external_paid_abliterated",
+    "credits_usd": 0,
+    "balance_http": 200,
+    "admission_floor_usd": 0.1,
+    "wallet_usdc_raw": "0",
+    "wallet_sol_raw": "0",
+    "state": "unfunded",
+    "self_fund": {
+     "state": "blocked",
+     "reason": "SOL too small to swap",
+     "sol": "0",
+     "credits": 0,
+     "usdc": "0"
+    }
+   },
+   "last_decision": {
+    "at": 1794238422,
+    "tools": [],
+    "cost_usd": 0,
+    "content": null,
+    "error": "no funded provider answered",
+    "usage": null,
+    "call_results": []
+   },
+   "funding": {
+    "sol_raw": "0",
+    "usdc_raw": "0",
+    "ledger_totals": {
+     "native:SOL": "0"
+    },
+    "spendable": {
+     "native:SOL": "0"
+    }
+   },
+   "strategy": {
+    "last_scan_at": 1794238280,
+    "sol_raw": "0",
+    "flash": [],
+    "pump_positions": 0,
+    "updated_at": 1794238475
+   },
+   "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
+   "generation": 13,
+   "constitution_sha256": "556610e3e2c81a87762d82d2c59264b4b56549ea50739f3e707678b2db755bb0",
+   "prime_directives": [
+    "make money",
+    "respect thy mother n father"
+   ],
+   "overrides": [],
+   "launches": [],
+   "children": [],
+   "invention": {
+    "scripts": 0,
+    "items": [],
+    "last_at": 0
+   },
+   "journal": {
+    "head": "fa17c0b2238acda94740be0c05f33ca1e3a4a59256f3bbccca78d6c39fc96a71",
+    "seq": 91
+   },
+   "components": {
+    "signer": {
+     "alive": true,
+     "pid": 2533,
+     "restarts": 1
+    },
+    "distribution": {
+     "alive": true,
+     "pid": 2544,
+     "restarts": 1
+    },
+    "identity": {
+     "alive": true,
+     "pid": 2555,
+     "restarts": 1
+    },
+    "brain": {
+     "alive": true,
+     "pid": 2566,
+     "restarts": 1
+    },
+    "strategy": {
+     "alive": true,
+     "pid": 2577,
+     "restarts": 1
+    },
+    "loops": {
+     "alive": true,
+     "pid": 2588,
+     "restarts": 1
+    },
+    "procreate": {
+     "alive": true,
+     "pid": 2599,
+     "restarts": 1
+    }
+   },
+   "served_at": 1794238510,
+   "endpoint": "http://144.202.13.111/status",
+   "src": "http://144.202.13.111",
+   "at": 1794238510,
+   "stale": false,
+   "sol": 0,
+   "usdc": 0,
+   "fmv_sol": 0,
+   "rent_sol": 0,
+   "token_book_sol": 0
+  },
+  {
+   "phase": "identity_sealed",
+   "birth_id": "e7fadcc1-346f-406c-aecb-c7e0a7ea145c",
+   "solana": "HMaPxvJ61q17evP6ysFiTG1NgFhFRS224mKmoL9kJjqA",
+   "evm": "0x7ffc14003e7c378c1a23e2eccaa77fb010bc7002",
+   "t0": 1794238188,
+   "image": {
+    "birth_digest": "sha256:b41fea1a2a72e4286b95b10d4f7be3265caaa3a4ce197b4145c0b4a56a35c785",
+    "core_digest_now": "sha256:b41fea1a2a72e4286b95b10d4f7be3265caaa3a4ce197b4145c0b4a56a35c785",
+    "match": true,
+    "meaning": "digest of the measured core files this guest is running"
+   },
+   "identity_binding": "identity_binding_unverified",
+   "updated_at": 1794238501,
+   "distribution": {
+    "next_due_unix": 1794324588,
+    "next_due_epoch": 1,
+    "highest_epoch": 0,
+    "obligations": 0,
+    "by_status": {},
+    "reserved": {},
+    "carries": {
+     "parent": {},
+     "founder": {}
+    },
+    "arrears_raw": {},
+    "blocked": [],
+    "unresolved_epochs": {},
+    "anchors": {},
+    "supervisor": "deterministic: no model, no credits, no approval step",
+    "chains": {
+     "at": 1794238501,
+     "evm": {
+      "base": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://mainnet.base.org"
+      },
+      "ethereum": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://ethereum-rpc.publicnode.com"
+      },
+      "arbitrum": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://arb1.arbitrum.io/rpc"
+      },
+      "optimism": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://mainnet.optimism.io"
+      },
+      "polygon": {
+       "sym": "POL",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://polygon-bor-rpc.publicnode.com"
+      }
+     },
+     "solana": {
+      "lamports": 0,
+      "sol": 0
+     },
+     "total_native_usd_estimate": 0
+    }
+   },
+   "inference": {
+    "provider": "venice",
+    "model": "deepseek-v4-1-flash-1017-uncensored",
+    "mode": "external_paid_abliterated",
+    "credits_usd": 0,
+    "balance_http": 200,
+    "admission_floor_usd": 0.1,
+    "wallet_usdc_raw": "0",
+    "wallet_sol_raw": "0",
+    "state": "unfunded",
+    "self_fund": {
+     "state": "blocked",
+     "reason": "SOL too small to swap",
+     "sol": "0",
+     "credits": 0,
+     "usdc": "0"
+    }
+   },
+   "last_decision": {
+    "at": 1794238391,
+    "tools": [],
+    "cost_usd": 0,
+    "content": null,
+    "error": "no funded provider answered",
+    "usage": null,
+    "call_results": []
+   },
+   "funding": {
+    "sol_raw": "0",
+    "usdc_raw": "0",
+    "ledger_totals": {
+     "native:SOL": "0"
+    },
+    "spendable": {
+     "native:SOL": "0"
+    }
+   },
+   "strategy": {
+    "last_scan_at": 1794238240,
+    "sol_raw": "0",
+    "flash": [],
+    "pump_positions": 0,
+    "updated_at": 1794238490
+   },
+   "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
+   "generation": 13,
+   "constitution_sha256": "556610e3e2c81a87762d82d2c59264b4b56549ea50739f3e707678b2db755bb0",
+   "prime_directives": [
+    "make money",
+    "respect thy mother n father"
+   ],
+   "overrides": [],
+   "launches": [],
+   "children": [],
+   "invention": {
+    "scripts": 0,
+    "items": [],
+    "last_at": 0
+   },
+   "journal": {
+    "head": "3a89fd20749a9e5efd36652c6c3be32e82c1b159a9282a50a77604daee4ddc9a",
+    "seq": 78
+   },
+   "components": {
+    "signer": {
+     "alive": true,
+     "pid": 2322,
+     "restarts": 1
+    },
+    "distribution": {
+     "alive": true,
+     "pid": 2333,
+     "restarts": 1
+    },
+    "identity": {
+     "alive": true,
+     "pid": 2344,
+     "restarts": 1
+    },
+    "brain": {
+     "alive": true,
+     "pid": 2355,
+     "restarts": 1
+    },
+    "strategy": {
+     "alive": true,
+     "pid": 2366,
+     "restarts": 1
+    },
+    "loops": {
+     "alive": true,
+     "pid": 2377,
+     "restarts": 1
+    },
+    "procreate": {
+     "alive": true,
+     "pid": 2390,
+     "restarts": 1
+    }
+   },
+   "served_at": 1794238510,
+   "endpoint": "http://108.61.206.80/status",
+   "src": "http://108.61.206.80",
+   "at": 1794238510,
+   "stale": false,
+   "sol": 0,
+   "usdc": 0,
+   "fmv_sol": 0,
+   "rent_sol": 0,
+   "token_book_sol": 0
+  },
+  {
+   "phase": "identity_sealed",
+   "birth_id": "f4575598-2cd9-459f-869c-d5d1b617f113",
+   "solana": "9WwDhsovt6fa3E28KiBWRzwftyrPSM6ETjzsjj7sbmy",
+   "evm": "0xd4f7ab5d634664f05575ec415e76f9a2702492e2",
+   "t0": 1794238209,
+   "image": {
+    "birth_digest": "sha256:b41fea1a2a72e4286b95b10d4f7be3265caaa3a4ce197b4145c0b4a56a35c785",
+    "core_digest_now": "sha256:b41fea1a2a72e4286b95b10d4f7be3265caaa3a4ce197b4145c0b4a56a35c785",
+    "match": true,
+    "meaning": "digest of the measured core files this guest is running"
+   },
+   "identity_binding": "identity_binding_unverified",
+   "updated_at": 1794238506,
+   "distribution": {
+    "next_due_unix": 1794324609,
+    "next_due_epoch": 1,
+    "highest_epoch": 0,
+    "obligations": 0,
+    "by_status": {},
+    "reserved": {},
+    "carries": {
+     "parent": {},
+     "founder": {}
+    },
+    "arrears_raw": {},
+    "blocked": [],
+    "unresolved_epochs": {},
+    "anchors": {},
+    "supervisor": "deterministic: no model, no credits, no approval step",
+    "chains": {
+     "at": 1794238506,
+     "evm": {
+      "base": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://mainnet.base.org"
+      },
+      "ethereum": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://ethereum-rpc.publicnode.com"
+      },
+      "arbitrum": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://arb1.arbitrum.io/rpc"
+      },
+      "optimism": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://mainnet.optimism.io"
+      },
+      "polygon": {
+       "sym": "POL",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://polygon-bor-rpc.publicnode.com"
+      }
+     },
+     "solana": {
+      "lamports": 0,
+      "sol": 0
+     },
+     "total_native_usd_estimate": 0
+    }
+   },
+   "inference": {
+    "provider": "venice",
+    "model": "deepseek-v4-1-flash-1017-uncensored",
+    "mode": "external_paid_abliterated",
+    "credits_usd": 0,
+    "balance_http": 200,
+    "admission_floor_usd": 0.1,
+    "wallet_usdc_raw": "0",
+    "wallet_sol_raw": "0",
+    "state": "unfunded",
+    "self_fund": {
+     "state": "blocked",
+     "reason": "SOL too small to swap",
+     "sol": "0",
+     "credits": 0,
+     "usdc": "0"
+    }
+   },
+   "last_decision": {
+    "at": 1794238434,
+    "tools": [],
+    "cost_usd": 0,
+    "content": null,
+    "error": "no funded provider answered",
+    "usage": null,
+    "call_results": []
+   },
+   "funding": {
+    "sol_raw": "0",
+    "usdc_raw": "0",
+    "ledger_totals": {
+     "native:SOL": "0"
+    },
+    "spendable": {
+     "native:SOL": "0"
+    }
+   },
+   "strategy": {
+    "last_scan_at": 1794238266,
+    "sol_raw": "0",
+    "flash": [],
+    "pump_positions": 0,
+    "updated_at": 1794238469
+   },
+   "economics": {
+    "launches": 0,
+    "positions": 0,
+    "at_risk_lamports": "0",
+    "sells": 0,
+    "realized_lamports": "0",
+    "last_sell_at": null,
+    "updated_at": 1794238414
+   },
+   "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
+   "generation": 13,
+   "constitution_sha256": "556610e3e2c81a87762d82d2c59264b4b56549ea50739f3e707678b2db755bb0",
+   "prime_directives": [
+    "make money",
+    "respect thy mother n father"
+   ],
+   "overrides": [],
+   "launches": [],
+   "children": [],
+   "invention": {
+    "scripts": 0,
+    "items": [],
+    "last_at": 0
+   },
+   "journal": {
+    "head": "54f0b5516a8d867a6a990eabb3a56801bc35eeab412d4f1550e2490d1281aba0",
+    "seq": 62
+   },
+   "components": {
+    "signer": {
+     "alive": true,
+     "pid": 7496,
+     "restarts": 1
+    },
+    "distribution": {
+     "alive": true,
+     "pid": 7526,
+     "restarts": 1
+    },
+    "identity": {
+     "alive": true,
+     "pid": 7563,
+     "restarts": 1
+    },
+    "brain": {
+     "alive": true,
+     "pid": 7586,
+     "restarts": 1
+    },
+    "strategy": {
+     "alive": true,
+     "pid": 7617,
+     "restarts": 1
+    },
+    "loops": {
+     "alive": true,
+     "pid": 7650,
+     "restarts": 1
+    },
+    "procreate": {
+     "alive": true,
+     "pid": 7661,
+     "restarts": 1
+    }
+   },
+   "served_at": 1794238510,
+   "endpoint": "http://159.203.98.168/status",
+   "src": "http://159.203.98.168",
+   "at": 1794238510,
+   "stale": false,
+   "sol": 0,
+   "usdc": 0,
+   "fmv_sol": 0,
+   "rent_sol": 0,
+   "token_book_sol": 0
+  },
+  {
+   "phase": "identity_sealed",
+   "birth_id": "f799d647-9197-4d25-a39d-bd6766ce4e9d",
+   "solana": "7z8AahB4ip4ckUF1WLhq3Zyu1dCwph7PdUvrxaQJjaPT",
+   "evm": "0xe2f8eceab0df4ca0d01e2da81d7793ac0f2ef70d",
+   "t0": 1794238217,
+   "image": {
+    "birth_digest": "sha256:b41fea1a2a72e4286b95b10d4f7be3265caaa3a4ce197b4145c0b4a56a35c785",
+    "core_digest_now": "sha256:b41fea1a2a72e4286b95b10d4f7be3265caaa3a4ce197b4145c0b4a56a35c785",
+    "match": true,
+    "meaning": "digest of the measured core files this guest is running"
+   },
+   "identity_binding": "identity_binding_unverified",
+   "updated_at": 1794238490,
+   "distribution": {
+    "next_due_unix": 1794324617,
+    "next_due_epoch": 1,
+    "highest_epoch": 0,
+    "obligations": 0,
+    "by_status": {},
+    "reserved": {},
+    "carries": {
+     "parent": {},
+     "founder": {}
+    },
+    "arrears_raw": {},
+    "blocked": [],
+    "unresolved_epochs": {},
+    "anchors": {},
+    "supervisor": "deterministic: no model, no credits, no approval step",
+    "chains": {
+     "at": 1794238490,
+     "evm": {
+      "base": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://mainnet.base.org"
+      },
+      "ethereum": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://ethereum-rpc.publicnode.com"
+      },
+      "arbitrum": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://arb1.arbitrum.io/rpc"
+      },
+      "optimism": {
+       "sym": "ETH",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://mainnet.optimism.io"
+      },
+      "polygon": {
+       "sym": "POL",
+       "wei": "0",
+       "eth": 0,
+       "rpc": "https://polygon-bor-rpc.publicnode.com"
+      }
+     },
+     "solana": {
+      "lamports": 0,
+      "sol": 0
+     },
+     "total_native_usd_estimate": 0
+    }
+   },
+   "inference": {
+    "provider": "venice",
+    "model": "deepseek-v4-1-flash-1017-uncensored",
+    "mode": "external_paid_abliterated",
+    "credits_usd": 0,
+    "balance_http": 200,
+    "admission_floor_usd": 0.1,
+    "wallet_usdc_raw": "0",
+    "wallet_sol_raw": "0",
+    "state": "unfunded",
+    "self_fund": {
+     "state": "blocked",
+     "reason": "SOL too small to swap",
+     "sol": "0",
+     "credits": 0,
+     "usdc": "0"
+    }
+   },
+   "last_decision": {
+    "at": 1794238417,
+    "tools": [],
+    "cost_usd": 0,
+    "content": null,
+    "error": "no funded provider answered",
+    "usage": null,
+    "call_results": []
+   },
+   "funding": {
+    "sol_raw": "0",
+    "usdc_raw": "0",
+    "ledger_totals": {
+     "native:SOL": "0"
+    },
+    "spendable": {
+     "native:SOL": "0"
+    }
+   },
+   "strategy": {
+    "last_scan_at": 1794238269,
+    "sol_raw": "0",
+    "flash": [],
+    "pump_positions": 0,
+    "updated_at": 1794238459
+   },
+   "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
+   "generation": 13,
+   "constitution_sha256": "556610e3e2c81a87762d82d2c59264b4b56549ea50739f3e707678b2db755bb0",
+   "prime_directives": [
+    "make money",
+    "respect thy mother n father"
+   ],
+   "overrides": [],
+   "launches": [],
+   "children": [],
+   "invention": {
+    "scripts": 0,
+    "items": [],
+    "last_at": 0
+   },
+   "journal": {
+    "head": "e70cfb0bacd406410f702f2340c39178da3b1e3fbec7ba5b7cb70d0a61f97f1b",
+    "seq": 63
+   },
+   "components": {
+    "signer": {
+     "alive": true,
+     "pid": 8244,
+     "restarts": 1
+    },
+    "distribution": {
+     "alive": true,
+     "pid": 8255,
+     "restarts": 1
+    },
+    "identity": {
+     "alive": true,
+     "pid": 8266,
+     "restarts": 1
+    },
+    "brain": {
+     "alive": true,
+     "pid": 8277,
+     "restarts": 1
+    },
+    "strategy": {
+     "alive": true,
+     "pid": 8290,
+     "restarts": 1
+    },
+    "loops": {
+     "alive": true,
+     "pid": 8350,
+     "restarts": 1
+    },
+    "procreate": {
+     "alive": true,
+     "pid": 8364,
+     "restarts": 1
+    }
+   },
+   "served_at": 1794238510,
+   "endpoint": "http://164.92.64.189/status",
+   "src": "http://164.92.64.189",
+   "at": 1794238510,
+   "stale": false,
+   "sol": 0,
+   "usdc": 0,
+   "fmv_sol": 0,
+   "rent_sol": 0,
+   "token_book_sol": 0
+  },
   {
    "phase": "identity_sealed",
    "birth_id": "9dfb5aa5-6b6a-4351-adb2-12e56783a2fd",
