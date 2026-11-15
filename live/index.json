@@ -1,5 +1,5 @@
 {
- "at": 1794740730,
+ "at": 1794741027,
  "count": 194,
  "fresh": 4,
  "source": "status",
@@ -17,7 +17,7 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794740730,
+   "updated_at": 1794741024,
    "distribution": {
     "next_due_unix": 1794756556,
     "next_due_epoch": 6,
@@ -57,7 +57,7 @@
     },
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794740730,
+     "at": 1794741015,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -116,7 +116,7 @@
     }
    },
    "last_decision": {
-    "at": 1794740583,
+    "at": 1794740986,
     "tools": [],
     "cost_usd": 0,
     "content": null,
@@ -139,7 +139,7 @@
     }
    },
    "strategy": {
-    "last_scan_at": 1794739894,
+    "last_scan_at": 1794740830,
     "sol_raw": "650312",
     "flash": [
      {
@@ -255,7 +255,7 @@
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794740706
+    "updated_at": 1794741024
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -299,101 +299,54 @@
     "last_at": 1794263316
    },
    "journal": {
-    "head": "a677c88a87e15552a9b2289be41b5b69cb5491336c69e1a0cbf334667964ef66",
-    "seq": 111762
+    "head": "a7235ee189b09223030fb384fe3818591f2cf75d4c5ddc1dd4b61e75a9db92e7",
+    "seq": 111819
    },
    "components": {
-    "component": "distributor",
-    "ts": 1794740730,
-    "pid": 7795,
-    "status": {
-     "next_due_unix": 1794756556,
-     "next_due_epoch": 6,
-     "highest_epoch": 5,
-     "obligations": 30,
-     "by_status": {
-      "settled": 12,
-      "arrears": 18
-     },
-     "reserved": {
-      "native:SOL": "292640",
-      "spl:7TLE186qJqa5yQHxFDVEgFsZV5eRKUyafCe4UTuaaGgY": "30602",
-      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "275"
-     },
-     "carries": {
-      "parent": {
-       "native:SOL": "60",
-       "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "30",
-       "spl:7TLE186qJqa5yQHxFDVEgFsZV5eRKUyafCe4UTuaaGgY": "50"
-      },
-      "founder": {
-       "native:SOL": "30",
-       "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "15",
-       "spl:7TLE186qJqa5yQHxFDVEgFsZV5eRKUyafCe4UTuaaGgY": "25"
-      }
-     },
-     "arrears_raw": {
-      "native:SOL": "292640",
-      "spl:7TLE186qJqa5yQHxFDVEgFsZV5eRKUyafCe4UTuaaGgY": "30602",
-      "spl:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v": "275"
-     },
-     "blocked": [],
-     "unresolved_epochs": {},
-     "anchors": {
-      "1": "5AksH1d5A8W7rv3ConzKwNJy3DqARtJGMwqCtRxzGJT5yWrGELLQFyQ8kdjQEUJarzdSJNTheYayAFmEVT4rug5L",
-      "2": "oFjGoVAwWjs3fZVjmMQvkckLQyQV25Xy4S7nG5ehr51Uiq8vG5dTiqTRjW1BoxgQNePymWDAUhgshqkkcrobBW3"
-     },
-     "supervisor": "deterministic: no model, no credits, no approval step",
-     "chains": {
-      "at": 1794740730,
-      "evm": {
-       "base": {
-        "sym": "ETH",
-        "wei": "0",
-        "eth": 0,
-        "rpc": "https://mainnet.base.org"
-       },
-       "ethereum": {
-        "sym": "ETH",
-        "wei": "0",
-        "eth": 0,
-        "rpc": "https://ethereum-rpc.publicnode.com"
-       },
-       "arbitrum": {
-        "sym": "ETH",
-        "wei": "0",
-        "eth": 0,
-        "rpc": "https://arb1.arbitrum.io/rpc"
-       },
-       "optimism": {
-        "sym": "ETH",
-        "wei": "0",
-        "eth": 0,
-        "rpc": "https://mainnet.optimism.io"
-       },
-       "polygon": {
-        "sym": "POL",
-        "wei": "0",
-        "eth": 0,
-        "rpc": "https://polygon-bor-rpc.publicnode.com"
-       }
-      },
-      "solana": {
-       "lamports": 650312,
-       "sol": 0.000650312
-      },
-      "total_native_usd_estimate": 0
-     }
+    "signer": {
+     "alive": true,
+     "pid": 7784,
+     "restarts": 1
+    },
+    "distribution": {
+     "alive": true,
+     "pid": 7795,
+     "restarts": 1
+    },
+    "identity": {
+     "alive": true,
+     "pid": 7806,
+     "restarts": 1
+    },
+    "brain": {
+     "alive": true,
+     "pid": 7817,
+     "restarts": 1
+    },
+    "strategy": {
+     "alive": true,
+     "pid": 7828,
+     "restarts": 1
+    },
+    "loops": {
+     "alive": true,
+     "pid": 7839,
+     "restarts": 1
+    },
+    "procreate": {
+     "alive": true,
+     "pid": 7850,
+     "restarts": 1
     }
    },
-   "served_at": 1794740731,
+   "served_at": 1794741029,
    "endpoint": "http://144.202.13.111/status",
    "src": "http://144.202.13.111",
-   "at": 1794740730,
+   "at": 1794741027,
    "stale": false,
    "sol": 0.000650312,
    "usdc": 0.000609,
-   "fmv_sol": 0.07644361071024526,
+   "fmv_sol": 0.07644361397270891,
    "rent_sol": 0.00297688,
    "token_book_sol": 0.072808,
    "liquidation_sol": 0.003643,
@@ -405,7 +358,7 @@
     "sells": 40,
     "realized_lamports": "8063",
     "last_sell_at": 1794242526,
-    "updated_at": 1794740698
+    "updated_at": 1794740915
    }
   },
   {
@@ -421,7 +374,7 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794740722,
+   "updated_at": 1794741011,
    "distribution": {
     "next_due_unix": 1794756588,
     "next_due_epoch": 6,
@@ -464,7 +417,7 @@
     },
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794740674,
+     "at": 1794741010,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -523,7 +476,7 @@
     }
    },
    "last_decision": {
-    "at": 1794740709,
+    "at": 1794740978,
     "tools": [],
     "cost_usd": 0,
     "content": null,
@@ -548,7 +501,7 @@
     }
    },
    "strategy": {
-    "last_scan_at": 1794739980,
+    "last_scan_at": 1794740920,
     "sol_raw": "653810",
     "flash": [
      {
@@ -664,8 +617,7 @@
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794740673,
-    "usdc_raw": "1004"
+    "updated_at": 1794740991
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -709,8 +661,8 @@
     "last_at": 1794268592
    },
    "journal": {
-    "head": "65cec7ae17d9c93707d0d7ae6c2ca0ba53f5841aecabc04c37ba19b8a58d4726",
-    "seq": 109564
+    "head": "c1e3bc33e6c17ac064fd4e3bcbc95e714dfa0681d2b40e9f1486619f15407692",
+    "seq": 109619
    },
    "components": {
     "signer": {
@@ -749,18 +701,18 @@
      "restarts": 1
     }
    },
-   "served_at": 1794740732,
+   "served_at": 1794741030,
    "endpoint": "http://108.61.206.80/status",
    "src": "http://108.61.206.80",
-   "at": 1794740730,
+   "at": 1794741027,
    "stale": false,
    "sol": 0.00065381,
    "usdc": 0.001004,
-   "fmv_sol": 0.07790021994372126,
+   "fmv_sol": 0.07790022532223276,
    "rent_sol": 0.00446532,
    "token_book_sol": 0.072767,
-   "liquidation_sol": 0.005147,
-   "sellable_sol": 0.000014,
+   "liquidation_sol": 0.005133,
+   "sellable_sol": 0,
    "economics": {
     "launches": 2,
     "positions": 2,
@@ -768,7 +720,7 @@
     "sells": 52,
     "realized_lamports": "0",
     "last_sell_at": 1794243766,
-    "updated_at": 1794740673
+    "updated_at": 1794740883
    }
   },
   {
@@ -784,7 +736,7 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794740724,
+   "updated_at": 1794741017,
    "distribution": {
     "next_due_unix": 1794756609,
     "next_due_epoch": 6,
@@ -824,7 +776,7 @@
     },
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794740723,
+     "at": 1794741016,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -883,7 +835,7 @@
     }
    },
    "last_decision": {
-    "at": 1794740625,
+    "at": 1794740898,
     "tools": [],
     "cost_usd": 0,
     "content": null,
@@ -1022,7 +974,7 @@
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794740719
+    "updated_at": 1794740968
    },
    "economics": {
     "launches": 2,
@@ -1031,7 +983,7 @@
     "sells": 47,
     "realized_lamports": "20",
     "last_sell_at": 1794243494,
-    "updated_at": 1794740653
+    "updated_at": 1794740915
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -1075,8 +1027,8 @@
     "last_at": 1794269752
    },
    "journal": {
-    "head": "634cd91878503fec73603746c9186cbb4a4e35188e953c14f4a10b8960ec089c",
-    "seq": 111372
+    "head": "4139695672ba5b3e51e205e6d53f5de1975427595800f60e31e3742d10bde9a7",
+    "seq": 111437
    },
    "components": {
     "signer": {
@@ -1115,14 +1067,14 @@
      "restarts": 1
     }
    },
-   "served_at": 1794740733,
+   "served_at": 1794741031,
    "endpoint": "http://159.203.98.168/status",
    "src": "http://159.203.98.168",
-   "at": 1794740730,
+   "at": 1794741027,
    "stale": false,
    "sol": 0.000653915,
    "usdc": 0.000742,
-   "fmv_sol": 0.0740443089577701,
+   "fmv_sol": 0.0740443129327258,
    "rent_sol": 0.00300228,
    "token_book_sol": 0.070378,
    "liquidation_sol": 0.003676,
@@ -1141,7 +1093,7 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794740731,
+   "updated_at": 1794741010,
    "distribution": {
     "next_due_unix": 1794756617,
     "next_due_epoch": 6,
@@ -1182,7 +1134,7 @@
     "anchors": {},
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794740731,
+     "at": 1794741010,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -1241,7 +1193,7 @@
     }
    },
    "last_decision": {
-    "at": 1794740605,
+    "at": 1794740884,
     "tools": [],
     "cost_usd": 0,
     "content": null,
@@ -1382,7 +1334,7 @@
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794740687
+    "updated_at": 1794741004
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -1426,8 +1378,8 @@
     "last_at": 1794280159
    },
    "journal": {
-    "head": "bebc47a6db02f2188212bd16c7058c1b03647d860d6853967d39a8466f5c519c",
-    "seq": 107724
+    "head": "6216a38571f1b13aef6eb2f022f13942737767a907f0c9feb6b5071fe73d24bf",
+    "seq": 107783
    },
    "components": {
     "signer": {
@@ -1466,14 +1418,14 @@
      "restarts": 1
     }
    },
-   "served_at": 1794740735,
+   "served_at": 1794741032,
    "endpoint": "http://164.92.64.189/status",
    "src": "http://164.92.64.189",
-   "at": 1794740730,
+   "at": 1794741027,
    "stale": false,
    "sol": 0.000654283,
    "usdc": 0.001355,
-   "fmv_sol": 0.08793535309711388,
+   "fmv_sol": 0.08793536035596156,
    "rent_sol": 0.00449072,
    "token_book_sol": 0.082772,
    "liquidation_sol": 0.005164,
@@ -1485,7 +1437,7 @@
     "sells": 43,
     "realized_lamports": "0",
     "last_sell_at": 1794243378,
-    "updated_at": 1794740715
+    "updated_at": 1794741005
    }
   },
   {
