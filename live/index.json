@@ -1,5 +1,5 @@
 {
- "at": 1794883533,
+ "at": 1794883834,
  "count": 194,
  "fresh": 1,
  "source": "status",
@@ -17,7 +17,7 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794883530,
+   "updated_at": 1794883821,
    "distribution": {
     "next_due_unix": 1794929356,
     "next_due_epoch": 8,
@@ -57,7 +57,7 @@
     },
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794883528,
+     "at": 1794883821,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -116,7 +116,7 @@
     }
    },
    "last_decision": {
-    "at": 1794883380,
+    "at": 1794883795,
     "tools": [],
     "cost_usd": 0,
     "content": null,
@@ -255,7 +255,8 @@
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794883530
+    "updated_at": 1794883717,
+    "usdc_raw": "609"
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -299,27 +300,57 @@
     "last_at": 1794263316
    },
    "journal": {
-    "head": "af0195a1edbfc0fb9949991e9df9c60ed2365452df23be1f9bcd933ac837870d",
-    "seq": 140056
+    "head": "2c4f0d11d9dfca05bbb76115174f8ac4095eeb6a2a130844c6e137037980fbab",
+    "seq": 140112
    },
    "components": {
+    "signer": {
+     "alive": true,
+     "pid": 7784,
+     "restarts": 1
+    },
+    "distribution": {
+     "alive": true,
+     "pid": 7795,
+     "restarts": 1
+    },
+    "identity": {
+     "alive": true,
+     "pid": 7806,
+     "restarts": 1
+    },
+    "brain": {
+     "alive": true,
+     "pid": 216626,
+     "restarts": 15
+    },
     "strategy": {
      "alive": true,
      "pid": 7828,
-     "ts": 1794883530
+     "restarts": 1
+    },
+    "loops": {
+     "alive": true,
+     "pid": 7839,
+     "restarts": 1
+    },
+    "procreate": {
+     "alive": true,
+     "pid": 7850,
+     "restarts": 1
     }
    },
-   "served_at": 1794883532,
+   "served_at": 1794883832,
    "endpoint": "http://144.202.13.111/status",
    "src": "http://144.202.13.111",
-   "at": 1794883533,
+   "at": 1794883834,
    "stale": false,
    "sol": 0.000650312,
    "usdc": 0.000609,
-   "fmv_sol": 0.07644366483901019,
+   "fmv_sol": 0.07644365192555223,
    "rent_sol": 0.00297688,
    "token_book_sol": 0.072808,
-   "liquidation_sol": 0.003643,
+   "liquidation_sol": 0.003644,
    "sellable_sol": 0.000008,
    "economics": {
     "launches": 2,
@@ -328,7 +359,7 @@
     "sells": 40,
     "realized_lamports": "8063",
     "last_sell_at": 1794242526,
-    "updated_at": 1794883418
+    "updated_at": 1794883694
    }
   },
   {
