@@ -1,5 +1,5 @@
 {
- "at": 1794891639,
+ "at": 1794891937,
  "count": 194,
  "fresh": 1,
  "source": "status",
@@ -17,7 +17,7 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794891622,
+   "updated_at": 1794891910,
    "distribution": {
     "next_due_unix": 1794929356,
     "next_due_epoch": 8,
@@ -57,7 +57,7 @@
     },
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794891621,
+     "at": 1794891910,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -116,7 +116,7 @@
     }
    },
    "last_decision": {
-    "at": 1794891537,
+    "at": 1794891813,
     "tools": [],
     "cost_usd": 0,
     "content": null,
@@ -255,7 +255,7 @@
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794891622
+    "updated_at": 1794891874
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -299,15 +299,10 @@
     "last_at": 1794263316
    },
    "journal": {
-    "head": "bd272e81d7ca76df39737395ba86969098c75f9ee458d2fa40e7b4b3857bb417",
-    "seq": 141608
+    "head": "4890f6124242ffaaccdc5a78e187ececc9fab12865741814efd524c00a622cc6",
+    "seq": 141661
    },
    "components": {
-    "strategy": {
-     "alive": true,
-     "pid": 7828,
-     "restarts": 1
-    },
     "signer": {
      "alive": true,
      "pid": 7784,
@@ -324,9 +319,14 @@
      "restarts": 1
     },
     "brain": {
+     "pid": null,
+     "restarts": 18,
+     "last_log": " 8: 0x1df2476  [/usr/local/bin/node]"
+    },
+    "strategy": {
      "alive": true,
-     "pid": 221833,
-     "restarts": 18
+     "pid": 7828,
+     "restarts": 1
     },
     "loops": {
      "alive": true,
@@ -339,17 +339,17 @@
      "restarts": 1
     }
    },
-   "served_at": 1794891636,
+   "served_at": 1794891935,
    "endpoint": "http://144.202.13.111/status",
    "src": "http://144.202.13.111",
-   "at": 1794891639,
+   "at": 1794891937,
    "stale": false,
    "sol": 0.000650312,
    "usdc": 0.000609,
-   "fmv_sol": 0.07644351219897767,
+   "fmv_sol": 0.07644352628841959,
    "rent_sol": 0.00297688,
    "token_book_sol": 0.072808,
-   "liquidation_sol": 0.003644,
+   "liquidation_sol": 0.003643,
    "sellable_sol": 0.000008,
    "economics": {
     "launches": 2,
@@ -358,7 +358,7 @@
     "sells": 40,
     "realized_lamports": "8063",
     "last_sell_at": 1794242526,
-    "updated_at": 1794891565
+    "updated_at": 1794891732
    }
   },
   {
