@@ -1,5 +1,5 @@
 {
- "at": 1794906041,
+ "at": 1794906338,
  "count": 194,
  "fresh": 1,
  "source": "status",
@@ -17,7 +17,7 @@
     "meaning": "digest of the measured core files this guest is running"
    },
    "identity_binding": "identity_binding_unverified",
-   "updated_at": 1794906035,
+   "updated_at": 1794906332,
    "distribution": {
     "next_due_unix": 1794929356,
     "next_due_epoch": 8,
@@ -57,7 +57,7 @@
     },
     "supervisor": "deterministic: no model, no credits, no approval step",
     "chains": {
-     "at": 1794906034,
+     "at": 1794906280,
      "evm": {
       "base": {
        "sym": "ETH",
@@ -116,7 +116,7 @@
     }
    },
    "last_decision": {
-    "at": 1794905896,
+    "at": 1794906321,
     "tools": [],
     "cost_usd": 0,
     "content": null,
@@ -139,7 +139,7 @@
     }
    },
    "strategy": {
-    "last_scan_at": 1794905147,
+    "last_scan_at": 1794906095,
     "sol_raw": "650312",
     "flash": [
      {
@@ -255,7 +255,8 @@
      }
     ],
     "pump_positions": 0,
-    "updated_at": 1794906035
+    "updated_at": 1794906229,
+    "usdc_raw": "609"
    },
    "parent_birth_id": "fcd367d5-4bfc-43d7-b036-bd2d8d59d95a",
    "generation": 13,
@@ -299,24 +300,54 @@
     "last_at": 1794263316
    },
    "journal": {
-    "head": "1f3d647605af0e2bc3222e5d7a50e5be82c798272704dbd855d99bcd00ebd97a",
-    "seq": 144410
+    "head": "a862277e26483c5ae6b8840f41f91410dc1c5f2c813c2a2cfd790ccabae431f4",
+    "seq": 144471
    },
    "components": {
+    "signer": {
+     "alive": true,
+     "pid": 7784,
+     "restarts": 1
+    },
+    "distribution": {
+     "alive": true,
+     "pid": 224235,
+     "restarts": 3
+    },
+    "identity": {
+     "alive": true,
+     "pid": 7806,
+     "restarts": 1
+    },
+    "brain": {
+     "alive": true,
+     "pid": 223591,
+     "restarts": 20
+    },
     "strategy": {
      "alive": true,
      "pid": 7828,
-     "ts": 1794906035
+     "restarts": 1
+    },
+    "loops": {
+     "alive": true,
+     "pid": 7839,
+     "restarts": 1
+    },
+    "procreate": {
+     "alive": true,
+     "pid": 7850,
+     "restarts": 1
     }
    },
-   "served_at": 1794906041,
+   "served_at": 1794906336,
    "endpoint": "http://144.202.13.111/status",
    "src": "http://144.202.13.111",
-   "at": 1794906041,
+   "at": 1794906338,
    "stale": false,
    "sol": 0.000650312,
    "usdc": 0.000609,
-   "fmv_sol": 0.07644357812824894,
+   "fmv_sol": 0.07644361858372381,
    "rent_sol": 0.00297688,
    "token_book_sol": 0.072808,
    "liquidation_sol": 0.003644,
@@ -328,7 +359,7 @@
     "sells": 40,
     "realized_lamports": "8063",
     "last_sell_at": 1794242526,
-    "updated_at": 1794906031
+    "updated_at": 1794905942
    }
   },
   {
